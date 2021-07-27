@@ -1,0 +1,75 @@
+# Classification item file SEM_waste_scrap_Level2_RECC_v2.5
+# Waste and scrap groups used by RECC model v2.5
+# https://github.com/YaleCIE/RECC-ODYM
+
+classification_items_attribute1:
+  1: heavy melt, plate, and structural steel scrap
+  2: steel shred
+  3: stainless steel scrap
+  4: steel casting scrap
+  5: turnings and busheling fabrication steel scrap
+  6: Al extrusion scrap, auto rims, clean
+  7: Al extrusion scrap, auto rims, dirty
+  8: Al old sheet and construction waste
+  9: Al old cast
+  10: Al turnings (new)
+  11: bare bright copper scrap (new)
+  12: no.1 copper scrap
+  13: no.2 copper scrap
+  14: no.3 copper scrap
+  15: copper wire scrap
+  16: waste lead acid batteries
+  17: waste Li-Ion batteries
+  18: shredder Light Fraction (SLF)
+  19: automobile Shredder Residue (ASR)
+  20: construction waste, insulation
+  21: construction waste, concrete, bricks, tiles, ceramics
+  22: construction waste, bituminous mixtures, coal tar and tar
+  23: MSW
+  24: glass waste
+  25: waste paper
+  26: waste cardboard
+  27: thermoplastic waste
+  28: thermosetting plastic waste
+  29: waste of natural, untreated wood
+  30: other wood processing waste
+  31: used construction wood
+  32: other used wood materials
+  33: hazardous wood waste
+  34: other hazardous waste
+  35: other waste
+
+classification_info:
+  classification_format_version: V0.1
+  classification_id: 75
+  classification_Name: SEM_waste_scrap_Level2_RECC_v2.5
+  dimension: 5 # material
+  description: Waste and scrap material groups used by RECC model v2.5, level 2
+  mutually_exclusive: False
+  collectively_exhaustive: True
+  general: False
+  created_from_dataset: False
+  reference: None
+  version number: V0.1
+  UUID: c7aab593-8af0-4bdc-a1d0-496ec23ea2fe # reserve 2
+  reserve 3: None
+  meaning_attribute1: waste or scrap group name
+  meaning_attribute2: None
+  meaning_attribute3: None
+  meaning_attribute4: None
+  meaning_attribute5: None
+  meaning_attribute6: None
+  meaning_attribute7: None
+  meaning_attribute8: None
+  meaning_attribute9: None
+  meaning_attribute10: None
+  meaning_attribute11: None
+  meaning_attribute12: None
+  meaning_attribute13: None
+  meaning_attribute14: None
+  meaning_attribute15: None
+
+Metadata:
+  File compiled by: Stefan Pauliuk
+  Date: 2021-07-08
+

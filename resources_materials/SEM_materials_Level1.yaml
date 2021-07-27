@@ -1,0 +1,47 @@
+# Classification item file SEM_materials_Level1
+# Classification for aggregate material groups, top level 1, (level 0: materials)
+
+classification_items_attribute1:
+  1: raw materials
+  2: engineering materials
+  3: material products
+  4: products
+  5: waste material
+  6: scrap
+
+classification_info:
+  classification_format_version: V0.1
+  classification_id: 76
+  classification_Name: SEM_materials_Level1
+  dimension: 5 # material
+  description: Classification for aggregate material groups, top level 1, (level 0 - all materials)
+  mutually_exclusive: True
+  collectively_exhaustive: True
+  general: True
+  created_from_dataset: False
+  reference: None
+  version number: V0.1 # reserve 1
+  UUID: 8a595bdf-ba51-4725-951d-3940a90b98c0 # reserve 2
+  reserve 3: None
+  meaning_attribute1: material group name
+  meaning_attribute2: None
+  meaning_attribute3: None
+  meaning_attribute4: None
+  meaning_attribute5: None
+  meaning_attribute6: None
+  meaning_attribute7: None
+  meaning_attribute8: None
+  meaning_attribute9: None
+  meaning_attribute10: None
+  meaning_attribute11: None
+  meaning_attribute12: None
+  meaning_attribute13: None
+  meaning_attribute14: None
+  meaning_attribute15: None
+
+Metadata:
+  File compiled by: Stefan Pauliuk
+  Date: 2021-07-07
+
+
+

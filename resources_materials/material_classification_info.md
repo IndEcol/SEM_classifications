@@ -16,10 +16,13 @@ materials # level 0
 +    engineering materials  # level 1 # Different alternatives here :
 ++   RECC Material list
 ++   Primary and secondary materials ...
+++   YSTAFDB materials lists
 +++  Steel, aluminium, and other alloys and alloy groups
 +    material products  # level 1
 ++   Take HS or other commodity codes and extract or flag the material products therein
 +    waste material  # level 1
 ++   common waste groups, project-specific
+++   RECC Waste/Scrap list
 +    scrap  # level 1
-++   common scrap groups, , project-specific
+++   common scrap groups, project-specific
+++   RECC Waste/Scrap list

@@ -2,7 +2,7 @@
 # Engineering material groups used by RECC model v2.5
 # https://github.com/YaleCIE/RECC-ODYM
 
-classification_items:
+classification_items_attribute1:
   1: construction grade steel
   2: automotive steel
   3: stainless steel
@@ -31,7 +31,7 @@ classification_items:
   26: gravel
   27: stone
   28: ceramic tiles
-  28: plaster and gypsum board
+  29: plaster and gypsum board
   30: insulation material, mineral-based
   31: insulation material, plastics
   32: insulation material, fibre-based
@@ -39,7 +39,7 @@ classification_items:
 
 classification_info:
   classification_format_version: V0.1
-  classification_id: None # is assigned when uploading to IEDC
+  classification_id: 74
   classification_Name: SEM_materials_Level2_RECC_v2.5
   dimension: 5 # material
   description: Engineering material groups used by RECC model v2.5, level 2
@@ -47,12 +47,25 @@ classification_info:
   collectively_exhaustive: True
   general: False
   created_from_dataset: False
+  reference: None
   version number: V0.1
+  UUID: 8e443994-d04b-4386-84d8-99e1241388c9 # reserve 2
+  reserve 3: None
   meaning_attribute1: material group name
   meaning_attribute2: None
   meaning_attribute3: None
   meaning_attribute4: None
   meaning_attribute5: None
+  meaning_attribute6: None
+  meaning_attribute7: None
+  meaning_attribute8: None
+  meaning_attribute9: None
+  meaning_attribute10: None
+  meaning_attribute11: None
+  meaning_attribute12: None
+  meaning_attribute13: None
+  meaning_attribute14: None
+  meaning_attribute15: None
 
 Metadata:
   File compiled by: Stefan Pauliuk

@@ -1,0 +1,62 @@
+# Classification item file CIRCOMOD_CE_Strategies_R_scheme_v1
+# Circular economy strategies used by the CIRCOMOD project
+# http://circomod.eu/
+
+classification_items_attribute1:
+  1: R0: Refuse
+  2: R1: Rethink
+  3: R2: Reduce
+  4: R2a: Modal or type shift in service provision
+  5: R2b: Business model shift in service provision
+  6: R2c: Downsizing
+  7: R2d: More intense use
+  8: R2e: Product lifetime extension
+  9: R2f: Product light-weighting
+  10: R2g: Material substitution
+  11: R2h: Fabrication yield improvement
+  12: R2i: Fabrication scrap diversion
+  13: R3a: Re-use of entire products
+  14: R3b: Re-use of components
+  15: R4: Repair
+  16: R5: Refurbish
+  17: R6: Remanufacture
+  18: R7: Repurpose
+  19: R8: Recycle
+  20: R8a: Closed loop recycling
+  21: R8b: Cascading or downcycling
+  22: R9: Recover
+
+classification_info:
+  classification_format_version: V0.1
+  classification_id: None # To be assigned upon upload to iedc
+  classification_Name: CIRCOMOD_CE_Strategies_R_scheme_v1
+  dimension: 15 # strategy_option
+  description: Circular economy strategies used by the CIRCOMOD project, based on the 9R scheme
+  mutually_exclusive: False
+  collectively_exhaustive: True
+  general: False
+  created_from_dataset: False
+  reference: None
+  version number: V0.1
+  UUID: e18cd3f8-3da8-4f28-a04a-343a57cc312d # reserve 2
+  reserve 3: None
+  meaning_attribute1: CE strategy name
+  meaning_attribute2: None
+  meaning_attribute3: None
+  meaning_attribute4: None
+  meaning_attribute5: None
+  meaning_attribute6: None
+  meaning_attribute7: None
+  meaning_attribute8: None
+  meaning_attribute9: None
+  meaning_attribute10: None
+  meaning_attribute11: None
+  meaning_attribute12: None
+  meaning_attribute13: None
+  meaning_attribute14: None
+  meaning_attribute15: None
+
+Metadata:
+  File compiled by: Stefan Pauliuk
+  Date: 2023-04-23
+

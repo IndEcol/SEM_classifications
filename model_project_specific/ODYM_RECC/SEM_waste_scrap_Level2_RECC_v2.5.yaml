@@ -2,7 +2,7 @@
 # Waste and scrap groups used by RECC model v2.5
 # https://github.com/YaleCIE/RECC-ODYM
 
-classification_items_attribute1:
+classification_items_attribute1_oto:
   1: heavy melt, plate, and structural steel scrap
   2: steel shred
   3: stainless steel scrap
@@ -53,7 +53,7 @@ classification_info:
   version number: V0.1
   UUID: c7aab593-8af0-4bdc-a1d0-496ec23ea2fe # reserve 2
   reserve 3: None
-  meaning_attribute1: waste or scrap group name
+  meaning_attribute1: waste or scrap group name (unique, oto means one-to-one)
   meaning_attribute2: None
   meaning_attribute3: None
   meaning_attribute4: None

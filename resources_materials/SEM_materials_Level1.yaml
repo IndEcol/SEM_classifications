@@ -1,7 +1,7 @@
 # Classification item file SEM_materials_Level1
 # Classification for aggregate material groups, top level 1, (level 0: materials)
 
-classification_items_attribute1:
+classification_items_attribute1_oto:
   1: raw materials
   2: engineering materials
   3: material products
@@ -23,7 +23,7 @@ classification_info:
   version number: V0.1 # reserve 1
   UUID: 8a595bdf-ba51-4725-951d-3940a90b98c0 # reserve 2
   reserve 3: None
-  meaning_attribute1: material group name
+  meaning_attribute1: material group name (unique, oto means one-to-one)
   meaning_attribute2: None
   meaning_attribute3: None
   meaning_attribute4: None

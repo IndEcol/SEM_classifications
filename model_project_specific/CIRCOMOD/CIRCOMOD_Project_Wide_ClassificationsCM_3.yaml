@@ -1,0 +1,74 @@
+classification_info:
+  id: CM_3
+  classification_Name: flow_categories
+  dimension: 5
+  description: categories flowabels into natural resources, emissions, social input,
+    economic input, materials, and products
+  mutually_exclusive: 'False'
+  collectively_exhaustive: 'False'
+  general: 'False'
+  created_from_dataset: 'False'
+  reference: null
+  reserve1: null
+  reserve2: null
+  reserve3: null
+  meaning_attribute1: flow_category
+  meaning_attribute2: null
+  meaning_attribute3: null
+  meaning_attribute4: null
+  meaning_attribute5: null
+  meaning_attribute6: null
+  meaning_attribute7: null
+  meaning_attribute8: null
+  meaning_attribute9: null
+  meaning_attribute10: null
+  meaning_attribute11: null
+  meaning_attribute12: null
+  meaning_attribute13: null
+  meaning_attribute14: null
+  meaning_attribute15: null
+metadata:
+  File compiled by: Stefan Pauliuk
+  Date: 2023-05-12 00:00:00
+  Source: null
+  Comment: None
+classification_items_description:
+  1: Unique reference product for process desription, flow value agains which all
+    other flows are normalized
+  2: From Environment (natural resource), elementary flow
+  3: 'Input from Technosphere: material'
+  4: 'Input from Technosphere: energy carrier'
+  5: 'Input from Technosphere: product'
+  6: 'Input from Technosphere: service'
+  7: 'Input from Technosphere: other (not a material, product, or service)'
+  8: Flow to Environment (Emission), elementary flow
+  9: by product or co-product of activity, but not reference product
+  10: waste of activity
+  11: Economic input, such as subsidies
+  12: Social input, such as labour
+classification_items_reference:
+  1: ' '
+  2: ' '
+  3: ' '
+  4: ' '
+  5: ' '
+  6: ' '
+  7: ' '
+  8: ' '
+  9: ' '
+  10: ' '
+  11: ' '
+  12: ' '
+classification_items_attribute1_oto:
+  1: reference_product
+  2: from environment (natural resource)
+  3: from technosphere (material)
+  4: from technosphere (energy_carrier)
+  5: from technosphere (product)
+  6: from technosphere (service)
+  7: from technosphere (other)
+  8: to environment (emission)
+  9: to technosphere (by-product)
+  10: to technosphere (waste)
+  11: economic input
+  12: social input

@@ -1,0 +1,144 @@
+classification_info:
+  id: CM_1
+  classification_Name: material_processing_technologies
+  dimension: 7
+  description: lists all processes for material production, refining, waste treatment,
+    sorting, recycling, etc.
+  mutually_exclusive: 'False'
+  collectively_exhaustive: 'False'
+  general: 'False'
+  created_from_dataset: 'False'
+  reference: null
+  reserve1: null
+  reserve2: null
+  reserve3: null
+  meaning_attribute1: material_processing_technology
+  meaning_attribute2: null
+  meaning_attribute3: null
+  meaning_attribute4: null
+  meaning_attribute5: null
+  meaning_attribute6: null
+  meaning_attribute7: null
+  meaning_attribute8: null
+  meaning_attribute9: null
+  meaning_attribute10: null
+  meaning_attribute11: null
+  meaning_attribute12: null
+  meaning_attribute13: null
+  meaning_attribute14: null
+  meaning_attribute15: null
+metadata:
+  File compiled by: Stefan Pauliuk
+  Date: 2023-05-12 00:00:00
+  Source: null
+  Comment: None
+classification_items_description:
+  1: Primary materials production processes (conventional technologies)
+  2: Primary materials production processes (conventional technologies)
+  3: Primary materials production processes (conventional technologies)
+  4: Primary materials production processes (conventional technologies)
+  5: Primary materials production processes (conventional technologies)
+  6: Primary materials production processes (conventional technologies)
+  7: Primary materials production processes (conventional technologies)
+  8: Primary materials production processes (conventional technologies)
+  9: Primary materials production processes (conventional technologies)
+  10: Primary materials production processes (conventional technologies)
+  11: Primary materials production processes (conventional technologies)
+  12: Primary materials production processes (conventional technologies)
+  13: Primary materials production processes (alternative technologies)
+  14: Primary materials production processes (conventional technologies)
+  15: Primary materials production processes (alternative technologies)
+  16: Primary materials production processes (conventional technologies)
+  17: Primary materials production processes (alternative technologies)
+  18: Primary materials production processes (conventional technologies)
+  19: Primary materials production processes (alternative technologies)
+  20: Primary materials production processes (conventional technologies)
+  21: Primary materials production processes (alternative technologies)
+  22: Primary materials production processes (conventional technologies)
+  23: Primary materials production processes (alternative technologies)
+  24: Primary materials production processes (conventional technologies)
+  25: Primary materials production processes (alternative technologies)
+  26: Primary materials production processes (conventional technologies)
+  27: Primary materials production processes (alternative technologies)
+  28: Primary materials production processes (conventional technologies)
+  29: Primary materials production processes (alternative technologies)
+  30: Primary materials production processes (conventional technologies)
+  31: Primary materials production processes (alternative technologies)
+  32: Secondary materials production processes (conventional technologies)
+  33: Secondary materials production processes (conventional technologies)
+  34: Secondary materials production processes (conventional technologies)
+  35: Secondary materials production processes (conventional technologies)
+classification_items_reference:
+  1: ' '
+  2: ' '
+  3: ' '
+  4: ' '
+  5: ' '
+  6: ' '
+  7: ' '
+  8: ' '
+  9: ' '
+  10: ' '
+  11: ' '
+  12: ' '
+  13: ' '
+  14: ' '
+  15: ' '
+  16: ' '
+  17: ' '
+  18: ' '
+  19: ' '
+  20: ' '
+  21: ' '
+  22: ' '
+  23: ' '
+  24: ' '
+  25: ' '
+  26: ' '
+  27: ' '
+  28: ' '
+  29: ' '
+  30: ' '
+  31: ' '
+  32: ' '
+  33: ' '
+  34: ' '
+  35: ' '
+classification_items_attribute1_oto:
+  1: steel making
+  2: blast furnace + basic oxygen furnace, standard technology
+  3: direct reduced iron + electric arc furnace (DRI+EAF)
+  4: smelting reduction + basic oxygen furnace
+  5: cement
+  6: standard rotary kiln (dry kiln)
+  7: chemicals
+  8: ethane steam cracking
+  9: naphtha steam cracking
+  10: steam reforming
+  11: 'coal gasification '
+  12: blast furnace + basic oxygen furnace + CCS, standard technology + CCS
+  13: blast furnace + basic oxygen furnace + top gas recycling, standard technology
+    + TGR
+  14: blast furnace + basic oxygen furnace + top gas recycling, best available technology
+  15: blast furnace + basic oxygen furnace + top gas recycling + CCS, best available
+    technology + CCS
+  16: blast furnace with hydrogen + basic oxygen furnace
+  17: iron ore reduction (direct reduction) with hydrogen
+  18: electrowinning of iron + electric arc furnace
+  19: smelting reduction of iron ore + basic oxygen furnace + CCS
+  20: carbon capture and utilisation of steel mill off-gases
+  21: clinker production with efficient rotary kiln
+  22: clinker production with efficient rotary kiln + CCS (oxyfuel)
+  23: clinker production with efficient rotary kiln + CCS (post-combustion)
+  24: methanol-to-olefins
+  25: methanol-to-aromatics
+  26: bionaphtha steam cracking
+  27: bioethane steam cracking
+  28: electric steam cracking
+  29: 'CCU (CO_2+H2) to methanol '
+  30: ethanol to butadiene
+  31: ethanol to ethylene
+  32: remelting of steel scrap in electric arc furnace
+  33: mechanical sorting of plastic waste
+  34: remelting of plastic waste
+  35: chemical recycling of plastic waste

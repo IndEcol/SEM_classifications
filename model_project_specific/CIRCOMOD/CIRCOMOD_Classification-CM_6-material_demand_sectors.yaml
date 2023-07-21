@@ -1,0 +1,63 @@
+# Classification item file NAME_OF_FILE
+# DESCRIPTION
+# https://circomod.eu/
+
+classification_info:
+  id: CM_6
+  classification_Name: material_demand_sectors
+  dimension: 15
+  description: Common material demanding sector classifications used in the CIRCOMOD
+    project, taken from CIRCOMOD Vision and Scoping document
+  mutually_exclusive: 'False'
+  collectively_exhaustive: 'False'
+  general: 'False'
+  created_from_dataset: 'False'
+  reference: null
+  reserve1: null
+  reserve2: null
+  reserve3: null
+  meaning_attribute1: material_demand_sector
+  meaning_attribute2: null
+  meaning_attribute3: null
+  meaning_attribute4: null
+  meaning_attribute5: null
+  meaning_attribute6: null
+  meaning_attribute7: null
+  meaning_attribute8: null
+  meaning_attribute9: null
+  meaning_attribute10: null
+  meaning_attribute11: null
+  meaning_attribute12: null
+  meaning_attribute13: null
+  meaning_attribute14: null
+  meaning_attribute15: null
+
+metadata:
+  File compiled by: Christian Hauenstein
+  Date: 23-05-23
+  Source: null
+  Comment: None
+
+classification_items_description:
+  1: Vehicles, including the subsectors cars, public transport, cycling, airplanes,
+    freight transport
+  2: Buildings, including the subsectors commercial buildings, residential buildings
+  3: Consumer goods, including the subsectors appliances, furniture, cooling/heating
+    appliances, packaging, textiles
+  4: Infrastructure, including the subsectors road, rail, fossil fuel, grid, electricity
+    generation technologies, digital infrastructure
+  5: Machinery, including the subsectors industrial machinery, agricultural machinery
+
+classification_items_reference:
+  1: ' '
+  2: ' '
+  3: ' '
+  4: ' '
+  5: ' '
+
+classification_items_attribute1_oto:
+  1: Vehicle
+  2: Building
+  3: Consumer good
+  4: Infrastructure
+  5: Machinery

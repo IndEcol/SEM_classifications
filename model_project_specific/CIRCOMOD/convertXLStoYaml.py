@@ -1,12 +1,18 @@
 import re
 import openpyxl
 import yaml
+import io
+
+
+YAML_HEAD_COMMENT = """# Classification item file NAME_OF_FILE
+# DESCRIPTION
+# https://circomod.eu/
+"""
 
 
 def parse_xlsx_and_save_as_yaml(xlsx_file):
     wb = openpyxl.load_workbook(xlsx_file)
     listSheet = [sheet for sheet in wb.sheetnames if re.match(r"CM_[^_]*_Definition", sheet)]
-    print(listSheet)
     content = {}
 
     for sheet_name in listSheet:
@@ -41,9 +47,20 @@ def parse_xlsx_and_save_as_yaml(xlsx_file):
                         sheet_data[dict_name] = {}
                     sheet_data[dict_name][row[0].value] = cell.value
             content[sheet_name] = sheet_data
-        print(sheet_data)
-        with open('CIRCOMOD_Project_Wide_Classifications' + name + '.yaml', 'w') as file:
-            yaml.dump(sheet_data, file, sort_keys=False)
+
+        stream = io.StringIO()
+        yaml.dump(sheet_data, stream, sort_keys=False)
+        stream_value = stream.getvalue()
+        new_lines = []
+        for line in stream_value.splitlines():
+            if not line.startswith(" "):
+                new_lines.append("")
+            new_lines.append(line)
+
+        with open('CIRCOMOD_Classification' + '-' + name + '-' + sheet_data["classification_info"][
+            'classification_Name'] + '.yaml'
+                , 'w') as file:
+            file.writelines(YAML_HEAD_COMMENT + "\n".join(new_lines))
 
 
 # Usage example

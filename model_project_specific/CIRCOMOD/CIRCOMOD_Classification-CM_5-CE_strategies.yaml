@@ -1,0 +1,151 @@
+# Classification item file NAME_OF_FILE
+# DESCRIPTION
+# https://circomod.eu/
+
+classification_info:
+  id: CM_5
+  classification_Name: CE_strategies
+  dimension: 15
+  description: Common Circular Economy strategy classifications used in the CIRCOMOD
+    project, taken from CIRCOMOD Vision and Scoping document
+  mutually_exclusive: 'False'
+  collectively_exhaustive: 'False'
+  general: 'False'
+  created_from_dataset: 'False'
+  reference: null
+  reserve1: null
+  reserve2: null
+  reserve3: null
+  meaning_attribute1: circular_economy_strategy_label
+  meaning_attribute2: circular_economy_strategy_string
+  meaning_attribute3: circular_economy_strategy_label+string
+  meaning_attribute4: null
+  meaning_attribute5: null
+  meaning_attribute6: null
+  meaning_attribute7: null
+  meaning_attribute8: null
+  meaning_attribute9: null
+  meaning_attribute10: null
+  meaning_attribute11: null
+  meaning_attribute12: null
+  meaning_attribute13: null
+  meaning_attribute14: null
+  meaning_attribute15: null
+
+metadata:
+  File compiled by: Stefan Pauliuk
+  Date: 2023-05-17 00:00:00
+  Source: null
+  Comment: None
+
+classification_items_description:
+  1: "Veganism\_(3_CEP)"
+  2: "The 15 minute city, telework\_ (3_CEP, 4_CEP)"
+  3: "Increase in industrial material productivity\_(3_MCR, 4_PYI)"
+  4: "Meat replacement products, transport mode shift, building type shift\_(3_SHA)"
+  5: "Product as a service, sharing economy solutions (4_CEP)\_"
+  6: "smaller vehicles that fit the typical use pattern\_(3_MCR, 3_SHA)"
+  7: "smaller living space through co-habitation and shared spaces\_(3_CEP, 2_IUS)"
+  8: "longer vehicle or product lifetime through better design or repairability\_\
+    (3_LTE)"
+  9: "lighter products through better design\_(3_MCR)"
+  10: "lighter products through material substitution\_(3_MC, 3_MSC)"
+  11: "higher fabrication yields, reduced trimming losses etc.\_(4_PYI)"
+  12: "re-use of fabrication scrap without remelting\_(3_SHA)"
+  13: "second hand clothing or appliance\_(4_PYI)"
+  14: "vehicle traction batteries used as stationary energy storage\_(4_PYI)"
+  15: "repair or broken mobile phones or white goods\_(3_LTE)"
+  16: "building insulation improvement\_(3_LTE)"
+  17: "turn product components, like from white goods, into new products with non-desctructive\
+    \ material re-use (no remelting)\_(3_LTE, 4_PYI)"
+  18: "convert office building into living space\_(3_SHA, 3_CEP)"
+  19: "product materials from scrap, not from virgin resources like ore\_(4_PYI)"
+  20: "remelting of scrap into same quality group\_(4_PYI)"
+  21: "contaminated high quality aluminium scrap turned into cast alloy\_(4_PYI)"
+  22: "MSW incineration (4_PYI, 4_UPI))\_"
+
+classification_items_reference:
+  1: ' '
+  2: ' '
+  3: ' '
+  4: ' '
+  5: ' '
+  6: ' '
+  7: ' '
+  8: ' '
+  9: ' '
+  10: ' '
+  11: ' '
+  12: ' '
+
+classification_items_attribute1_oto:
+  1: R0
+  2: R1
+  3: R2
+  4: R2a
+  5: R2b
+  6: R2c
+  7: R2d
+  8: R2e
+  9: R2f
+  10: R2g
+  11: R2h
+  12: R2i
+  13: R3a
+  14: R3b
+  15: R4
+  16: R5
+  17: R6
+  18: R7
+  19: R8
+  20: R8a
+  21: R8b
+  22: R9
+
+classification_items_attribute2_oto:
+  1: "Refuse\_\_\_"
+  2: "Rethink\_\_\_"
+  3: "Reduce\_\_\_"
+  4: "Modal or type shift in service provision\_"
+  5: "Business model shift in service provision\_"
+  6: "Downsizing: Shift to smaller products more adequate to demand\_"
+  7: "More intense use\_"
+  8: "Product lifetime extension\_"
+  9: "Product light-weighting\_"
+  10: "Material substitution\_"
+  11: "Fabrication yield improvement\_"
+  12: "Fabrication scrap diversion\_"
+  13: "Re-use of entire products\_"
+  14: "Re-use of components\_"
+  15: "Repair\_\_\_"
+  16: "Refurbish\_\_\_"
+  17: "Remanufacture\_\_\_"
+  18: "Repurpose\_\_\_"
+  19: "Recycle\_\_\_"
+  20: "Closed loop recycling\_"
+  21: "Cascading or downcycling\_"
+  22: "Recover\_\_\_"
+
+classification_items_attribute3_oto:
+  1: "R0 Refuse\_\_\_"
+  2: "R1 Rethink\_\_\_"
+  3: "R2 Reduce\_\_\_"
+  4: "R2a: Modal or type shift in service provision\_"
+  5: "R2b: Business model shift in service provision\_"
+  6: "R2c: Downsizing: Shift to smaller products more adequate to demand\_"
+  7: "R2d: More intense use\_"
+  8: "R2e: Product lifetime extension\_"
+  9: "R2f: Product light-weighting\_"
+  10: "R2g: Material substitution\_"
+  11: "R2h: Fabrication yield improvement\_"
+  12: "R2i: Fabrication scrap diversion\_"
+  13: "R3a: Re-use of entire products\_"
+  14: "R3b: Re-use of components\_"
+  15: "R4 Repair\_\_\_"
+  16: "R5 Refurbish\_\_\_"
+  17: "R6 Remanufacture\_\_\_"
+  18: "R7 Repurpose\_\_\_"
+  19: "R8 Recycle\_\_\_"
+  20: "R8a: Closed loop recycling\_"
+  21: "R8b: Cascading or downcycling\_"
+  22: "R9 Recover\_\_\_"

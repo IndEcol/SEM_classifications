@@ -1,5 +1,5 @@
-# Classification item file NAME_OF_FILE
-# DESCRIPTION
+# Classification item file material_processing_technologies
+# lists all processes for material production, refining, waste treatment, sorting, recycling, etc.
 # https://circomod.eu/
 
 classification_info:

@@ -1,5 +1,5 @@
-# Classification item file NAME_OF_FILE
-# DESCRIPTION
+# Classification item file process_indicators
+# economic, social, and other indicators to describe process technologies (other than the process inventories)
 # https://circomod.eu/
 
 classification_info:

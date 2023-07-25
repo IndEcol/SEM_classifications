@@ -1,5 +1,5 @@
-# Classification item file NAME_OF_FILE
-# DESCRIPTION
+# Classification item file material_demand_sectors
+# Common material demanding sector classifications used in the CIRCOMOD project, taken from CIRCOMOD Vision and Scoping document
 # https://circomod.eu/
 
 classification_info:

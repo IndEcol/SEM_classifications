@@ -1,5 +1,5 @@
-# Classification item file NAME_OF_FILE
-# DESCRIPTION
+# Classification item file flow_categories
+# categories flowabels into natural resources, emissions, social input, economic input, materials, and products
 # https://circomod.eu/
 
 classification_info:

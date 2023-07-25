@@ -4,8 +4,8 @@ import yaml
 import io
 
 
-YAML_HEAD_COMMENT = """# Classification item file NAME_OF_FILE
-# DESCRIPTION
+YAML_HEAD_COMMENT = """# Classification item file {NAME_OF_FILE}
+# {DESCRIPTION}
 # https://circomod.eu/
 """
 
@@ -60,7 +60,9 @@ def parse_xlsx_and_save_as_yaml(xlsx_file):
         with open('CIRCOMOD_Classification' + '-' + name + '-' + sheet_data["classification_info"][
             'classification_Name'] + '.yaml'
                 , 'w') as file:
-            file.writelines(YAML_HEAD_COMMENT + "\n".join(new_lines))
+            file.writelines(YAML_HEAD_COMMENT.format(NAME_OF_FILE=sheet_data["classification_info"]
+            ['classification_Name'], DESCRIPTION=sheet_data["classification_info"]['description']) + "\n".join(
+                new_lines))
 
 
 # Usage example

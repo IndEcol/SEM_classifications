@@ -1,5 +1,5 @@
-# Classification item file NAME_OF_FILE
-# DESCRIPTION
+# Classification item file flowables
+# lists all materials, substances, products (vehicles, buildings, etc.), economic flowable objects (subsidies), and social flows (labour), both within industrial system boundary and to other systems (elementar flows)
 # https://circomod.eu/
 
 classification_info:

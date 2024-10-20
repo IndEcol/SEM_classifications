@@ -1,0 +1,77 @@
+# Classification item file process_indicators
+# economic, social, and other indicators to describe process technologies (other than the process inventories)
+# https://circomod.eu/
+
+classification_info:
+  id: CM_4
+  classification_Name: process_indicators
+  dimension: 10
+  description: economic, social, and other indicators to describe process technologies
+    (other than the process inventories)
+  mutually_exclusive: 'False'
+  collectively_exhaustive: 'False'
+  general: 'False'
+  created_from_dataset: 'False'
+  reference: null
+  reserve1: null
+  reserve2: null
+  reserve3: null
+  meaning_attribute1: process_indicator
+  meaning_attribute2: null
+  meaning_attribute3: null
+  meaning_attribute4: null
+  meaning_attribute5: null
+  meaning_attribute6: null
+  meaning_attribute7: null
+  meaning_attribute8: null
+  meaning_attribute9: null
+  meaning_attribute10: null
+  meaning_attribute11: null
+  meaning_attribute12: null
+  meaning_attribute13: null
+  meaning_attribute14: null
+  meaning_attribute15: null
+
+metadata:
+  File compiled by: Stefan Pauliuk
+  Date: 2023-05-12 00:00:00
+  Source: null
+  Comment: None
+
+classification_items_description:
+  1: in Mt/yr, items/yr, etc.
+  2: in yr
+  3: in yr, for depreciation of capital stock
+  4: in yr
+  5: in currency units per capacity unit
+  6: in currency units per capacity unit
+  7: in currency units per capacity unit
+  8: 1-9
+  10: in capacity unit per year
+  11: in currency units per capacity unit or in %
+
+classification_items_reference:
+  1: ' '
+  2: ' '
+  3: ' '
+  4: ' '
+  5: ' '
+  6: ' '
+  7: ' '
+  8: ' '
+  9: ' '
+  10: ' '
+  11: ' '
+
+classification_items_attribute1_oto:
+  1: typical plant capacity
+  2: technical lifetime
+  3: economic lifetime
+  4: construction time
+  5: investment cost per capacity
+  6: fixed O&M costs per capacity
+  7: variable O&M costs per capacity
+  8: technology readiness level (TRL)
+  9: expected technology availability year
+  10: potential implementation rate for new technologies
+  11: 'future cost assumptions '

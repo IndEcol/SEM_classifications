@@ -1,0 +1,50 @@
+# Classification item file flowables
+# lists all materials, substances, products (vehicles, buildings, etc.), economic flowable objects (subsidies), and social flows (labour), both within industrial system boundary and to other systems (elementar flows)
+# https://circomod.eu/
+
+classification_info:
+  id: CM_2
+  classification_Name: flowables
+  dimension: 5
+  description: lists all materials, substances, products (vehicles, buildings, etc.),
+    economic flowable objects (subsidies), and social flows (labour), both within
+    industrial system boundary and to other systems (elementar flows)
+  mutually_exclusive: 'False'
+  collectively_exhaustive: 'False'
+  general: 'False'
+  created_from_dataset: 'False'
+  reference: null
+  reserve1: null
+  reserve2: null
+  reserve3: null
+  meaning_attribute1: flowables
+  meaning_attribute2: null
+  meaning_attribute3: null
+  meaning_attribute4: null
+  meaning_attribute5: null
+  meaning_attribute6: null
+  meaning_attribute7: null
+  meaning_attribute8: null
+  meaning_attribute9: null
+  meaning_attribute10: null
+  meaning_attribute11: null
+  meaning_attribute12: null
+  meaning_attribute13: null
+  meaning_attribute14: null
+  meaning_attribute15: null
+
+metadata:
+  File compiled by: Stefan Pauliuk
+  Date: 2023-05-12 00:00:00
+  Source: null
+  Comment: None
+
+classification_items_description:
+  1: Tbd.
+
+classification_items_reference:
+  1: ' '
+  2: ' '
+
+classification_items_attribute1_oto:
+  1: To be populated from 4_UPI dataset

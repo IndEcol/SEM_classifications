@@ -1,0 +1,60 @@
+# Classification item file engineered_materials_groups
+# Common engineering material group classifications used in the CIRCOMOD project, taken from CIRCOMOD Vision and Scoping document
+# https://circomod.eu/
+
+classification_info:
+  id: CM_7
+  classification_Name: engineered_materials_groups
+  dimension: 15
+  description: Common engineering material group classifications used in the CIRCOMOD
+    project, taken from CIRCOMOD Vision and Scoping document
+  mutually_exclusive: 'False'
+  collectively_exhaustive: 'False'
+  general: 'False'
+  created_from_dataset: 'False'
+  reference: null
+  reserve1: null
+  reserve2: null
+  reserve3: null
+  meaning_attribute1: engineered_materials_group
+  meaning_attribute2: null
+  meaning_attribute3: null
+  meaning_attribute4: null
+  meaning_attribute5: null
+  meaning_attribute6: null
+  meaning_attribute7: null
+  meaning_attribute8: null
+  meaning_attribute9: null
+  meaning_attribute10: null
+  meaning_attribute11: null
+  meaning_attribute12: null
+  meaning_attribute13: null
+  meaning_attribute14: null
+  meaning_attribute15: null
+
+metadata:
+  File compiled by: Christian Hauenstein
+  Date: 23-05-23
+  Source: null
+  Comment: None
+
+classification_items_description:
+  1: Iron and steel material group, including the subcategories pig iron/sponage iron,
+    steel scrap
+  2: Non-ferrous metals material group, including the subcategories copper, aluminium,
+    other metals
+  3: Non-metallic minerals material group, including the subcategories cement, aggregates,
+    glass, ceramics
+  4: Chemicals material group, including the subcategories higher  value chemicals,
+    ammonia, methanol, refinery products
+  5: Bio-based products material group, including the subcategories pulp and paper,
+    construction wood
+  6: Biomass material group, including the subcategories bio energy, cotton
+
+classification_items_attribute1_oto:
+  1: Iron and steel
+  2: Non-ferrous metals
+  3: Non-metallic minerals
+  4: Chemicals
+  5: Bio-based products
+  6: Biomass

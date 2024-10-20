@@ -2,7 +2,7 @@
 # Engineering material groups used by RECC model v2.5
 # https://github.com/YaleCIE/RECC-ODYM
 
-classification_items_attribute1:
+classification_items_attribute1_oto:
   1: construction grade steel
   2: automotive steel
   3: stainless steel
@@ -51,7 +51,7 @@ classification_info:
   version number: V0.1
   UUID: 8e443994-d04b-4386-84d8-99e1241388c9 # reserve 2
   reserve 3: None
-  meaning_attribute1: material group name
+  meaning_attribute1: material group name (unique, oto means one-to-one)
   meaning_attribute2: None
   meaning_attribute3: None
   meaning_attribute4: None

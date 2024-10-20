@@ -2,7 +2,7 @@
 # Circular economy strategies used by the CIRCOMOD project
 # http://circomod.eu/
 
-classification_items_attribute1:
+classification_items_attribute1_oto:
   1: R0: Refuse
   2: R1: Rethink
   3: R2: Reduce
@@ -40,7 +40,7 @@ classification_info:
   version number: V0.1
   UUID: e18cd3f8-3da8-4f28-a04a-343a57cc312d # reserve 2
   reserve 3: None
-  meaning_attribute1: CE strategy name
+  meaning_attribute1: CE strategy name (unique, oto means one-to-one)
   meaning_attribute2: None
   meaning_attribute3: None
   meaning_attribute4: None

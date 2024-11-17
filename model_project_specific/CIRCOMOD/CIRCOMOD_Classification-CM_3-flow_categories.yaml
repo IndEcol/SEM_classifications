@@ -47,11 +47,29 @@ classification_items_description:
   5: 'Input from Technosphere: product'
   6: 'Input from Technosphere: service'
   7: 'Input from Technosphere: other (not a material, product, or service)'
-  8: Flow to Environment (Emission), elementary flow
-  9: by product or co-product of activity, but not reference product
-  10: waste of activity
-  11: Economic input, such as subsidies
-  12: Social input, such as labour
+  8: use of own by-product
+  9: 'Input from Technosphere: feedstock (carbon-based raw material used for non-energy
+    purposes)'
+  10: 'Input from Technosphere: reductant  (or reducing agent, e.g. coke in blast
+    furnace)'
+  11: 'Input from Technosphere: recycled material'
+  12: 'Input from Technosphere: waste material'
+  13: By-product or co-product of activity, but not reference product
+  14: 'Flow to Technosphere: waste of activity'
+  15: Flow to Environment (Emission), elementary flow
+  16: Flow to Environment (Emission), elementary flow, direct
+  17: Flow to Environment (Emission), elementary flow, direct as a result of chemical
+    transformation
+  18: Flow to Environment (Emission), elementary flow, direct as a result of combustion
+  19: Flow to Environment (Emission), elementary flow, direct and from bio-based source
+  20: Flow to Environment (Emission), elementary flow, as a result of energy and process
+    emissions from anode production
+  21: Flow to Environment, direct dumping/discharge of solid or liquid waste, use
+    only if accounting for emissions is not suitable
+  22: Flow to Environment, final storage, final sink, safe disposal. For example CCS
+    or sanitary landfill.
+  23: Economic input, such as subsidies
+  24: Social input, such as labour
 
 classification_items_reference:
   1: ' '
@@ -61,11 +79,10 @@ classification_items_reference:
   5: ' '
   6: ' '
   7: ' '
-  8: ' '
-  9: ' '
-  10: ' '
-  11: ' '
-  12: ' '
+  13: ' '
+  14: ' '
+  23: ' '
+  24: ' '
 
 classification_items_attribute1_oto:
   1: reference_product
@@ -75,8 +92,20 @@ classification_items_attribute1_oto:
   5: from technosphere (product)
   6: from technosphere (service)
   7: from technosphere (other)
-  8: to environment (emission)
-  9: to technosphere (by-product)
-  10: to technosphere (waste)
-  11: economic input
-  12: social input
+  8: from technosphere (use of own by-product)
+  9: from technosphere (feedstock)
+  10: from technosphere (reductant)
+  11: from technosphere (recycled material)
+  12: from technosphere (waste)
+  13: to technosphere (by-product)
+  14: to technosphere (waste)
+  15: to environment (emission)
+  16: to environment (emission, direct)
+  17: to environment (emission, process)
+  18: to environment (emission, combustion)
+  19: to environment (emission, direct, biogenic)
+  20: to environment (emission, process and energy from anode production)
+  21: to environment (waste dumping)
+  22: to environment (final waste storage)
+  23: economic input
+  24: social input

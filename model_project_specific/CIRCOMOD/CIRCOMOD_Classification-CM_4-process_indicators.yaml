@@ -49,6 +49,11 @@ classification_items_description:
   8: 1-9
   10: in capacity unit per year
   11: in currency units per capacity unit or in %
+  12: Efficiency improvement every year (in % per year). See Eq.(5) in van Ruijven
+    et al. (2016).
+  13: '% of CO2 emissions prevented from being released into the atmosphere'
+  14: in currency units per capacity unit
+  15: in currency units per product unit
 
 classification_items_reference:
   1: ' '
@@ -62,6 +67,8 @@ classification_items_reference:
   9: ' '
   10: ' '
   11: ' '
+  12: ' '
+  13: ' '
 
 classification_items_attribute1_oto:
   1: typical plant capacity
@@ -75,3 +82,49 @@ classification_items_attribute1_oto:
   9: expected technology availability year
   10: potential implementation rate for new technologies
   11: 'future cost assumptions '
+  12: energy efficiency improvement
+  13: CO2 captured
+  14: investment cost per capacity refurbished
+  15: annualized fixed costs (CAPEX and O&M)
+  16: variable O&M costs per production
+  17: variable O&M costs per activity
+  18: investment cost per capacity refurbishment
+  19: retrofit CAPEX
+  20: variable O&M costs per capacity
+  21: Assumed plant capacity
+  22: Plant lifetime
+  23: CAPEX - new build brownfield, Steam cracker
+  24: CAPEX - new build brownfield, General
+  25: O&M as % of CAPEX
+  26: O&M
+  27: CAPEX - new build brownfield, CCS
+  28: CAPEX - retrofit
+  29: CAPEX - new build brownfield, Electric steam cracker
+  30: CAPEX - new build brownfield, POX unit
+  31: CAPEX - new build brownfield, Methanol synthesis unit
+  32: CAPEX - new build brownfield, MTO unit
+  33: CAPEX - new build brownfield, Hydrogen burners
+  34: CAPEX - new build brownfield, NOx abatement unit
+  35: CAPEX - new build brownfield, Pyrolysis unit
+  36: CAPEX - new build brownfield, Hydrotreater
+  37: CAPEX - retrofit, Electric steam cracker
+  38: CAPEX - new build brownfield
+  39: CAPEX - new build brownfield, CCS unit
+  40: CAPEX - new build brownfield, all units
+  41: CAPEX - retrofit, all units
+  42: CAPEX - new build brownfield, PDH
+  43: CAPEX - retrofit, Feedstock switch
+  44: CAPEX - new build brownfield, C3 splitter
+  45: specific capital costs
+  46: Operating costs, use of green hydrogen
+  47: Operating costs, electricity use
+  48: Operating costs, other
+  49: compensation, lost metallurgical gases
+  50: Operating costs, carbon capture, transport, storage
+  51: Operating costs, materials
+  52: specific capital costs, CCU retrofitting
+  53: Sales, methanol
+  54: Operating costs, H2 for methanol synthesis
+
+classification_items_attribute2_oto:
+  8: TRL

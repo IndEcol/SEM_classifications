@@ -20,10 +20,10 @@ classification_info:
   meaning_attribute2: null
   meaning_attribute3: null
   meaning_attribute4: null
-  meaning_attribute5: null
-  meaning_attribute6: null
-  meaning_attribute7: null
-  meaning_attribute8: null
+  meaning_attribute5: regional_scope
+  meaning_attribute6: engineered_materials_group
+  meaning_attribute7: generic_process
+  meaning_attribute8: data_source_type
   meaning_attribute9: null
   meaning_attribute10: null
   meaning_attribute11: null
@@ -39,114 +39,3476 @@ metadata:
   Comment: None
 
 classification_items_description:
-  1: Primary materials production processes (conventional technologies)
-  2: Primary materials production processes (conventional technologies)
-  3: Primary materials production processes (conventional technologies)
-  4: Primary materials production processes (conventional technologies)
-  5: Primary materials production processes (conventional technologies)
-  6: Primary materials production processes (conventional technologies)
-  7: Primary materials production processes (conventional technologies)
-  8: Primary materials production processes (conventional technologies)
-  9: Primary materials production processes (conventional technologies)
-  10: Primary materials production processes (conventional technologies)
-  11: Primary materials production processes (conventional technologies)
-  12: Primary materials production processes (conventional technologies)
-  13: Primary materials production processes (alternative technologies)
-  14: Primary materials production processes (conventional technologies)
-  15: Primary materials production processes (alternative technologies)
-  16: Primary materials production processes (conventional technologies)
-  17: Primary materials production processes (alternative technologies)
-  18: Primary materials production processes (conventional technologies)
-  19: Primary materials production processes (alternative technologies)
-  20: Primary materials production processes (conventional technologies)
-  21: Primary materials production processes (alternative technologies)
-  22: Primary materials production processes (conventional technologies)
-  23: Primary materials production processes (alternative technologies)
-  24: Primary materials production processes (conventional technologies)
-  25: Primary materials production processes (alternative technologies)
-  26: Primary materials production processes (conventional technologies)
-  27: Primary materials production processes (alternative technologies)
-  28: Primary materials production processes (conventional technologies)
-  29: Primary materials production processes (alternative technologies)
-  30: Primary materials production processes (conventional technologies)
-  31: Primary materials production processes (alternative technologies)
-  32: Secondary materials production processes (conventional technologies)
-  33: Secondary materials production processes (conventional technologies)
-  34: Secondary materials production processes (conventional technologies)
-  35: Secondary materials production processes (conventional technologies)
+  15: Clinker production - conventional. Includes raw mill, pre-heater, pre-calciner,
+    rotary kiln with cooler, simple exhaust heat recovery, and fuel preparation.
+  16: Clinker production - conventional. Includes raw mill, more efficient pre-heaters
+    and pre-calciners, rotary kiln with cooler, simple exhaust heat recovery, fuel
+    preparation, improved process and fuel control systems,  and improved cooling/heating
+    recovery systems.
+  17: Clinker production with on-site post-combustion Carbon Capture and Storage (CCS)
+    - alternative. Includes raw mill, more efficient pre-heaters and pre-calciners,
+    rotary kiln with cooler, simple exhaust heat recovery, fuel preparation, improved
+    process and fuel control systems,  and improved cooling/heating recovery systems.
+  18: Clinker production with oxy-fuel Carbon Capture and Storage (CCS) - alternative.
+    Includes raw mill, more efficient pre-heaters and pre-calciners, rotary kiln with
+    cooler, simple exhaust heat recovery, fuel preparation, improved process and fuel
+    control systems,  and improved cooling/heating recovery systems.
+  19: "The most widespread type of cement \u2013 Portland (OPC) \u2013 is made of\
+    \ 95 % clinker, and of additives for the remaining part. Since clinker production\
+    \ is highly energy-intensive, the possibility of mixing it with some inert material\
+    \ (with negligible energy intensity, thus low GHG emissions generated during its\
+    \ production), or even with scrap from other processes, has been widely studied\
+    \ to reduce costs and emissions in the sector. Generally, granulated furnace blast\
+    \ scrap (GFBS) and fly ash, produced from coal combustion, are used, along with\
+    \ raw materials like natural pozzolans and limestone, depending on local availability."
+  20: 'It is an emerging alternative to standard cement, characterized by lower energy
+    consumption and environmental costs, exist, even if not yet well-established in
+    the sector. A series of binders, generically known as alkali-activated cement
+    (AAC), constitute the most prominent of such alternatives. '
+  21: "It is one of the four main cement phases present in the standard OPC. In belite\
+    \ cements, however, the share of belite is brought up to 40 \xF7 50 %. Clinker\
+    \ is here produced with a low lime saturation factor (LSF) \u2013 the ratio of\
+    \ CaO to the other oxides \u2013 here in the range 0.72 \xF7 0.80 (in the case\
+    \ of OPC clinker, LSF  = 0.90 \xF7 0.98), involving the 19 % lower CO2 emissions\
+    \ from calcination (408.5 kg(CO2)/t(cmt)) with respect to the standard process."
+  22: "It is the most common process currently employed to produce clinker. The raw\
+    \ materials are ground and dried in the form of a flowable powder. This kind of\
+    \ plants can be fueled by different sources \u2013 natural gas, oil, biomass or\
+    \ coal \u2013 and their efficiency can be increased with the implementation of\
+    \ energy-recovery systems (through multi-stage pre-heating, with the use of waste\
+    \ energy to pre-heat the raw material flow)."
+  23: "The wet version of the clinker production process is less efficient than its\
+    \ dry correspondent. The slurry flow getting into the kiln to produce clinker\
+    \ has 40\xF745 % of water content and naturally a portion of the heat supplied\
+    \ in the in process provokes water evaporation. The wet process is preferred where\
+    \ raw materials are available with a moisture content higher than 20 % (and up\
+    \ to 45 %)."
+  24: Post-combustion CCS is the main candidate for large-scale deployment of carbon
+    capture in the cement industry. During combustion, mineral decomposition frees
+    a significant amount of CO2 and the pre-combustion techniques would be inefficient.
+    The most promising post-combustion technique is the one based on chemical absorption
+    with amines.
+  25: The main alternative to absorption techniques in the cement sector is the use
+    of pure oxygen to fuel the process instead of air (oxy-fuel combustion), in order
+    to obtain an outflow of pure CO2 that can be easily captured. The plant layout
+    is different from the standard configuration with air, so the post-combustion
+    option is usually preferred because of its easier retrofitting.
+  26: 'Steelmaking with Standard Coal blast furnace and Basic Oxygen Furnace.  '
+  27: Steelmaking with Direct Reduced Iron and Electric Arc Furnace
+  28: Steelmaking with Standard EAF/scrap route
+  29: Steelmaking with Efficient Coal blast furnace/ BOF (includes premium for Preventive
+    maintenance BOF, energy monitoring and management systems BOF, sinter plant heat
+    recovery, and energy monitoring and management systems EAF)
+  30: Steelmaking with Standard Coal blast furnace / BOF route + CO2 capture
+  31: Steelmaking with Smelting reduction + BOF route (Based on COREX technology)
+  32: Steelmaking with Smelt reduction + BOF route + CO2 capture (Based on COREX technology)
+  33: Steelmaking with DRI EAF route + CCS
+  34: Steelmaking with Modernized Blast furnace plus premium for BOF gas and sensible
+    heat recovery, Coke dry quenching,  Top gas pressure recovery and recovery of
+    Blast Furnace gas, and  Foamy slag practive oxyfuel burners/lancers.
+  35: Steelmaking with technology equivalent to Top Gas Recycling Blast furnace/BOF
+    plus premium for continuous casting, near net shape casting, injection of natural
+    gas at 140 kg/thm, and pulverized coal injection to 225 kg/thm.
+  36: Steelmaking with technology equivalent to Top Gas Recycling Blast furnace/BOF
+    plus premium for continuous casting, near net shape casting, injection of natural
+    gas at 140 kg/thm, and pulverized coal injection to 225 kg/thm w/ CO2 capture.
+  37: Steelmaking with Hydrogen-based DRI/EAF
+  38: Steelmaking with Electrowinning (Based on SIDERWIN)
+  39: "The most used two-step production process for steel. The blast furnace reduces\
+    \ iron ore into pig iron, also called hot metal \u2013 the chief ingredient used\
+    \ to make the steel \u2013 in this case through oxidation of carbon and silicon\
+    \ of the pig iron in a basic oxygen furnace. Further processing in the basic oxygen\
+    \ furnace provides crude steel."
+  40: Steel is produced starting from solid iron, derived from the direct reduction
+    of iron ore, processed in an electric arc furnace . In the direct reduction process,
+    natural gas is used as fuel for the reduction of iron ore, and the produced steel
+    has lower quality with respect to the BF-BOF product. Several technology options
+    exist for the DRI steelmaking route, according to either the kind of employed
+    reactor (shaft furnace, rotary kiln, rotary hearth furnace of fluidized bed reactor)
+    or the type of iron ore feedstock (pellets and lump ore, or fines and concentrates)
+    . The most widely used process for direct reduction the Midrex shaft furnace technology.
+  41: 'as alternative to the DRI, ferrous scrap can be used in an electric arc furnace
+    to produce liquid steel. Even if many different variations of the process exist,
+    and the scrap is often mixed with DRI and pig iron, the best practice here described
+    envisages uniquely the use of scrap steel. The use of scrap makes it possible
+    to skip a part of the process, and namely the reduction of iron ore, shrinking
+    the related energy intensity making this steelmaking route a valuable option,
+    often limited only by scarcity of scrap steel or the quality of the amount available. '
+  42: 'the most recent technological development commercially available in steelmaking,
+    smelting reduction, allows the production of hot metal from iron ore without coke
+    . The two existing alternatives for smelting reduction plants are COREX and FINEX,
+    the latter being a further development of the first allowing the direct use of
+    fine ore. However, COREX is the main technology and is considered the reference
+    for this process . COREX is a two-stage process : in the first stage, the iron
+    ore is reduced by gases produced in the second stage. The second stage is, indeed,
+    the smelter-gasifier unit, in which iron smelting takes place, along with the
+    gasification of coal through oxygen. The hot metal produced is then fed into a
+    traditional basic oxygen furnace to produce crude steel. The environmental benefits,
+    due to the absence of coke in the process, make this technology very interesting.'
+  43: 'An enhancement of the traditional scheme, but accounting for an additional
+    electricity, consumed for carbon capture by the simplest available technique,
+    namely the Pressure Swing Adsorption PSA (the process is considered as available
+    starting from 2020). '
+  44: 'Also called ULCOS blast furnace, it is a technology developed within the Ultra-Low
+    CO2 steelmaking (ULCOS) program, and considered available starting from 2020.
+    The top gas produced by the BF is collected, treated and re-used in order to reduce
+    coke use for iron ore reduction. Furthermore, the BF-TGR also works with pure
+    oxygen instead of air, in order to increase CO2 concentration in the top gas and
+    simplify carbon capture . '
+  45: The implementation of CCS in a DRI-EAF plant allows this technology to be environmentally
+    viable in the future, while keeping the advantages of this kind of route.
+  46: "A very promising variation to the traditional DRI-EAF route is the use of hydrogen\
+    \ instead of natural gas to reduce the iron, in the hydrogen direct reduction\
+    \ (HDR) process. Hydrogen, produced by a clean source \u2013 generally identified\
+    \ in an electrolyzer \u2013 is fed into a shaft containing pre-heated iron ore\
+    \ to reduce it into hot briquetted iron, ready to undergo the second part of the\
+    \ process in a standard EAF. Despite there is so far very little information on\
+    \ HDR processes in scientific literature, a commercial plant of this type is already\
+    \ in operation in Trinidad [12]. "
+  47: 'HIsarna is a next generation process at the pilot stage, very similar to a
+    blast furnace, but producing direct reduced iron, developed by Tata Steel and
+    Rio Tinto within the framework of the ULCOS program, with the aim of reducing
+    the economic burden behind the production of steel while reducing the environmental
+    impact of this sector, due to the absence of coke use in the process. The key
+    improvement is in the possibility to skip the coking and agglomeration phase,
+    directly introducing iron ore and coal in a specifically designed furnace. '
+  48: 'The ULCOS project contemplates a second stage for the development of HIsarna,
+    where CCS would be introduced. The techniques identified for  capture are the
+    PSA and the Vacuum Pressure Swing Adsorption VPSA (the injection of pure oxygen,
+    instead of air, makes HIsarna suitable for CCS) .  HIsarna with CCS works just
+    as its standard correspondent but allowing 80 % CO2 emission reduction with respect
+    to the current BF . '
+  49: 'A DRI technology born within the context of the ULCOS program  . Although it
+    is not very different from a DRI-EAF best practice, it envisages the use of VPSA
+    for CCS, to cut down CO2 emissions, but with a large use of electricity and higher
+    additional costs for such a complex system. Moreover, the use of oxygen instead
+    of air produces a flow of concentrated  as off-gas, easing the capture process
+    . '
+  50: "In Ulcolysis, the decomposition of iron ore into oxygen and liquid metal happens\
+    \ at 1500 \xB0C, without the use of coal. After electrowinning, the reduced iron\
+    \ ore is passed through an EAF for steelmaking ,  ."
+  51: "Ulcowin consists of an aqueous electrolysis of iron oxide at 110 \xB0C, performed\
+    \ using coal as fuel ,  ."
+  52: Regarding the production of ferroalloys, they include a vast category of alloys
+    of iron, chromium, silicon, manganese and others. The combined production of ferrochromium
+    FeCr, ferromanganese FeMn, ferrosilicon FeSi and silicomanganese SiMn has constituted
+    the largest part of global ferroalloys production during the last 20 years (88
+    % in 2002, 72 % in 2011 and 65 % in 2015, thus highlighting a constantly decreasing
+    trend  ), so a single technology is used to aggregate all ferroalloys (since data
+    for energy consumption are only available for the most traditional ferroalloys),
+    and its energy consumption is made up by the weighted average of values related
+    to the production of the mentioned ferroalloys between 2011 and 2015. On the other
+    hand, the JRC-EU-TIMES only considers ferrochromium as representative for the
+    entire production field.
+  53: Copper production occurs through a smelting process, and 50 % of global production
+    makes use of the Outokumpu flash smelter, which combines the steps needed for
+    copper production into a single process. The smelter produces copper concentrate
+    (matte), further treated and refined to obtain 99.99 % pure copper, and slag  .
+  54: Zinc is third most used non-ferrous metal, behind aluminum and copper  . It
+    is used in the production of alloys such as brass. Zinc can be produced via either
+    pyrometallurgical (smelting) or hydrometallurgical (electrolysis) process, with
+    the latter accounting for more than 90 %  of global material output  . Anyway,
+    the use of refined scrap for reducing the energy requirement is always involved,
+    thus a single process (hydrometallurgical) is suitable to represent the whole
+    production.
+  55: "Tin production, which we consider in view of its key role in the manufacturing\
+    \ of Low-Critical Temperature Superconductors (LTS), stood at just 264 t/year\
+    \ in 2004, a quantity more than 50 times lower than for copper . In recent years,\
+    \ demand for tin has increased, but kept stable between 330 \xF7 370 t/year, of\
+    \ which 50 \xF7 70 t/year provided through recycling processes. Tin is produced\
+    \ through two-stage purification of its ore, via smelting and refining procedures.\
+    \ 80 % of global tin resources are constituted by alluvial ore,  and at a global\
+    \ level there is no reason to suggest that remaining tin deposits will be unable\
+    \ to sustain a long term, gradual upward trend in primary mined tin well into\
+    \ the future."
+  56: "Titanium is mostly consumed in form of titanium oxide TiO2, while titanium\
+    \ sponge metal makes the rest of total demand. Titanium ore can be retrieved from\
+    \ ilmenite and rutile, with the former mineral accounting for almost 90 % of world\u2019\
+    s consumption of titanium minerals. Titanium is mostly consumed in form of titanium\
+    \ oxide TiO2, while titanium sponge metal makes the rest of total demand. Titanium\
+    \ ore can be retrieved from ilmenite and rutile, with the former mineral accounting\
+    \ for almost 90 % of world\u2019s consumption of titanium minerals. The main production\
+    \ is denominated Kroll process . "
+  57: 'Niobium is a pretty rare element which has been increasingly requested for
+    innovative technological applications. In particular, superconductors employed
+    in cutting-edge energy production technologies, for instance the magnetic-confinement
+    nuclear fusion machines , are actually made by niobium-based compounds (LTS).
+    The current identified resources of niobium are located predominantly in Brazil
+    (around), where just few companies control niobium extraction and refining. Among
+    them, CBMM supplies approximately of the niobium products, of which are represented
+    by ferroniobium. Energy intensity values were obtained by using CBMM energy consumption
+    report. '
+  58: "The predominant traditional technology to produce alumina is the Bayer process.\
+    \ Alumina is almost exclusively used for aluminum manufacturing. Bauxite is the\
+    \ main ore employed, so the first step consists in crushing the bauxite and purifying\
+    \ it by means of the Bayer process. In the Bayer process, currently adopted to\
+    \ produce 90 % of alumina worldwide  the bauxite is washed in a hot solution of\
+    \ sodium hydroxide, which leaches aluminum from the bauxite. The aluminum is precipitated\
+    \ out of the solution in form of aluminum hydroxide. Al(OH)3. In the last stage,\
+    \ calcination, the hydrate is heated to temperatures of ~ 1000 \xB0C. Under these\
+    \ conditions, Al(OH)3 is converted to alumina Al2O3."
+  59: "It is the commercially established production process for aluminum (it gives\
+    \ 95% of the aluminum production), starting from alumina. Even if two version\
+    \ of the process exist, the one base on pre-baked carbon anodes has become predominant.\
+    \ In this process aluminum is produced by the electrolytic reduction of alumina,\
+    \ dissolved in a molten bath of mainly sodium aluminum fluoride (cryolite) at\
+    \ ~ 960 \xB0C. The importance of energy over total cost for producing aluminum\
+    \ is huge. For this reason, the process requires constant improvements in terms\
+    \ of efficiency.  "
+  60: "Secondary aluminum is produced from scrap metal (thus without the strict need\
+    \ for alumina), either \u201Cnew\u201D scrap from production and manufacturing\
+    \ or \u201Cold\u201D scrap from recycled aluminum."
+  61: "Since anodes have to be continuously replaced during the standard Hall-H\xE9\
+    roult process, implying additional costs and energy consumption, sectoral R&D\
+    \ have been trying to develop alternative anodes which do not get eroded by chemical\
+    \ transformations. Commercial deployment of inert anodes is expected by 2030.\
+    \ However, these anodes would require the support of a second technology, wettable\
+    \ cathodes, i.e. inert titanium diboride TiB2 cathodes which allow the reduction\
+    \ of the anode-cathode distance ."
+  62: It is the only non-electrochemical process that has shown potential for aluminum
+    production. This technology has been the subject to extensive research for more
+    than 45 years, but commercial availability is not expected before 2050  .
+  63: "The reduction of hydrated alumina silicate (or more commonly kaolinite) Al2O3\
+    \ \u2219 2 SiO2 has the potential to earn some consideration over the traditional\
+    \ route to produce aluminum, on the long term ."
+  64: The most widespread types of kiln is the long rotary kiln (LRK), that accounts
+    for the 90 % of the production in the USA.
+  65: The melting process is supplied with fossil fuels.
+  66: The melting process is supplied with electricity.
+  67: Ceramics involve a very diverse range of products, which in turn require a large
+    variety of raw materials, according to the desired quality and characteristics.
+    By the way, the main steps in the manufacture of ceramic products are largely
+    independent of the materials used and the final product.
+  68: Steam craking based on ethane.
+  69: Steam craking based on gas oil.
+  70: Steam cracking based on LPG.
+  71: 'A typical steam cracking process is made of three sections [30]. The first
+    includes pyrolysis, a high-temperature stage with subsequent gradual quenching,
+    where olefins are generated in gaseous form and steam is produced and recirculated
+    in the plant to be re-utilized in this same stage. In the second section, primary
+    fractionation/compression occurs: liquid matters (when oil-based feedstocks are
+    involved) undergo a primary fractionation, while gases (when natural gas-based
+    feedstocks are involved) are subject to compression; products of this section
+    are fuel oil and BTX, or aromatic gasoline containing BTX. In the last section,
+    product recovery/separation, a separation process through distillation, refrigeration
+    and extraction.'
+  72: A process specifically aiming to produce propylene C3H6.
+  73: 'It is a recently-demonstrated catalyst-based technology allowing 20 % energy
+    savings with respect to the global average naphtha-based steam cracking, available
+    on commercial scale starting from 2010 . '
+  74: the methanol-to-olefins route is a commercial-stage technology more energy-intensive
+    than steam cracking, since it includes the methanol production stage, but allows
+    production of olefins (and aromatics) from non-oil resources as gas and coal (needed
+    to produce methanol), as well as from biomass in the longer term .
+  75: "The main biomass-based route includes ethylene production from dehydration\
+    \ of bioethanol (BDH), characterized by both higher energy consumption (3.5\xF7\
+    5 times higher than for fossil-fuel based routes) and costs with respect to the\
+    \ other viable alternatives. It is being explored at semi-commercial scale; thus,\
+    \ its commercial availability could be supposed for 2025 [31]."
+  76: It is a process similar in many aspects to partial oxidation but performed on
+    coal.
+  77: It is a process similar in many aspects to partial oxidation but performed on
+    coal.
+  78: Hydrogen is here obtained from steam reforming of coke oven gas and used for
+    methanol synthesis.
+  79: A hydrogen-rich gas is produced by incomplete combustion, in the presence of
+    a sub-stoichiometric amount of air, and used for methanol synthesis.
+  80: In steam reforming of methane from natural gas, the most employed route in ammonia
+    production, the products from the reaction are CO (consequently recombining with
+    steam and producing CO2 and H2) and hydrogen, subsequently used for the synthesis
+    of ammonia.
+  81: In steam reforming of methane from natural gas, the most employed route in ammonia
+    production, the products from the reaction are CO (consequently recombining with
+    steam and producing CO2 and H2) and hydrogen, subsequently used for the synthesis
+    of ammonia.
+  82: Electrolysis is the process used to produce hydrogen, which is then, in turn,
+    used to produce ammonia.
+  83: Electrolysis is the process used to produce hydrogen, which is then, in turn,
+    used to produce ammonia.
+  84: The biomass-based version of the gasification process.
+  85: The biomass-based version of the gasification process.
+  86: This oil-based process is a technologically mature process, which produces a
+    hydrogen-rich gas by incomplete combustion, in the presence of a sub-stoichiometric
+    amount of air. The reaction is exothermic and catalysts are not required, even
+    if they are used in industrial processes to enhance efficiency [32].
+  87: 'CCS related to ammonia production has received a great deal of attention since
+    in this particular field CCS looks promising, as it is probably more cost-effective
+    to be implemented: this can be supposed in relation to the fact that this process
+    produces a highly-pure flow of CO2 [33] that does not require an expensive, complex
+    and energy-intensive CO2 separation plant. Indeed, commercial implementation of
+    the technology is set for 2025 .'
+  88: "The mercury cell technique was the first industrial process introduced for\
+    \ producing chlorine in Europe . It follows a simple principle: electric current\
+    \ flowing through the mercury cell decomposes a solution containing 25 %(wt) sodium\
+    \ chloride, commonly referred to as \u201Cbrine\u201D, passing through the narrow\
+    \ space between the electrodes, and liberating gaseous chlorine Cl2 at the anode,\
+    \ and metallic sodium Na at the cathode. A shallow film of mercury flows along\
+    \ with the brine, collecting the sodium once it is liberated at the surface of\
+    \ the cathode. The liquid amalgam flows from the electrolytic cell to a separate\
+    \ reactor, called \u201Cdecomposer\u201D or \u201Cdenuder\u201D, where it reacts\
+    \ with water in presence of a graphite catalyst to form sodium hydroxide NaOH\
+    \ and gaseous hydrogen H2. This sodium-free mercury is then fed back into the\
+    \ cell and is reused ."
+  89: The diaphragm cell is another well-established chlorine production technique.
+    It was developed in the 1880s in the United States and was the first commercial
+    technique used to produce chlorine and caustic soda from brine . Nowadays, this
+    process still monopolizes chlorine production in North America. It is named after
+    a component, the diaphragm, which is employed to separate the chlorine liberated
+    at the anode, and the hydrogen and caustic soda produced at the cathode. Pre-heating
+    of the brine, essential to achieve good yields, is made by steam. This technology
+    is as polluting as the mercury-based one, since the diaphragm is produced mainly
+    with asbestos.
+  90: 'Here, anode and cathode are separated by an ion-conducting membrane. Brine
+    solution flows through the anode compartment, where chloride ions are oxidized
+    to chlorine gas. Water is electrolyzed at the cathode, releasing gaseous hydrogen
+    H2 and hydroxide ions OH-. Sodium and hydroxide ions combine to produce caustic
+    soda NaOH, which must be continuously removed '
+  91: "This process includes several techniques, all characterized by high yield of\
+    \ not-removed lignin (85 \xF7 90 %) and intended to supply low-quality paper production.\
+    \ The main advantage is in the high yield of usable pulp produced (in average,\
+    \ up to 90 \xF7 95 % of processed wood). Electricity is the main source for driving\
+    \ the mechanical forces involved in these processes . Four technologies are mainly\
+    \ considered in the class of mechanical pulping , : stone groundwood pulping,\
+    \ refiner pulping, thermomechanical pulping (considered as the representative\
+    \ for this category) and chemi-thermochemical pulping."
+  92: "Semi-chemical pulping is a hybrid process where partial delignification is\
+    \ achieved by mild chemical cooking, followed by mechanical defibering. The combination\
+    \ of pulping methods produces an intermediate range of pulp yields (55 \xF7 85\
+    \ %) . Two common semi-chemical pulping methods exist: neutral sulfite semi-chemical\
+    \ pulping (NSSC) and Kraft semi-chemical pulping, see also below. The most used\
+    \ and effective in terms of pulp yield is NSSC (75 \xF7 85 %), considered as representative\
+    \ for this category."
+  93: In 2014, recycled paper covered 55 % of total global demand (producing recovered
+    fiber pulp from recycled paper is much less energy consuming with respect to using
+    unbleached kraft pulp). Naturally, quality of the paper coming from recycled fiber
+    pulping depends on the waste paper source. The yield of produced pulp per tonne
+    of recycled paper is therefore strongly dependent of the destination of the final
+    product  .
+  94: "The Kraft process belongs to the category of chemical pulping, based on the\
+    \ degradation of lignin and hemicellulose into small, water-soluble molecules,\
+    \ removed from cellulose fibers without decomposing or even weakening the fibers\
+    \ themselves. Chemical pulping generally implies high lignin-removal yield (up\
+    \ to 45%) . This result can be obtained by different chemical processes, but the\
+    \ most successful technique in the field is the Kraft process . In the Kraft (or\
+    \ sulphate) process, caustic soda NaOH and sodium sulphate Na2S, blended in a\
+    \ chemical mixture called \u201Cwhite liquor\u201D, transform the wood into a\
+    \ slurry that contains the intact cellulose fibers. Approximately half of the\
+    \ wood is dissolved in what is called \u201Cblack liquor\u201D, mainly made of\
+    \ by lignin and hemicellulose. The last part of the process includes bleaching\
+    \ and drying of the pulp, when needed for transport to the paper mill (if not\
+    \ integrated in the same plant) . A low pulp yield (\u223C 45 % ) is obtained\
+    \ from the original wood, thanks to a quite complex system, where a recovery boiler\
+    \ burns the black liquor and the biomass (bark) left at the end the pulping process\
+    \ ."
+  95: "An alternative chemical pulping method is the sulfite process, which is particularly\
+    \ used nowadays to fulfil the requirements for chlorine-free products for hygiene\
+    \ papers, as well as for printing and writing papers . Sulfite pulp is called\
+    \ \u201Cbrown liquor\u201D and can be bleached more easily. The production process,\
+    \ however, is similar to the Kraft process . For the purpose of this work, a sulfite\
+    \ process provided with energy recovery systems has been assumed as representative.\
+    \ The process is characterized by a lower wood requirement with respect to Kraft\
+    \ pulping (thus higher yield), quantified in 1.95 t(wood)/t(pulp)  ."
+  96: "Black liquor gasification (BLG) is an emerging commercial technology able to\
+    \ obtain energy more efficiently from the organic content in the black liquor\
+    \ through gasification, producing a combustible gas which after upgrading and\
+    \ conditioning results in a mixture of hydrogen and carbon monoxide known as syngas,\
+    \ while recovering the inorganic chemical. The hot flue gases from BLG can be\
+    \ used to generate steam in a heat boiler, resulting in high pressure steam for\
+    \ power generation in a steam turbine. Alternatively, the syngas can be used as\
+    \ feedstock for production of biofuels such as dimethyl ether (DME), Fisher-Tropsch\
+    \ (FT) fuel, methanol, etc., turning the paper mill into a \u2018refinery\u2019\
+    . The EU demonstration project BioDME proved the production of DME from biomass\
+    \ and its utilisation in transport and industrial sectors (BioDME FP7, 2017).\
+    \ Although less steam is produced compared to the conventional recovery boiler\
+    \ (e.g. Tomlinson boiler), the black liquor gasification is considered a future\
+    \ key alternative for the recovery boiler as it provides high value products (e.g.\
+    \ syngas) or more electricity. About 1.75 tonnes of black liquor (measured as\
+    \ dry content) per tonne of pulp can be produced in a bleached kraft pulp mill,\
+    \ representing a potential energy source of 250 -500MW per mill (IEA bioenergy,\
+    \ 2007)."
+  97: 'It is the process by means of which pulp is transformed into actual paper.
+    Paper production mainly involves 3 steps: stock preparation, wet end operation
+    and dry-end operation. During the first phase raw materials are properly mixed
+    to form the raw stock, that will be then processed: pulp, indeed, constitutes
+    only a fraction of the total matter that makes paper .'
+  98: Method of pre-processing iron ore for the blast furnace
+  99: Method of pre-processing iron ore for the blast furnace
+  100: Method of pre-processing iron ore for the blast furnace
+  101: Method of pre-processing coal for the blast furnace
+  102: Production of pig iron
+  103: Production of crude steel
+  104: Residual gas power plant (Tata-owned)
+  105: Residual gas power plant (Velsen 24), built in 1974
+  106: Residual gas power plant (Velsen 25), built in 1986
+  107: Residual gas power plant (IJmond 1)
+  108: Activities to cover rest of energy usage, addition of all post-steel making
+    processes
+  109: Production of pig iron with top gas recycling and carbon capture using VPSA
+    unit
+  110: Method of pre-processing coal for the blast furnace
+  111: Activities to cover rest of energy usage, addition of all post-steel making
+    processes
+  112: Activities to cover rest of energy usage, addition of all post-steel making
+    processes
+  113: Residual gas power plant
+  114: Production of pig iron
+  115: Production of DRI
+  116: Production of crude steel
+  117: Production of hydrogen
+  118: Production of DRI
+  119: Ultrafine grinding, leaching and electrowinning, method to process iron ore
+  120: Production of crude steel
+  121: Production of crude steel
+  122: Electrolysis of aluminium oxide into liquid primary aluminium.
+  123: Casting of aluminium billets and slabs out of liquid primary aluminium mixed
+    with clean industrial scrap, clean aluminium, and alloys.
+  124: Inert anodes can replace current prebaked carbon anodes. As a result, direct
+    f_gases and PFC emissions coming from the electrolysis cells will be avoided.
+  125: By increasing the wettability of the cathode surface of a electrolysis reduction
+    cell, the electrical contact between the liquid aluminium and the carbon cathode
+    improves, and the anode to cathode distance can be reduced. With a fully-drained
+    sloped cathode design, electricity savings can be achieved, and PFC emissions
+    can be reduced.
+  126: By replacing natural gas-fired furnaces by furnaces operating on green gas,
+    direct f_gases emissions can be significantly reduced.
+  127: Production of green anodes, and the baking of these green anodes into prebaked
+    anodes.
+  128: By replacing natural gas-fired furnaces by furnaces operating on green gas,
+    direct f_gases emissions can be significantly reduced.
+  129: Recycling and casting of aluminium billets and slabs out of aluminium scrap.
+  130: By replacing natural gas-fired furnaces by furnaces operating on green gas,
+    direct f_gases emissions can be significantly reduced.
+  131: Dryer that burns natural gas to generate heat used for the BFS
+  132: Used to ground and mix the Clinker, BFS, Fly Ash, Limestonnee, and Calcium
+    Sulfate to produce cement.
+  133: Heat pump uses the thermodynamics cycle of a refrigerant in different temperatures
+    and pressure to produce heat using electricity.
+  134: Hydrogen dryer to replace the natural gas one to produce the heat needed. Considering
+    the capital and operational costs for the production of H2.
+  135: Biofuel dryer to replace the natural gas one to produce the heat needed. Considering
+    buying green gas / SNG as a utility (input).
+  136: 'This vertical cement mill is widely used in the grinding of cement raw meal,
+    slag(GGBS), cement clinker, raw coal and other raw materials. '
+  137: High pressure grinding rolls (HPGR) are used for particle reduction in mining
+    and aggregates industries, especially in hard rock applications.
+  138: Newer designs of high-efficiency separators (Figure 19) aim to improve the
+    separation efficiency further and reduce the required volume of air (hence reducing
+    power use).
+  139: Used to ground and mix the Clinker, BFS, Fly Ash, Limestonnee, and Calcium
+    Sulfate to produce cement.
+  140: Conversion of coal (primary energy) to methanol (feedstock), and further to
+    high value chemicals (ethylene and propylene) or HVCs.
+  141: Conversion of coal (primary energy) to naphtha (feedstock), and further to
+    high value chemicals (ethylene and propylene) or HVCs.
+  142: Conversion of oil (primary energy) to naphtha (feedstock), and further to high
+    value chemicals (ethylene and propylene) or HVCs.
+  143: Conversion of solid biomass (primary energy) to naphtha (feedstock), and further
+    to high value chemicals (ethylene and propylene) or HVCs.
+  144: Conversion of plastic waste to naphtha (feedstock), and further to high value
+    chemicals (ethylene and propylene) or HVCs.
+  145: Conversion of natural gas (primary energy) to ethane (feedstock), and further
+    to high value chemicals (ethylene and propylene) or HVCs.
+  146: Conversion of liquid biofuel to methanol/ethanol (feedstock), and further to
+    high value chemicals (ethylene and propylene) or HVCs.
+  147: Conversion of black liquor (by-product of pulping process) to methanol;
+  148: Conversion of CO2 to methanol.
+  149: Paper mill for high quality paper grade (graphic paper)
+  150: Paper mill for high quality paper grade (graphic paper) with advanced drives
+  151: Paper mill for high quality paper grade (graphic paper) with advanced drives
+    with CO2 capture
+  152: Paper mill for low quality paper grade (other paper)
+  153: Paper mill for low quality paper grade (other paper) with advanced drives
+  154: Paper mill for low quality paper grade (other paper) with advanced drives with
+    CO2 capture
+  155: "By utilizing the latent heat of evaporated moisture and producing steam through\
+    \ the evaporated water, this technology can provide 60\u201380% of the required\
+    \ heat for drying (Del Rio et al. 2022)."
+  156: "By utilizing the latent heat of evaporated moisture and producing steam through\
+    \ the evaporated water, this technology can provide 60\u201380% of the required\
+    \ heat for drying (Del Rio et al. 2022). With CO2 capture."
+  157: "In an integrated pulp and paper mill, wood is received at a pulp mill often\
+    \ in the form of short logs or bolts of round wood with the bark still attached\
+    \ to them. The round wood is frst debarked and then chipped if the pulping process\
+    \ requires chemical digestion. The bark is\nshredded and discarded while the chips\
+    \ are screened, cleaned, and stored for further processing. In Kraft chemical\
+    \ pulping, chips are sent to a large pressure vessel or digester where other chemicals\
+    \ are added. The chips are digested with steam to separate fbers and partially\
+    \ dissolve the lignin and other extractives. The resulting pulp mix is frst fltered\
+    \ to remove large shives, knots, dirt, and other debris and then washed in multiple\
+    \ stages.\nBlack liquor is the by-product of the Kraft process and is concentrated\
+    \ in a multiple-efect evaporator using steam. After this step, the black liquor\
+    \ has about 20\u201330% solids. The black liquor is further evaporated to 65\u2013\
+    80% solids and burned in a recovery furnace to produce steam (which is often supplied\
+    \ as process heat to various production steps) and to increase plant energy efciency.\
+    \ The green liquor from the recovery furnace is sent to a causticizer where it\
+    \ is reacted with lime to convert sodium carbonate to sodium hydroxide. The causticized\
+    \ green\nliquor, called white liquor, is returned to the digester for reuse in\
+    \ the pulping process while the precipitated calcium carbonate is washed and sent\
+    \ to a lime kiln where it is heated to produce calcium oxide.\nThe washed pulp\
+    \ is then screened, cleaned, and most of the water is removed to prepare it for\
+    \ papermaking. Since the pulp mix contains a signifcant amount of lignin and other\
+    \ discoloration materials, the pulp is bleached using water, steam, and chemicals\
+    \ to produce light-colored or white papers at a later stage. In the refning process,\
+    \ the fbers are brought under compression and shear forces which cause several\
+    \ changes in the specifcations of fibers and improve their quality. Water is added\
+    \ to the pulp slurry to make a thin mixture containing <1% fiber. \nThe slurry\
+    \ is cleaned and screened before being fed into the wet end of the paper-forming\
+    \ machine. In the forming section, the fibers present in the slurry form a paper\
+    \ web through drainage by gravity and applied suction below the forming fabric.\
+    \ In the press section, the remaining water is removed by mechanical pressure\
+    \ applied through the nips of a series of presses while the wet web is consolidated.\
+    \ The remaining water content is later dried using steam. Calendaring process\
+    \ smoothens and compresses the paper material by passing a single continuous sheet\
+    \ through a series of heated rolls. The fnal step involves winding and cutting\
+    \ the traveling sheet into paper reels."
+  158: The steam produced in the recovery furnace could be sufcient for supplying
+    heat to the digestor, bleaching machine, and multiple evaporators. Therefore,
+    paper drying is assumed to be the only application that requires steam from other
+    sources including industrial heat pumps (IHPs). All of the steam condensate from
+    the paper drying process can be recovered, requiring no makeup water preheating.
+  159: Calcined clay (metakaolin) production in a standard dry feed rotary kiln; dry
+    kaolinite as input material
+  160: Calcined clay (metakaolin) production in a flash calciner; dry kaolinite as
+    input material
+  161: 'Cement with up to 50% of cement clinker replaced by 35w% calcined clay (metakaolin)
+    and grounded limestone (15w%). '
+  162: Ethylene production via Ethane steam cracking
+  163: Ethylene production via Naphtha steam cracking + CCS
+  164: Ethylene production via Naphtha electric steam cracking
+  165: Ethylene production via Naphtha electric steam cracking + by-product upgrade
+  166: Ethylene production via Naphtha H2 steam cracking
+  167: Ethylene production via Naphtha H2 steam cracking + by-product upgrade
+  168: Ethylene production via Naphtha steam cracking
+  169: Ethylene production via Naphtha steam cracking + by-product upgrade
+  170: Ethylene production via Pyrolysis oil steam cracking
+  171: Ethylene production via Bio-oils steam cracking
+  172: Ethylene production via Catalytic naphtha cracking
+  173: Ethylene production via Catalytic naphtha electric steam cracking
+  174: 'Ethylene production via Catalytic naphtha cracking + CCS '
+  175: Ethylene production via Catalytic naphtha H2 cracking
+  176: Ethylene production via Methanol-to-Olefins (MTO) - Black
+  177: Ethylene production via Methanol-to-Olefins (MTO)- Green
+  178: Ethylene production via Ethane steam cracking + CCS
+  179: Ethylene production via Ethane electric steam cracking
+  180: Ethylene production via Ethane H2 steam cracking
+  181: Ethylene production via Naphtha steam cracking + CCS + by-product upgrade
+  182: Ethylene production via Pyrolysis oil steam cracking + CCS + by-product upgrade
+  183: Ethylene production via Bio-oils steam cracking + by-product upgrade
+  184: Ethylene production via Pyrolysis oil H2 steam cracking + by-product upgrade
+  185: Ethylene production via Bio-oils H2 steam cracking + by-product upgrade
+  186: Ethylene production via Pyrolysis oil H2 steam cracking + CCS + by-product
+    upgrade
+  187: Ethylene production via Pyrolysis oil electric steam cracking + by-product
+    upgrade
+  188: Ethylene production via Bio-oils electric steam cracking + by-product upgrade
+  189: Ethylene production via Pyrolysis oil electric steam cracking + CCS + by-product
+    upgrade
+  190: Ethylene production via Bioethanol Dehydration
+  191: Propylene production via Naphtha steam cracking + CCS
+  192: Propylene production via Naphtha electric steam cracking
+  193: Propylene production via Naphtha electric steam cracking + by-product upgrade
+  194: Propylene production via Naphtha H2 steam cracking
+  195: Propylene production via Naphtha H2 steam cracking + by-product upgrade
+  196: Propylene production via Naphtha steam cracking
+  197: Propylene production via Naphtha steam cracking + by-product upgrade
+  198: Propylene production via Pyrolysis oil steam cracking
+  199: Propylene production via Bio-oils steam cracking
+  200: Propylene production via Catalytic naphtha cracking
+  201: Propylene production via Catalytic naphtha electric steam cracking
+  202: 'Propylene production via Catalytic naphtha cracking + CCS '
+  203: Propylene production via Catalytic naphtha H2 cracking
+  204: Propylene production via Methanol-to-Olefins (MTO)- Black
+  205: Propylene production via Methanol-to-Olefins (MTO)- Green
+  206: Propylene production via Naphtha steam cracking + CCS + by-product upgrade
+  207: Propylene production via Pyrolysis oil steam cracking + CCS + by-product upgrade
+  208: Propylene production via Bio-oils steam cracking + by-product upgrade
+  209: Propylene production via Pyrolysis oil H2 steam cracking + by-product upgrade
+  210: Propylene production via Bio-oils H2 steam cracking + by-product upgrade
+  211: Propylene production via Pyrolysis oil H2 steam cracking + CCS + by-product
+    upgrade
+  212: Propylene production via Pyrolysis oil electric steam cracking + by-product
+    upgrade
+  213: Propylene production via Bio-oils electric steam cracking + by-product upgrade
+  214: Propylene production via Pyrolysis oil electric steam cracking + CCS + by-product
+    upgrade
+  215: Propylene production via propane dehydrogenation (PDH)
+  216: Propylene production via propane dehydrogenation (PDH) + CCS
+  217: Propylene production via methanol-to-propylene (MTP) - Black
+  218: Propylene production via methanol-to-propylene (MTP)- Green
+  219: Propylene production via Refineries - Propylene
+  220: Butadiene production via Naphtha steam cracking + CCS
+  221: Butadiene production via Naphtha electric steam cracking
+  222: Butadiene production via Naphtha electric steam cracking + by-product upgrade
+  223: Butadiene production via Naphtha H2 steam cracking
+  224: Butadiene production via Naphtha H2 steam cracking + by-product upgrade
+  225: Butadiene production via Naphtha steam cracking
+  226: Butadiene production via Naphtha steam cracking + by-product upgrade
+  227: Butadiene production via Pyrolysis oil steam cracking
+  228: Butadiene production via Bio-oils steam cracking
+  229: Butadiene production via Catalytic naphtha cracking
+  230: Butadiene production via Catalytic naphtha electric steam cracking
+  231: 'Butadiene production via Catalytic naphtha cracking + CCS '
+  232: Butadiene production via Catalytic naphtha H2 cracking
+  233: Butadiene production via Naphtha steam cracking + CCS + by-product upgrade
+  234: Butadiene production via Pyrolysis oil steam cracking + CCS + by-product upgrade
+  235: Butadiene production via Bio-oils steam cracking + by-product upgrade
+  236: Butadiene production via Pyrolysis oil H2 steam cracking + by-product upgrade
+  237: Butadiene production via Bio-oils H2 steam cracking + by-product upgrade
+  238: Butadiene production via Pyrolysis oil H2 steam cracking + CCS + by-product
+    upgrade
+  239: Butadiene production via Pyrolysis oil electric steam cracking + by-product
+    upgrade
+  240: Butadiene production via Bio-oils electric steam cracking + by-product upgrade
+  241: Butadiene production via Pyrolysis oil electric steam cracking + CCS + by-product
+    upgrade
+  242: Butadiene production via Ethanol to butadiene
+  243: butadiene polymerisation
+  244: naphta production
+  245: vinyl chloride production
+  246: polyvinylchloride production
+  247: polyethylene production
+  248: polypropylene production
+  249: production of solid structural timber
+  250: production of glued-laminated timber
+  251: production of cross laminated timber
+  252: production of laminated veneer lumber
+  253: production of wood particle board
+  254: production of oriented strand board (OSB)
+  255: production of fiberboard, medium density
+  256: production of fiberboard, high density
+  257: production of sawnwood, softwood, 55% humidity
+  258: production of sawnwood, softwood, chamber dried, 8%-20% humidity
+  259: production of sawnwood, hardwood, chamber dried, 8%-20% humidity
+  260: Conversion of black liquor (by-product of pulping process) to dimethyl ether,
+    an alternative to diesel
+  261: Conversion of black liquor (by-product of pulping process) to Fischer-Tropsch
+    synthesis biofuel, an alternative to diesel
+  262: Conversion of black liquor (by-product of pulping process) to methane, bio
+    synthetic gas
+  263: Beneficiation of suflide ore, crushing, grinding and flotation to produce copper
+    concentrate
+  264: Copper anode primary production via Pyrometallurgical route (Bath smelting
+    and converting) of copper concentrates. Product is copper anode ready to be electrorefined
+  265: Copper anode primary production via Pyrometallurgical route (Continuous smelting
+    and converting) of copper concentrates. Product is copper anode ready to be electrorefined
+  266: Copper anode primary production via Pyrometallurgical route (Flash smelting
+    and converting) of copper concentrates. Product is copper anode ready to be electrorefined
+  267: Copper anode production via pyrometallurgical route using hydrogen as reduction
+    agent
+  268: Copper cathode primary production from oxide ore via Hydrometallurgical route
+    (leaching, solvent extraction and electrowinning)
+  269: Production of copper concentrates from slag recycling
+  270: Electrorefining of copper anode after smelting and converting
+  271: Extraction of precious metals from anode slime from secondary copper production.
+    Includes refining of gold and silver (by-products), palladium needs further processing
+  272: Extraction of precious metals from anode slime coming from copper waste electrorefining
+  273: Secondary copper production via biometallurgy, from low grade e-waste scrap
+  274: Production of secondary copper from ash recycling. Product is copper cathode
+  275: Secondary copper production via chemical treatment, from low grade e-waste
+    scrap
+  276: Secondary copper anode production from high grade copper scrap via pryrometallurgical
+    route
+  277: Secondary copper anode production from low grade copper scrap via pryrometallurgical
+    route
+  278: Secondary copper anode production from medium grade copper scrap via pryrometallurgical
+    route
+  279: Secondary copper production via hydrometallurgy, from low grade e-waste scrap
+  280: Production of asphalt without including reclaimed asphalt, standard production
+    process
+  281: Production of asphalt including a share of reclaimed asphalt
+  282: Production of stone mastic asphalt, using a non-standard aggregate product
+  283: Production of Zeer Open Asfaltbeton, Asphalt which is more porous to let water
+    through
+  284: Production of asphalt without RAP, using a 100% electrified process, this process
+    can be scaled from 0-100% electrification
+  285: Production of asphalt using RAP, using a 100% electrified process, this process
+    can be scaled from 0-100% electrification
+  286: Production of asphalt without RAP, using a 100% hydrogen process, this process
+    can be scaled from 0-100% hydrogen
+  287: Production of asphalt using RAP, using a 100% hydrogen process, this process
+    can be scaled from 0-100% hydrogen
+  288: Production of asphalt without RAP, using a 70% lignin feedstock substitution
+    rate, this process can be scaled from 0-70% substitution
+  289: Production of asphalt using RAP, using a 70% lignin feedstock substitution
+    rate, this process can be scaled from 0-70% substitution
+  290: Production of steel via blast furnace and basic oxygen furnace integrated route.
+  291: Production of steel via Scrap EAF route.
+  292: 'Production of steel via integrated direct reduction and electric arc furnace
+    route. '
+  293: With direct reduction, iron ore pellets are reduced in hydrogen-based DRI plants.
+    The process results in sponge iron (direct reduced iron, DRI) and water. The sponge
+    iron (together with scrap, if needed) can then be melted into crude steel in an
+    electric arc furnace. If hydrogen is produced using 100 per cent renewable energy,
+    this route is virtuallyv carbon-neutral. The DRI process requires a certain share
+    of (bio)methane as a carbon-containing energy carrier for the formation of foamed
+    slag.
+  294: "In alkaline iron electrolysis, iron ore is reduced to iron in a caustic soda\
+    \ solution at a temperature of 110\xB0C and then melted to produce crude steel\
+    \ in an electric arc furnace. The process does not require a carbon-based reduction\
+    \ agent,promising to increase energy efficiency relative to the blast-furnace\
+    \ route and to be carbon-neutral, provided that renewable electricity is used\
+    \ throughout the process. An alternative is to conduct the electrolytic process\
+    \ of molten iron ore at high temperatures."
+  295: "The HIsarna\xAE process is an innovative, carbon-\nbased smelting reduction\
+    \ process that eliminates the\nagglomeration stages (coking plant, sintering/pelleting)\
+    \ in steel production. The iron ore, which can be mixed with up to 50 per cent\
+    \ scrap, is reduced directly to pig iron in a single reactor. The process is particularly\
+    \ suitable for combination with CCS because its exhaust gas consists of comparatively\
+    \ pure CO2. Carbon reductions of up to 86 per cent are possible. The electricity\
+    \ use of the HIsarna process is around 0.5 MWh per t of crude steel and hence\
+    \ comparatively low."
+  296: The CCU process captures a portion of the metallurgical gases arising from
+    the blast-furnace route and uses them for the production of chemicals such as
+    methanol, ethanol, synthetic fuels and ammonia. The gases captured in this process
+    no longer have to be burnt and their use in the chemical industry substitutes
+    the use of crude oil. However, the low-carbon production of chemicals such as
+    methanol (a raw material for plastic production) requires the additional production
+    of green hydrogen, which makes this route very electricity-intensive.
+  297: Gasification and synthesis of black liquor, a by-product of chemical pulping,
+    to produce methanol.
+  298: Gasification and synthesis of black liquor, a by-product of chemical pulping,
+    to produce heat and power via integrated gasification combined cycle technology.
+  299: "Kraft pulping is the most widely used chemical pulping process, which involves\
+    \ the use of sodium hydroxide (NaOH) and sodium sulfide (Na2S) under highly alkaline\
+    \ conditions and subject to a temperature between 155 to 180 \xB0C, and a steam\
+    \ pressure of 800 kPa as the main cooking conditions to breakdown wood chips into\
+    \ pulp [93]. The resulting cooking liquors, known as black liquors, emerge as\
+    \ a by-product of the Kraft chemical pulping process, with approximately seven\
+    \ tons of black liquors generated per ton of chemical pulp produced [95]. The\
+    \ recovery cycle plays a vital role in Kraft production, which includes the recovery\
+    \ of energy from black liquors trough evaporator units and recovery boilers, and\
+    \ the recovering of pulping chemicals trough causticizing and energy intensive\
+    \ lime kiln processes. Black liquors serve as a valuable resource for supplying\
+    \ process heat and electricity to pulp and paper production processes through\
+    \ combustion boilers and cogeneration processes. "
+  300: "Mechanical pulping can be categorized into four types: stone groundwood pulping,\
+    \ which entails pressing wood against a rotating grindstone at high speeds (1000\
+    \ to 1200 rev/min); refiner mechanical pulping, which involves shredding and grinding\
+    \ wood chips between rotating metal discs or plates using a refiner at atmospheric\
+    \ pressure; thermo-mechanical pulping, which includes the impregnation and preheating\
+    \ of wood chips with steam under pressure and temperatures around 115\u2013155\
+    \ \xB0C, followed by refining; and chemo-thermo-mechanical pulping, which requires\
+    \ the impregnation of wood chips with a combination of steam and chemicals to\
+    \ soften the lignin before mechanical refining."
+  301: "Pulp production from recovered paper. Recycled fibres pulping involves dissolving\
+    \ the shredded paper in hot water and separating the fibres and remove impurities\
+    \ by a mechanical process. De\u2013inking may apply depending on paper grade. "
+  302: "Kraft pulping is the most widely used chemical pulping process, which involves\
+    \ the use of sodium hydroxide (NaOH) and sodium sulfide (Na2S) under highly alkaline\
+    \ conditions and subject to a temperature between 155 to 180 \xB0C, and a steam\
+    \ pressure of 800 kPa as the main cooking conditions to breakdown wood chips into\
+    \ pulp [93]. The resulting cooking liquors, known as black liquors, emerge as\
+    \ a by-product of the Kraft chemical pulping process, with approximately seven\
+    \ tons of black liquors generated per ton of chemical pulp produced [95]. The\
+    \ recovery cycle plays a vital role in Kraft production, which includes the recovery\
+    \ of energy from black liquors trough evaporator units and recovery boilers, and\
+    \ the recovering of pulping chemicals trough causticizing and energy intensive\
+    \ lime kiln processes. Black liquors serve as a valuable resource for supplying\
+    \ process heat and electricity to pulp and paper production processes through\
+    \ combustion boilers and cogeneration processes. "
+  303: "Mechanical pulping can be categorized into four types: stone groundwood pulping,\
+    \ which entails pressing wood against a rotating grindstone at high speeds (1000\
+    \ to 1200 rev/min); refiner mechanical pulping, which involves shredding and grinding\
+    \ wood chips between rotating metal discs or plates using a refiner at atmospheric\
+    \ pressure; thermo-mechanical pulping, which includes the impregnation and preheating\
+    \ of wood chips with steam under pressure and temperatures around 115\u2013155\
+    \ \xB0C, followed by refining; and chemo-thermo-mechanical pulping, which requires\
+    \ the impregnation of wood chips with a combination of steam and chemicals to\
+    \ soften the lignin before mechanical refining."
+  304: "Pulp production from recovered paper. Recycled fibres pulping involves dissolving\
+    \ the shredded paper in hot water and separating the fibres and remove impurities\
+    \ by a mechanical process. De\u2013inking may apply depending on paper grade. "
+  305: Electrolysis of aluminium oxide into liquid primary aluminium.
+  306: Electrolysis of aluminium oxide into liquid primary aluminium using point feeders.
+  307: Electrolysis of aluminium oxide into liquid primary aluminium using optimal
+    electrolysis.
+  308: Electrolysis of aluminium oxide into liquid primary aluminium using reduced
+    electrolyte temperature.
+  309: Inert anodes can replace current prebaked carbon anodes. As a result, direct
+    f_gases and PFC emissions coming from the electrolysis cells will be avoided.
+  310: "Secondary aluminum is produced from scrap metal (thus without the strict need\
+    \ for alumina), either \u201Cnew\u201D scrap from production and manufacturing\
+    \ or \u201Cold\u201D scrap from recycled aluminum."
+  311: "Secondary aluminum is produced from pre-heated scrap metal (thus without the\
+    \ strict need for alumina), either \u201Cnew\u201D scrap from production and manufacturing\
+    \ or \u201Cold\u201D scrap from recycled aluminum."
+  312: "Secondary aluminum is produced from scrap metal (thus without the strict need\
+    \ for alumina) in enhanced furnaces, either \u201Cnew\u201D scrap from production\
+    \ and manufacturing or \u201Cold\u201D scrap from recycled aluminum."
+  313: Controlled oxidation of the aluminium surface achieved by immersion in an electrolyte
+    (usually diluted sulphuric acid) solution. For end-use aluminium products.
+  314: Flat glass production.
+  315: Flat glass production with heat recovery using improved burners.
+  316: Flat glass production with heat recovery using improved burners with carbon
+    capture and storage.
+  317: Hollow glass production.
+  318: Hollow glass production with heat recovery using improved burners.
+  319: Hollow glass production with heat recovery using improved burners with carbon
+    capture and storage.
+  320: 'Hollow glass recycling, or reprocessing, is the process of turning waste glass
+    back into usable products. This involves washing, crushing and melting used glass
+    before moulding it back into bottles and jars. '
+  321: 'Hollow glass recycling, or reprocessing, is the process of turning waste glass
+    back into usable products. This involves washing, crushing and melting used glass
+    using improved burners before moulding it back into bottles and jars. '
+  322: 'Hollow glass recycling, or reprocessing, is the process of turning waste glass
+    back into usable products. This involves washing, crushing and melting used glass
+    using improved burners with carbon capture and storage before moulding it back
+    into bottles and jars. '
+  323: Quicklime is produced by heating crushed limestone to around 1,100 degrees
+    Celsius in a shaft furnace or rotary kiln. The heating of limestone releases carbon
+    dioxide, leaving calcium oxide (CaCO3 produces CaO + CO2). After heating, the
+    quicklime is crushed and then milled to the appropriate fraction.
+  324: Method of pre-processing iron ore for the blast furnace
+  325: Method of pre-processing iron ore for the blast furnace
+  326: Method of pre-processing iron ore for the blast furnace
+  327: Production of pig iron using charcoal
+  328: Production of pig iron using direct coal injection
+  329: Production of pig iron with carbon capture and storage
+  330: Production of pig iron with top gas recycling
+  331: Production of pig iron with top gas recycling and carbon capture
+  332: The Cyclone Converter Furnace (CCF) process originated from the Converted Blast
+    Furnace (CBF) jointly developed by Hoogovens, British Steel and Ilva in the years
+    1986 to 1989. In the CBF process, lumpy ore is highly pre-reduced in a shaft with
+    final reduction and melting taking place in an iron bath in which fine coal is
+    gasified. The process can avoid coke making but not ore agglomeration and related
+    environmental problems. To further eliminate ore agglomeration in the process,
+    the Cyclone Converter Furnace (CCF) is developed, in which a melting cyclone is
+    applied for pre-reduction and pre-melting of fine ore. A small CCF pilot plant
+    was built in Taranto, Italy.
+  333: 'The Corex Process is a smelting reduction process created by Primetals as
+    a more environmentally friendly alternative to the blast furnace. The Corex process
+    consists of two main parts: a Reduction Shaft and a Melter-Gasifier. The main
+    reagents for the Corex process are iron ore, noncoking coal, and oxygen. Unlike
+    a blast furnace, the Corex process does not use a hot blast of nitrogen, thereby
+    greatly reducing NOx gas emissions, but instead uses oxygen.'
+  334: Corex smelting reduction process with carbon capture and storage.
+  335: "Basic oxygen steelmaking is a primary steelmaking process for converting molten\_\
+    pig iron\_into\_steel\_by blowing\_oxygen\_through a lance over the molten pig\
+    \ iron inside the converter"
+  336: Production of crude steel, using scrap input
+  337: A cupola or cupola furnace is a melting device used in foundries that can be
+    used to melt cast iron.
+  338: 'Direct reduced iron route with natural gas as reductant. '
+  339: Direct reduced iron route with natural gas as reductant. With carbon capture
+    and storage.
+  340: Electric arc furnace for crude steel production.
+  341: "A very promising variation to the traditional DRI-EAF route is the use of\
+    \ hydrogen instead of natural gas to reduce the iron, in the hydrogen direct reduction\
+    \ (HDR) process. Hydrogen, produced by a clean source \u2013 generally identified\
+    \ in an electrolyzer \u2013 is fed into a shaft containing pre-heated iron ore\
+    \ to reduce it into hot briquetted iron, ready to undergo the second part of the\
+    \ process in a standard EAF. Despite there is so far very little information on\
+    \ HDR processes in scientific literature, a commercial plant of this type is already\
+    \ in operation in Trinidad [12]. "
+  342: Electric arc furnace for crude steel production using scrap input.
+  343: Regarding the production of ferroalloys, they include a vast category of alloys
+    of iron, chromium, silicon, manganese and others. The combined production of ferrochromium
+    FeCr, ferromanganese FeMn, ferrosilicon FeSi and silicomanganese SiMn has constituted
+    the largest part of global ferroalloys production during the last 20 years (88
+    % in 2002, 72 % in 2011 and 65 % in 2015, thus highlighting a constantly decreasing
+    trend  ), so a single technology is used to aggregate all ferroalloys (since data
+    for energy consumption are only available for the most traditional ferroalloys),
+    and its energy consumption is made up by the weighted average of values related
+    to the production of the mentioned ferroalloys between 2011 and 2015. On the other
+    hand, the JRC-EU-TIMES only considers ferrochromium as representative for the
+    entire production field.
+  344: Processing steel beyond the stages of billets, blooms, sheet bars, slabs, and
+    wire rods, to make it ready for the market.
+  345: "Using the Hall-H\xE9roult process, alumina is fed into a cell where a high-intensity\
+    \ electrical current (approximately 400\u2013450 kiloamperes [kA] with the best\
+    \ available technology) creates an electrolysis reaction that reduces the alumina\
+    \ into liquid aluminium. This reaction requires the presence of anodes, which\
+    \ today are produced, sometimes on site, from carbon materials (e.g., coal tar\
+    \ pitch, petroleum coke). The process results in CO2 and PFC emissions, which\
+    \ are respectively caused by the reaction of the oxygen freed from the alumina\
+    \ with the carbon anode, and by the occurrence of anode effects."
+  346: "Hall-H\xE9roult process with carbon capture and storage. "
+  347: 'Blast furnace and basic oxygen furnace integrated routes. Boundaries include
+    coking, pellet, and sinter plants. '
+  348: 'Blast furnace and basic oxygen furnace integrated routes - best available
+    technology. Boundaries include coking, pellet, and sinter plants. '
+  349: 'Blast furnace and basic oxygen furnace integrated routes using charcoal as
+    reductant. Boundaries include coking, pellet, and sinter plants. Based on Brazilian
+    plants. '
+  350: 'Smelting reduction and basic oxygen furnace integrated routes. '
+  351: 'Blast furnace and basic oxygen furnace with carbon capture and storage integrated
+    routes. Boundaries include coking, pellet, and sinter plants. '
+  352: 'Blast furnace and basic oxygen furnace integrated routes using charcoal as
+    reductant, with carbon capture and storage. Boundaries include coking, pellet,
+    and sinter plants. Based on Brazilian plants. '
+  353: 'Smelting reduction with carbon capture and storage and basic oxygen furnace
+    integrated routes. '
+  354: Direct reduced iron route with natural gas as reductant.
+  355: 'Direct reduced iron route with natural gas as reductant with carbon capture
+    and storage. '
+  356: Direct reduced iron route with hydrogen as reductant.
+  357: 'Electric arc furnace process to produce steel from sponge iron. '
+  358: 'Electric arc furnace process to produce steel from steel scrap. '
+  359: In dry and semi dry processes for manufacturing of cement, the raw materials
+    are crushed and fed in the correct proportions into a grinding mill. The raw materials
+    are dried and reduced in size to a fine powder in to grinding mill. The dry powder
+    is called the raw meal. The raw meal is pumped into a blending silo. Adjustment
+    in the proportion of the materials required for the manufacture of cement is done
+    in silo.
+  360: Clinker production using the dry process with carbon capture and storage
+  361: "The wet version of the clinker production process is less efficient than its\
+    \ dry correspondent. The slurry flow getting into the kiln to produce clinker\
+    \ has 40\xF745 % of water content and naturally a portion of the heat supplied\
+    \ in the in process provokes water evaporation. The wet process is preferred where\
+    \ raw materials are available with a moisture content higher than 20 % (and up\
+    \ to 45 %)."
+  362: The clinker is ground to a fine powder in a cement mill and mixed with gypsum
+    to create cement. The powdered cement is then mixed with water and aggregates
+    to form concrete that is used in construction.
+  363: Main raw material inflows for cement clinker production in UK (with clay as
+    siliceous raw material). Supposed to complement more specific cement clinker production
+    technology and energy inventories already in database.
+  364: Main raw material inflows for cement clinker production in UK (with shale as
+    siliceous raw material). Supposed to complement more specific cement clinker production
+    technology and energy inventories already in database.
+  365: Main raw material inflows for cement clinker production in China (siliceous
+    raw material not specified). Supposed to complement more specific cement clinker
+    production technology and energy inventories already in database.
+  366: Cement clinker production in rotary kiln
+  367: Cement clinker production in rotary kiln with MEA post combustion carbon capture
+    and storage
+  368: Cement clinker production in rotary kiln with oxyfuel carbon capture and storage
+  369: Cement clinker production in rotary kiln with chilled ammonia carbon capture
+    and storage
+  370: Cement clinker production in rotary kiln with membrane assisted CO2 liquefaction
+    carbon capture and storage
+  371: Cement clinker production in rotary kiln with tail end calcium looping carbon
+    capture and storage
+  372: Cement clinker production in rotary kiln with integrated calcium looping carbon
+    capture and storage
+  373: Cement clinker production in rotary kiln plasma heating
+  374: Cement clinker production in rotary kiln plasma heating with carbon capture
+    and storage
+  375: Cement production through clinker grinding
+  376: "Thanks to their chemically inert nature, these anodes have the potential to\
+    \ eliminate 100% of CO\u2082 and PFC emissions. The technology\u2019s promising\
+    \ emissions reduction profile has generated interest in the industry, and several\
+    \ companies are spearheading R&D efforts. Despite a current TRL level of 7, however,\
+    \ inert anodes are not expected to achieve commercial deployment readiness before\
+    \ 2030. In addition, retrofitting the technology to existing pot rooms would imply\
+    \ a significant redesign resulting in large upfront."
+  377: Another type of kiln is the parallel flow regenerative kiln, not characterized
+    for the lack of available data. Instead, in the JRC-EU-TIMES, lime production
+    is modelled as a generic kiln using a generic fuel, so not relying on any specific
+    existing process.
+  378: Extraction of precious metals from anode slime
+  379: Production of pig iron
+  380: Production of pig iron with carbon capture and storage (post-combustion carbon
+    capture Monoethanolamine)
+  381: Production of pig iron with carbon capture and storage (Post-combustion carbon
+    capture -  Vacuum Pressure swing adsorption)
+  382: Steelmaking with Modernized Blast furnace plus premium for BOF gas and sensible
+    heat recovery, Coke dry quenching,  Top gas pressure recovery and recovery of
+    Blast Furnace gas, and  Foamy slag practive oxyfuel burners/lancers.
+  383: Steelmaking with Modernized Blast furnace plus premium for BOF gas and sensible
+    heat recovery, Coke dry quenching,  Top gas pressure recovery and recovery of
+    Blast Furnace gas, and  Foamy slag practive oxyfuel burners/lancers. with CCS
+    (Methyl diethanolamine)
+  384: Steelmaking with Modernized Blast furnace plus premium for BOF gas and sensible
+    heat recovery, Coke dry quenching,  Top gas pressure recovery and recovery of
+    Blast Furnace gas, and  Foamy slag practive oxyfuel burners/lancers. CCS (Vacuum
+    Pressure swing adsorption)
+  385: Smelting reduction is an alternative approach to steelmaking that uses coal
+    to reduce iron ore (in the forms of lump ore), pellets, or fines to molten iron.
+    The purpose of smelting reduction is to produce liquid hot metal. It requires
+    little preparation of iron ore and uses coal, oxygen, and/or electrical energy.
+    Conventional technology.
+  386: Smelting reduction is an alternative approach to steelmaking that uses coal
+    to reduce iron ore (in the forms of lump ore), pellets, or fines to molten iron.
+    The purpose of smelting reduction is to produce liquid hot metal. It requires
+    little preparation of iron ore and uses coal, oxygen, and/or electrical energy.
+    Advanced technology (more efficient than conventional).
+  387: Smelting reduction is an alternative approach to steelmaking that uses coal
+    to reduce iron ore (in the forms of lump ore), pellets, or fines to molten iron.
+    The purpose of smelting reduction is to produce liquid hot metal. It requires
+    little preparation of iron ore and uses coal, oxygen, and/or electrical energy.
+    Advanced technology (more efficient than conventional), with CCS (Vacuum Pressure
+    swing adsorption)
+  388: 'Direct reduced iron route with coal as reductant. Rotating kiln. '
+  389: Direct reduced iron route with coal as reductant. Rotating Hearth. Based on
+    FASTMET technology.
+  390: Direct reduced iron route with coke as reductant. For powder production.
+  391: 'Direct reduced iron route with natural gas as reductant. '
+  392: Direct reduced iron route with natural gas as reductant. With carbon capture
+    and storage.
+  393: 'Direct reduced iron route with syngas as reductant. '
+  394: Direct reduced iron route with syngas as reductant. With carbon capture and
+    storage.
+  395: Direct reduced iron route with hydrogen as reductant. With fuel heating.
+  396: Direct reduced iron route with hydrogen as reductant. Electric heating.
+  397: Steelmaking with Electrowinning
+  398: "Basic oxygen steelmaking is a primary steelmaking process for converting molten\_\
+    pig iron\_into\_steel\_by blowing\_oxygen\_through a lance over the molten pig\
+    \ iron inside the converter"
+  399: Electric arc furnace for crude steel production.
+  400: 'Stainless steel making via electric arc furnace '
+  401: Ferrochrome production via electric arc furnace
+  402: steel slabs and billets production
+  403: steel powder production
+  404: 'sponge iron powder grinding '
+  405: Heat treatment steel powder, with fuel
+  406: "Secondary aluminum is produced from scrap metal (thus without the strict need\
+    \ for alumina), either \u201Cnew\u201D scrap from production and manufacturing\
+    \ or \u201Cold\u201D scrap from recycled aluminum."
+  407: Steam impingement dryers are comparable to air impingement dryers but differ
+    in drying medium, as superheated steam is used instead of hot air. Energy use
+    is more or less similar to conventional multi cylinder drying [7]. However, since
+    the exhaust air is (low pressure) steam, it is possible to recover all latent
+    heat which creates large potential for heat recovery. In order to compensate for
+    pressure drops, a compressor or fan is required which causes an increase in electricity
+    use. Even though the concept of superheated steam drying is more than 100 years
+    old, and the technology is already used in other industries, the technology is
+    still not commercial in the paper industry [12] as implementation requires a major
+    adaptation to the paper making process [7].
+  408: Conventional papermaking for soft paper grade.
+  409: 'Impingement dryers for soft paper grades are usually used at the beginning
+    of the pre- or after dryer section. Due to compact
 
-classification_items_reference:
-  1: ' '
-  2: ' '
-  3: ' '
-  4: ' '
-  5: ' '
-  6: ' '
-  7: ' '
-  8: ' '
-  9: ' '
-  10: ' '
-  11: ' '
-  12: ' '
-  13: ' '
-  14: ' '
-  15: ' '
-  16: ' '
-  17: ' '
-  18: ' '
-  19: ' '
-  20: ' '
-  21: ' '
-  22: ' '
-  23: ' '
-  24: ' '
-  25: ' '
-  26: ' '
-  27: ' '
-  28: ' '
-  29: ' '
-  30: ' '
-  31: ' '
-  32: ' '
-  33: ' '
-  34: ' '
-  35: ' '
+
+    design, the dryer makes an excellent rebuild alternative, with minimal building
+    modifications and short
+
+
+    installation time. Steam pressure in the existing dryer cylinders can be increased
+    in the early drying stage.
+
+
+    Impingement drying provides a stronger sheet earlier in the dryer section for
+    better runnability. Rapid drying adjustability speeds up grade changes. The final
+    product has more uniform moisture and tension profiles and correspondingly higher
+    quality. '
+  410: Interest in the application of press-drying to paper-making has arisen primarily
+    because of the possible improvements to the physical properties of paper using
+    high yield pulp furnishes and increasing amounts of hardwood fibres. A major proportion
+    of the development work on press-drying has centred around the production of heavy
+    paper grades, specifically liner-board.
+  411: Impulse drying is a technology used for extracting water from the paper web
+    on the machine. The operating principle is based on the displacement of water
+    from the paper by steam. The steam is formed in the paper by heating it on one
+    side using a pressure roll. This makes the water removal mechanism fundamentally
+    different from purely mechanical (compression) or thermal (evaparation) water
+    removal processes. Impulse drying can be used for newsprint and writing paper
+    qualities. An inherent quality of the operating principle embodied in impulse
+    drying is the low energy requirement for dewatering when compared with similar
+    dewatering levels obtained using drying rolls (70% less).
+  412: Conventional papermaking for graphical paper grade.
+  413: "In the Condebelt process, the paper web sits atop two permeable wires and\
+    \ is fed into an extended nip between two smooth steel belts. While the upper\
+    \ steel belt is heated by high-pressure steam at temperatures of 110\u2013160\xB0\
+    C, the lower steel belt is cooled by circulating water at around 80\xB0C. The\
+    \ top side of the web is in direct contact with the upper steel belt, while the\
+    \ wire side of the web contacts a fine wire with a coarse wire underneath. Vapor\
+    \ generated from the web passes through the wires and condenses on the lower steel\
+    \ belt. Water condensed on the surface of the lower belt or in the interstices\
+    \ of the wires is removed with a doctor or by applying vacuum. A web dried under\
+    \ such unsymmetrical conditions will show distinct two-sidedness. However, for\
+    \ certain grades such as linerboard and corrugating medium, two-sidedness may\
+    \ not be of great concern."
+  414: "Airless drying for graphical paper grade. By utilizing the latent heat of\
+    \ evaporated moisture and producing steam through the evaporated water, this technology\
+    \ can provide 60\u201380% of the required heat for drying (Del Rio et al. 2022)."
+  415: 'Impingement dryers for graphical paper grades are usually used at the beginning
+    of the pre- or after dryer section. Due to compact
+
+
+    design, the dryer makes an excellent rebuild alternative, with minimal building
+    modifications and short
+
+
+    installation time. Steam pressure in the existing dryer cylinders can be increased
+    in the early drying stage.
+
+
+    Impingement drying provides a stronger sheet earlier in the dryer section for
+    better runnability. Rapid drying adjustability speeds up grade changes. The final
+    product has more uniform moisture and tension profiles and correspondingly higher
+    quality. '
+  416: "Hall-H\xE9roult process with carbon capture and storage. "
+  417: Inert anodes can replace current prebaked carbon anodes. As a result, direct
+    f_gases and PFC emissions coming from the electrolysis cells will be avoided.
+  418: "It is the commercially established production process for aluminum (it gives\
+    \ 95% of the aluminum production), starting from alumina. Even if two version\
+    \ of the process exist, the one base on pre-baked carbon anodes has become predominant.\
+    \ In this process aluminum is produced by the electrolytic reduction of alumina,\
+    \ dissolved in a molten bath of mainly sodium aluminum fluoride (cryolite) at\
+    \ ~ 960 \xB0C. The importance of energy over total cost for producing aluminum\
+    \ is huge. For this reason, the process requires constant improvements in terms\
+    \ of efficiency.  "
+  419: Remelting scrap and crude aluminium to produce raw aluminium using fuel.
+  420: Remelting scrap and crude aluminium to produce raw aluminium using electricity.
+  421: "Aluminum castings are formed by\_pouring molten metal into molds that have\
+    \ been shaped by a pattern of the desired final product. Three common types of\
+    \ molding methods are used to produce castings: die casting, permanent mold casting,\
+    \ and sand casting."
+  422: Aluminium hot rolling to long products using fuel
+  423: Aluminium hot rolling to long products using electricity
+  424: Aluminium hot rolling to sheet products using fuel
+  425: Aluminium hot rolling to sheet products using electricity
+  426: Aluminium finishing to cast products using fuel
+  427: Aluminium finishing to cast products using electricity
+  428: Oxygen supply module
 
 classification_items_attribute1_oto:
-  1: steel making
-  2: blast furnace + basic oxygen furnace, standard technology
-  3: direct reduced iron + electric arc furnace (DRI+EAF)
-  4: smelting reduction + basic oxygen furnace
-  5: cement
-  6: standard rotary kiln (dry kiln)
-  7: chemicals
-  8: ethane steam cracking
-  9: naphtha steam cracking
-  10: steam reforming
-  11: 'coal gasification '
-  12: blast furnace + basic oxygen furnace + CCS, standard technology + CCS
-  13: blast furnace + basic oxygen furnace + top gas recycling, standard technology
-    + TGR
-  14: blast furnace + basic oxygen furnace + top gas recycling, best available technology
-  15: blast furnace + basic oxygen furnace + top gas recycling + CCS, best available
-    technology + CCS
-  16: blast furnace with hydrogen + basic oxygen furnace
-  17: iron ore reduction (direct reduction) with hydrogen
-  18: electrowinning of iron + electric arc furnace
-  19: smelting reduction of iron ore + basic oxygen furnace + CCS
-  20: carbon capture and utilisation of steel mill off-gases
-  21: clinker production with efficient rotary kiln
-  22: clinker production with efficient rotary kiln + CCS (oxyfuel)
-  23: clinker production with efficient rotary kiln + CCS (post-combustion)
-  24: methanol-to-olefins
-  25: methanol-to-aromatics
-  26: bionaphtha steam cracking
-  27: bioethane steam cracking
-  28: electric steam cracking
-  29: 'CCU (CO_2+H2) to methanol '
-  30: ethanol to butadiene
-  31: ethanol to ethylene
-  32: remelting of steel scrap in electric arc furnace
-  33: mechanical sorting of plastic waste
-  34: remelting of plastic waste
-  35: chemical recycling of plastic waste
+  1: all units
+  2: steam cracker
+  3: CCS unit
+  4: electric steam cracker
+  5: POX unit
+  6: methanol synthesis unit
+  7: MTO unit
+  8: hydrogen burners
+  9: NOx abatement unit
+  10: pyrolysis unit
+  11: hydrotreater
+  12: PDH
+  13: C3 splitter
+  14: C4 extraction
+  15: '[IMAGE] Standard dry feed rotary kiln'
+  16: '[IMAGE] Efficient dry feed rotary kiln'
+  17: '[IMAGE] Efficient dry feed rotary kiln + on-site CCS'
+  18: '[IMAGE] Efficient dry feed rotary kiln + oxy-combustion CCS'
+  19: '[Open-IDTD] Blended cement'
+  20: '[Open-IDTD] Alkali-activated cement'
+  21: '[Open-IDTD] Belite cement'
+  22: '[Open-IDTD] Standard dry feed rotary kiln'
+  23: '[Open-IDTD] Wet clinker'
+  24: '[Open-IDTD] Dry cl. w/ post-comb. CCS'
+  25: '[Open-IDTD] Dry cl. w/ oxyfuel CCS'
+  26: '[IMAGE] Blast Furnace + Basic Oxygen Furnace'
+  27: '[IMAGE] Direct Reduced Iron + Electric Arc Furnace'
+  28: '[IMAGE] Standard Electric Arc Furnace - Scrap'
+  29: '[IMAGE] Modernized Blast Furnace + Basic Oxygen Furnace'
+  30: '[IMAGE] Blast Furnace + Basic Oxygen Furnace w/ CO2 capture'
+  31: '[IMAGE] Smelting reduction + Basic Oxygen Furnace'
+  32: '[IMAGE] Smelting reduction + Basic Oxygen Furnace w/ CO2 capture'
+  33: '[IMAGE] Direct Reduced Iron + Electric Arc Furnace w/ CO2 capture'
+  34: '[IMAGE] Top Gas Recycling Blast Furnace + Basic Oxygen Furnace'
+  35: '[IMAGE] Top Gas Recycling Blast Furnace BAT + Basic Oxygen Furnace'
+  36: '[IMAGE] Top Gas Recycling Blast Furnace BAT + Basic Oxygen Furnace w/ CO2 capture'
+  37: '[IMAGE] Hydrogen Direct Reduced Iron + Electric Arc Furnace'
+  38: '[IMAGE] Electrowinning + Electric Arc Furnace'
+  39: '[Open-IDTD] Blast Furnace + Basic oxygen Furnace'
+  40: '[Open-IDTD] Direct Reduced Iron + Electric Arc Furnace'
+  41: '[Open-IDTD] Standard Electric Arc Furnace - Scrap'
+  42: '[Open-IDTD] Smelting reduction + Basic oxygen Furnace'
+  43: '[Open-IDTD] Blast Furnace + Basic oxygen Furnace w/ CO2 capture'
+  44: '[Open-IDTD] Top Gas Recycling Blast Furnace BAT + Basic oxygen Furnace w/ CO2
+    capture'
+  45: '[Open-IDTD] Direct Reduced Iron + Electric Arc Furnace w/ CO2 capture'
+  46: '[Open-IDTD] Hydrogen Direct Reduced Iron + Electric Arc Furnace'
+  47: '[Open-IDTD] Hisarna'
+  48: '[Open-IDTD] HIsarna w/ CCS'
+  49: '[Open-IDTD] Ulcored'
+  50: '[Open-IDTD] Ulcolysis'
+  51: '[Open-IDTD] Ulcowin'
+  52: '[Open-IDTD] Ferroalloys'
+  53: '[Open-IDTD] Copper production'
+  54: '[Open-IDTD] Zinc production'
+  55: '[Open-IDTD] Tin production'
+  56: '[Open-IDTD] Kroll process'
+  57: '[Open-IDTD] Niobium production'
+  58: '[Open-IDTD] Bayer process'
+  59: "[Open-IDTD] Hall-H\xE9roult"
+  60: '[Open-IDTD] Secondary aluminum'
+  61: '[Open-IDTD] Inert anodes'
+  62: '[Open-IDTD] Carbothermic reduction'
+  63: '[Open-IDTD] Kaolinite reduction'
+  64: '[Open-IDTD] Long rotary kiln'
+  65: '[Open-IDTD] Fossil fuel-fired furnace'
+  66: '[Open-IDTD] All electric furnace'
+  67: '[Open-IDTD] Ceramics'
+  68: '[Open-IDTD] Ethane SC'
+  69: '[Open-IDTD] Gas oil SC'
+  70: '[Open-IDTD] LPG SC'
+  71: '[Open-IDTD] Naphtha SC'
+  72: '[Open-IDTD] PDH'
+  73: '[Open-IDTD] Naphtha CC'
+  74: '[Open-IDTD] MTO'
+  75: '[Open-IDTD] Bioethanol DH'
+  76: '[Open-IDTD] Coal GSF_MeOH'
+  77: '[Open-IDTD] Coal GSF_NH3'
+  78: '[Open-IDTD] COG SR'
+  79: '[Open-IDTD] LPG POX_MeOH'
+  80: '[Open-IDTD] NG SR_MeOH'
+  81: '[Open-IDTD] NG SR_NH3'
+  82: '[Open-IDTD] Electrolysis_MeOH'
+  83: '[Open-IDTD] Electrolysis_NH3'
+  84: '[Open-IDTD] Biomass GSF_MeOH'
+  85: '[Open-IDTD] Biomass GSF_NH3'
+  86: '[Open-IDTD] Naphtha POX'
+  87: '[Open-IDTD] NG SR w/ CCS'
+  88: '[Open-IDTD] Mercury cell'
+  89: '[Open-IDTD] Diaphragm cell'
+  90: '[Open-IDTD] Membrane cell'
+  91: '[Open-IDTD] Mechanical pulping'
+  92: '[Open-IDTD] Semi-chemical pulping'
+  93: '[Open-IDTD] Recycled fiber pulping'
+  94: '[Open-IDTD] Kraft process'
+  95: '[Open-IDTD] Sulphite process'
+  96: '[Open-IDTD] Kraft/BLG'
+  97: '[Open-IDTD] Paper mill'
+  98: '[MIDDEN] Sinter plant'
+  99: '[MIDDEN] Pellet plant'
+  100: '[MIDDEN] Pellet plant no coke'
+  101: '[MIDDEN] Coke plant'
+  102: '[MIDDEN] Blast furnace'
+  103: '[MIDDEN] Basic oxygen furnace'
+  104: '[MIDDEN] CHP Tata'
+  105: '[MIDDEN] CCGT Velsen 24'
+  106: '[MIDDEN] CCGT Velsen 25'
+  107: '[MIDDEN] CHP IJmond'
+  108: '[MIDDEN] Other steel-related activities'
+  109: '[MIDDEN] TGR-blast furnace + CCS'
+  110: '[MIDDEN] Coke plant for TGR+CCS'
+  111: '[MIDDEN] Other steel-related activities for TGR+CCS'
+  112: '[MIDDEN] Other steel-related activities on natural gas'
+  113: '[MIDDEN] CHP for BOFG'
+  114: '[MIDDEN] HIsarna reactor with carbon capture'
+  115: '[MIDDEN] ULCORED reactor with carbon capture'
+  116: '[MIDDEN] EAF for DRI'
+  117: '[MIDDEN] Water electrolyser'
+  118: '[MIDDEN] H-DR reactor'
+  119: '[MIDDEN] ULCOWIN'
+  120: '[MIDDEN] EAF (iron plate-based)'
+  121: '[MIDDEN] ULCOLYSIS cell'
+  122: '[MIDDEN] Hall-Heroult process'
+  123: '[MIDDEN] Casting of liquid primary aluminium'
+  124: '[MIDDEN] Inert anodes (primary aluminium producers)'
+  125: '[MIDDEN] Wetted cathodes'
+  126: '[MIDDEN] Green gas-fired furnaces (casting department primary aluminium producers)'
+  127: '[MIDDEN] Production of prebaked carbon anodes'
+  128: '[MIDDEN] Green gas-fired furnaces (anode plants)'
+  129: '[MIDDEN] Recycling and casting of secondary aluminium'
+  130: '[MIDDEN] Green gas-fired furnaces (recycling plants)'
+  131: '[MIDDEN] Natural gas dryer for blast furnace slag'
+  132: '[MIDDEN] Cement production: Roller Press + two Ball Mills'
+  133: '[MIDDEN] Heat Pump Dryer for blast furnace slag'
+  134: '[MIDDEN] Hydrogen dryer for blast furnace slag'
+  135: '[MIDDEN] Green gas dryer for blast furnace slag'
+  136: '[MIDDEN] Cement production: Roller Press + two vertical roller Mills'
+  137: '[MIDDEN] Cement production: Roller Press + two High-Pressure Rolls'
+  138: '[MIDDEN] High-efficiency classifiers for cement production'
+  139: '[MIDDEN] Cement production: Ball Mill + Ball Mill '
+  140: '[IMAGE] Coal-Methanol-HVC'
+  141: '[IMAGE] Coal-Naphtha-HVC'
+  142: '[IMAGE] Oil-Naphtha-HVC'
+  143: '[IMAGE] BSF-Naphtha-HVC'
+  144: '[IMAGE] PCW-Naphtha-HVC'
+  145: '[IMAGE] Natural gas-Ethane-HVC'
+  146: '[IMAGE] BLF-ethanol/methanol-HVC'
+  147: '[IMAGE] Black liquor-methanol'
+  148: '[IMAGE] CO2-methanol'
+  149: '[TIMES] Paper mill, high quality'
+  150: '[TIMES] Paper mill, high quality + advanced drives'
+  151: '[TIMES] Paper mill, high quality + advanced drives w/ CO2 capture'
+  152: '[TIMES] Paper mill, low quality'
+  153: '[TIMES] Paper mill, low quality + advanced drives'
+  154: '[TIMES] Paper mill, low quality + advanced drives w/ CO2 capture'
+  155: '[TIMES] Mechanical pulping, airless drying'
+  156: '[TIMES] Mechanical pulping, airless drying w/ CO2 capture'
+  157: '[LBNL] Kraft IPP'
+  158: '[LBNL] Kraft IPP + Heat pump'
+  159: '[a] Calcined clay, rotary kiln'
+  160: '[a] Calcined clay, flash calciner'
+  161: '[Martinez] Metakaolin limestone cement'
+  162: '[Meng et al.] Ethylene production via Ethane steam cracking'
+  163: '[Meng et al.] Ethylene production via Naphtha steam cracking + CCS'
+  164: '[Meng et al.] Ethylene production via Naphtha electric steam cracking'
+  165: '[Meng et al.] Ethylene production via Naphtha electric steam cracking + by-product
+    upgrade'
+  166: '[Meng et al.] Ethylene production via Naphtha H2 steam cracking'
+  167: '[Meng et al.] Ethylene production via Naphtha H2 steam cracking + by-product
+    upgrade'
+  168: '[Meng et al.] Ethylene production via Naphtha steam cracking'
+  169: '[Meng et al.] Ethylene production via Naphtha steam cracking + by-product
+    upgrade'
+  170: '[Meng et al.] Ethylene production via Pyrolysis oil steam cracking'
+  171: '[Meng et al.] Ethylene production via Bio-oils steam cracking'
+  172: '[Meng et al.] Ethylene production via Catalytic naphtha cracking'
+  173: '[Meng et al.] Ethylene production via Catalytic naphtha electric steam cracking'
+  174: '[Meng et al.] Ethylene production via Catalytic naphtha cracking + CCS '
+  175: '[Meng et al.] Ethylene production via Catalytic naphtha H2 cracking'
+  176: '[Meng et al.] Ethylene production via MTO - Black'
+  177: '[Meng et al.] Ethylene production via MTO - Green'
+  178: '[Meng et al.] Ethylene production via Ethane steam cracking + CCS'
+  179: '[Meng et al.] Ethylene production via Ethane electric steam cracking'
+  180: '[Meng et al.] Ethylene production via Ethane H2 steam cracking'
+  181: '[Meng et al.] Ethylene production via Naphtha steam cracking + CCS + by-product
+    upgrade'
+  182: '[Meng et al.] Ethylene production via Pyrolysis oil steam cracking + CCS +
+    by-product upgrade'
+  183: '[Meng et al.] Ethylene production via Bio-oils steam cracking + by-product
+    upgrade'
+  184: '[Meng et al.] Ethylene production via Pyrolysis oil H2 steam cracking + by-product
+    upgrade'
+  185: '[Meng et al.] Ethylene production via Bio-oils H2 steam cracking + by-product
+    upgrade'
+  186: '[Meng et al.] Ethylene production via Pyrolysis oil H2 steam cracking + CCS
+    + by-product upgrade'
+  187: '[Meng et al.] Ethylene production via Pyrolysis oil electric steam cracking
+    + by-product upgrade'
+  188: '[Meng et al.] Ethylene production via Bio-oils electric steam cracking + by-product
+    upgrade'
+  189: '[Meng et al.] Ethylene production via Pyrolysis oil electric steam cracking
+    + CCS + by-product upgrade'
+  190: '[Meng et al.] Ethylene production via Bioethanol Dehydration'
+  191: '[Meng et al.] Propylene production via Naphtha steam cracking + CCS'
+  192: '[Meng et al.] Propylene production via Naphtha electric steam cracking'
+  193: '[Meng et al.] Propylene production via Naphtha electric steam cracking + by-product
+    upgrade'
+  194: '[Meng et al.] Propylene production via Naphtha H2 steam cracking'
+  195: '[Meng et al.] Propylene production via Naphtha H2 steam cracking + by-product
+    upgrade'
+  196: '[Meng et al.] Propylene production via Naphtha steam cracking'
+  197: '[Meng et al.] Propylene production via Naphtha steam cracking + by-product
+    upgrade'
+  198: '[Meng et al.] Propylene production via Pyrolysis oil steam cracking'
+  199: '[Meng et al.] Propylene production via Bio-oils steam cracking'
+  200: '[Meng et al.] Propylene production via Catalytic naphtha cracking'
+  201: '[Meng et al.] Propylene production via Catalytic naphtha electric steam cracking'
+  202: '[Meng et al.] Propylene production via Catalytic naphtha cracking + CCS '
+  203: '[Meng et al.] Propylene production via Catalytic naphtha H2 cracking'
+  204: '[Meng et al.] Propylene production via MTO - Black'
+  205: '[Meng et al.] Propylene production via MTO - Green'
+  206: '[Meng et al.] Propylene production via Naphtha steam cracking + CCS + by-product
+    upgrade'
+  207: '[Meng et al.] Propylene production via Pyrolysis oil steam cracking + CCS
+    + by-product upgrade'
+  208: '[Meng et al.] Propylene production via Bio-oils steam cracking + by-product
+    upgrade'
+  209: '[Meng et al.] Propylene production via Pyrolysis oil H2 steam cracking + by-product
+    upgrade'
+  210: '[Meng et al.] Propylene production via Bio-oils H2 steam cracking + by-product
+    upgrade'
+  211: '[Meng et al.] Propylene production via Pyrolysis oil H2 steam cracking + CCS
+    + by-product upgrade'
+  212: '[Meng et al.] Propylene production via Pyrolysis oil electric steam cracking
+    + by-product upgrade'
+  213: '[Meng et al.] Propylene production via Bio-oils electric steam cracking +
+    by-product upgrade'
+  214: '[Meng et al.] Propylene production via Pyrolysis oil electric steam cracking
+    + CCS + by-product upgrade'
+  215: '[Meng et al.] Propylene production via PDH'
+  216: '[Meng et al.] Propylene production via PDH + CCS'
+  217: '[Meng et al.] Propylene production via MTP - Black'
+  218: '[Meng et al.] Propylene production via MTP - Green'
+  219: '[Meng et al.] Propylene production via Refineries - Propylene'
+  220: '[Meng et al.] Butadiene production via Naphtha steam cracking + CCS'
+  221: '[Meng et al.] Butadiene production via Naphtha electric steam cracking'
+  222: '[Meng et al.] Butadiene production via Naphtha electric steam cracking + by-product
+    upgrade'
+  223: '[Meng et al.] Butadiene production via Naphtha H2 steam cracking'
+  224: '[Meng et al.] Butadiene production via Naphtha H2 steam cracking + by-product
+    upgrade'
+  225: '[Meng et al.] Butadiene production via Naphtha steam cracking'
+  226: '[Meng et al.] Butadiene production via Naphtha steam cracking + by-product
+    upgrade'
+  227: '[Meng et al.] Butadiene production via Pyrolysis oil steam cracking'
+  228: '[Meng et al.] Butadiene production via Bio-oils steam cracking'
+  229: '[Meng et al.] Butadiene production via Catalytic naphtha cracking'
+  230: '[Meng et al.] Butadiene production via Catalytic naphtha electric steam cracking'
+  231: '[Meng et al.] Butadiene production via Catalytic naphtha cracking + CCS '
+  232: '[Meng et al.] Butadiene production via Catalytic naphtha H2 cracking'
+  233: '[Meng et al.] Butadiene production via Naphtha steam cracking + CCS + by-product
+    upgrade'
+  234: '[Meng et al.] Butadiene production via Pyrolysis oil steam cracking + CCS
+    + by-product upgrade'
+  235: '[Meng et al.] Butadiene production via Bio-oils steam cracking + by-product
+    upgrade'
+  236: '[Meng et al.] Butadiene production via Pyrolysis oil H2 steam cracking + by-product
+    upgrade'
+  237: '[Meng et al.] Butadiene production via Bio-oils H2 steam cracking + by-product
+    upgrade'
+  238: '[Meng et al.] Butadiene production via Pyrolysis oil H2 steam cracking + CCS
+    + by-product upgrade'
+  239: '[Meng et al.] Butadiene production via Pyrolysis oil electric steam cracking
+    + by-product upgrade'
+  240: '[Meng et al.] Butadiene production via Bio-oils electric steam cracking +
+    by-product upgrade'
+  241: '[Meng et al.] Butadiene production via Pyrolysis oil electric steam cracking
+    + CCS + by-product upgrade'
+  242: '[Meng et al.] Butadiene production via Ethanol to butadiene'
+  243: '[Russo] butadiene polymerisation'
+  244: '[a] naphta production'
+  245: '[a] vinyl chloride production'
+  246: '[a] polyvinylchloride production'
+  247: '[a] polyethylene production'
+  248: '[a] polypropylene production'
+  249: '[Rueter] production of solid structural timber'
+  250: '[Rueter] production of glued-laminated timber'
+  251: '[Rueter] production of cross laminated timber'
+  252: '[Rueter] production of laminated veneer lumber'
+  253: '[Rueter] production of wood particle board'
+  254: '[Rueter] production of oriented strand board (OSB)'
+  255: '[Rueter] production of fiberboard, medium density'
+  256: '[Rueter] production of fiberboard, high density'
+  257: '[Rueter] production of sawnwood, softwood, 55% humidity'
+  258: '[Rueter] production of sawnwood, softwood, chamber dried, 8%-20% humidity'
+  259: '[Rueter] production of sawnwood, hardwood, chamber dried, 8%-20% humidity'
+  260: '[TIMES] Black liquor-DME'
+  261: '[TIMES] Black liquor-FT diesel'
+  262: '[TIMES] Black liquor-Methane'
+  263: '[a] Beneficiation, sulfide ore (Crushing, grinding, flotation)'
+  264: '[a] Copper anode production (Bath smelting and converting)'
+  265: '[a] Copper anode production (Continuous smelting and converting)'
+  266: '[a] Copper anode production (Flash smelting and converting)'
+  267: '[a] Copper anode production, Pyrometallurgy (Hydrogen Reduction)'
+  268: '[a] Copper cathode production, Hydrometallurgy (leaching, SX, EW)'
+  269: '[Zhang] Copper concentrate production, slag recycling'
+  270: '[a] Electrorefining of copper anode'
+  271: '[ecoinvent] Processing of anode slime from secondary copper'
+  272: '[Zhang2021] Processing of anode slime, from copper waste'
+  273: '[Becci] Secondary copper production via biometallurgy, from low grade scrap'
+  274: '[Zhang] Secondary copper production, ash recycling '
+  275: '[a] Secondary copper production, chemical treatment, from low grade scrap'
+  276: '[a] Secondary copper production, from high grade scrap'
+  277: '[a] Secondary copper production, from low grade scrap'
+  278: '[a] Secondary copper production, from medium grade scrap'
+  279: '[Becci] Secondary copper production, hydrometallurgy, from low grade scrap'
+  280: '[MIDDEN] Asphalt mix, without RAP'
+  281: '[MIDDEN] Asphalt mix, with RAP (reclaimed asphalt pavement)'
+  282: '[MIDDEN] Asphalt mix, SMA (Stone Mastic Asphalt)'
+  283: '[MIDDEN] Asphalt mix, ZOAB (Zeer Open Asfaltbeton)'
+  284: '[MIDDEN] Asphalt mix, without RAP (100% electrified)'
+  285: '[MIDDEN] Asphalt mix, with RAP (100% electrified)'
+  286: '[MIDDEN] Asphalt mix, without RAP (100% hydrogen)'
+  287: '[MIDDEN] Asphalt mix, with RAP (100% hydrogen)'
+  288: '[MIDDEN] Asphalt mix, without RAP (70% feedstock substitution - lignin)'
+  289: '[MIDDEN] Asphalt mix, with RAP (70% feedstock substitution - lignin)'
+  290: '[Agora] Integrated blast-furnace route'
+  291: '[Agora] Electric arc furnace route'
+  292: '[Agora] Natural gas direct reduction'
+  293: '[Agora] Direct reduction with H2'
+  294: '[Agora] Iron electrolysis and smelting in electric arc furnaces'
+  295: "[Agora] HIsarna\xAE with CCS"
+  296: '[Agora] CCU of smelting gases from the blast-furnace route'
+  297: '[TIMES] Black liquor-Methanol'
+  298: '[TIMES] Black liquor-IGCC'
+  299: '[TIMES_SE] Kraft process'
+  300: '[TIMES_SE] Mechanical pulping'
+  301: '[TIMES_SE] Recycled fiber pulping'
+  302: '[TIMES] Kraft process'
+  303: '[TIMES] Mechanical pulping'
+  304: '[TIMES] Recycled fiber pulping'
+  305: '[TIMES] Hall Heroult Regular'
+  306: '[TIMES] Hall Heroult Point Feeders'
+  307: '[TIMES] Hall Heroult Optimal Electrolysis'
+  308: '[TIMES] Hall Heroult Reduced Electrolyte Temperature'
+  309: '[TIMES] Aluminium Inert Anodes'
+  310: '[TIMES] Aluminium Recycled Production'
+  311: '[TIMES] Aluminium Recycled Production Scrap Pre-heat'
+  312: '[TIMES] Aluminium Recycled Production Enhanced Furnaces'
+  313: '[TIMES] Aluminium Finishing Processes'
+  314: '[TIMES] Glass Flat Production'
+  315: '[TIMES] Glass Flat Production Heat Recovery / Improved Burners'
+  316: '[TIMES] Glass Flat Production Heat Recovery / Improved Burners CCS'
+  317: '[TIMES] Glass Hollow Production'
+  318: '[TIMES] Glass Hollow Production Heat Recovery / Improved Burners'
+  319: '[TIMES] Glass Hollow Production Heat Recovery / Improved Burners CCS'
+  320: '[TIMES] Glass Hollow Recycling'
+  321: '[TIMES] Glass Hollow Recycling Improved Melting'
+  322: '[TIMES] Glass Hollow Recycling Improved Melting CCS'
+  323: '[TIMES] Quicklime Production'
+  324: '[TIMES] Pellet plant'
+  325: '[TIMES] Sinter plant'
+  326: '[TIMES] Sinter plant, bioenergy'
+  327: '[TIMES] Blast Furnace Charcoal or equivalent'
+  328: '[TIMES] Blast Furnace direct coal injection'
+  329: '[TIMES] Blast Furnace with CCS'
+  330: '[TIMES] Blast Furnace top gas recirculation'
+  331: '[TIMES] Blast Furnace top gas recirculation with CCS'
+  332: '[TIMES] Iron Cyclone Converter Furnace'
+  333: '[TIMES] Iron COREX'
+  334: '[TIMES] COREX with CCS'
+  335: '[TIMES] Basic oxygen Furnace, Regular'
+  336: '[TIMES] Basic oxygen Furnace, Scrap'
+  337: '[TIMES] Cast Iron Cupola'
+  338: '[TIMES] Sponge iron for Direct Reduction'
+  339: '[TIMES] Sponge iron for Direct Reduction with CCS'
+  340: '[TIMES] Electric Arc Furnace [for DRI]'
+  341: '[TIMES] Hydrogen Direct Reduced Iron'
+  342: '[TIMES] Electric Arc Furnace [scrap input]'
+  343: '[TIMES] Ferroalloys'
+  344: '[TIMES] Steel finishing'
+  345: '[MPP] Hall-Heroult process'
+  346: '[MPP] Hall-Heroult + CCS'
+  347: '[COFFEE] BF-BOF'
+  348: '[COFFEE] BF-BOF BAT'
+  349: '[COFFEE] Charcoal BF-BOF'
+  350: '[COFFEE] Smelting Reduction'
+  351: '[COFFEE] BF-BOF+CCS'
+  352: '[COFFEE] Charcoal BF-BOF+CCS'
+  353: '[COFFEE] Smelting Reduction+CCS'
+  354: '[COFFEE] DRI'
+  355: '[COFFEE] DRI+CCS'
+  356: '[COFFEE] HDRI'
+  357: '[COFFEE] EAF'
+  358: '[COFFEE] Scrap EAF'
+  359: '[TIMES] Clinker Production - Dry Process'
+  360: '[TIMES] Clinker Production - Dry Process with CCS'
+  361: '[TIMES] Clinker Production - Wet Process'
+  362: '[TIMES] Cement Production'
+  363: '[Shanks] cement clinker material flows, clay based'
+  364: '[Shanks] cement clinker material flows, shale based'
+  365: '[Wang] cement clinker material flows'
+  366: '[TIMES_SE] Cement clinker kiln'
+  367: '[TIMES_SE] Cement clinker kiln, PCC CCS'
+  368: '[TIMES_SE] Cement clinker kiln, oxyfuel CCS'
+  369: '[TIMES_SE] Cement clinker kiln, chilled NH3 CCS'
+  370: '[TIMES_SE] Cement clinker kiln, membrane CCS'
+  371: '[TIMES_SE] Cement clinker kiln, tail end Ca loop CCS'
+  372: '[TIMES_SE] Cement clinker kiln, integrated Ca. loop CCS'
+  373: '[TIMES_SE] Cement clinker kiln plasma'
+  374: '[TIMES_SE] Cement clinker kiln, plasma CCS'
+  375: '[TIMES_SE] Cement grinder'
+  376: '[MPP] Inert anodes'
+  377: '[Open-IDTD] Parallel flow kiln'
+  378: '[Zhang2023] Processing of anode slime'
+  379: '[TIMES_SE] Blast furnace'
+  380: '[TIMES_SE] Blast furnace, w. CCS (PCC MEA)'
+  381: '[TIMES_SE] Blast furnace, w. CCS (PCC VPSA)'
+  382: '[TIMES_SE] Top gas recycling blast furnace'
+  383: '[TIMES_SE] Top gas recycling blast furnace w. CCS (MDEA)'
+  384: '[TIMES_SE] Top gas recycling blast furnace w. CCS (VPSA)'
+  385: '[TIMES_SE] Smelting furnace, conventional'
+  386: '[TIMES_SE] Smelting furnace, advanced'
+  387: '[TIMES_SE] Smelting furnace, advanced w. CCS'
+  388: '[TIMES_SE] Direct Reduced Iron, Rotating Kiln'
+  389: '[TIMES_SE] Direct Reduced Iron, Rotating Hearth'
+  390: '[TIMES_SE] Direct Reduced Iron, tunnel kiln'
+  391: '[TIMES_SE] Direct Reduced Iron, shaft kiln, natural gas'
+  392: '[TIMES_SE] Direct Reduced Iron, shaft kiln, natural gas w. CCS'
+  393: '[TIMES_SE] Direct Reduced Iron shaft kiln, syngas'
+  394: '[TIMES_SE] Direct Reduced Iron, shaft kiln, syngas w. CCS'
+  395: '[TIMES_SE] Direct Reduced Iron, shaft kiln, hydrogen, fuel heating'
+  396: '[TIMES_SE] Direct Reduced Iron, shaft kiln, hydrogen, electric heating'
+  397: '[TIMES_SE] Electrowinning'
+  398: '[TIMES_SE] Basic Oxygen Furnace'
+  399: '[TIMES_SE] Electric Arc Furnace'
+  400: '[TIMES_SE] Electric Arc Furnace, stainless steel'
+  401: '[TIMES_SE] Ferrochrome arc furnace'
+  402: '[TIMES_SE] Continuos casting'
+  403: '[TIMES_SE] Powder atomisation'
+  404: '[TIMES_SE] Powder grinding'
+  405: '[TIMES_SE] Heating furnace, fuel'
+  406: '[TIMES_SE] Recycled aluminium '
+  407: '[TIMES_SE] Paper mill, soft - steam impingement'
+  408: '[TIMES_SE] Paper mill, soft - conventional'
+  409: '[TIMES_SE] Paper mill, soft - air impingement'
+  410: '[TIMES_SE] Paper mill, graphical - press dryer'
+  411: '[TIMES_SE] Paper mill, graphical - impulse'
+  412: '[TIMES_SE] Paper mill, graphical - conventional'
+  413: '[TIMES_SE] Paper mill, graphical - condebelt'
+  414: '[TIMES_SE] Paper mill, graphical - airless'
+  415: '[TIMES_SE] Paper mill, graphical - air impingement'
+  416: '[TIMES_SE] Aluminium electrolysis w. CCS (PCC MEA)'
+  417: '[TIMES_SE] Aluminium electrolysis inert'
+  418: '[TIMES_SE] Aluminium electrolysis'
+  419: '[TIMES_SE] Aluminium remelting, fuel'
+  420: '[TIMES_SE] Aluminium remelting, electricity'
+  421: '[TIMES_SE] Aluminium casting'
+  422: '[TIMES_SE] Aluminium finishing, long, fuel'
+  423: '[TIMES_SE] Aluminium finishing, long, electricity'
+  424: '[TIMES_SE] Aluminium finishing, sheet, fuel'
+  425: '[TIMES_SE] Aluminium finishing, sheet, electricity'
+  426: '[TIMES_SE] Aluminium finishing, cast, fuel'
+  427: '[TIMES_SE] Aluminium finishing, cast, electricity'
+  428: '[TIMES_SE] oxygen supply'
+  429: '[TIMES] Electric Arc Furnace (for Direct Reduced Iron)'
+  430: '[TIMES] Oxygen Production'
+  431: '[Open-IDTD] AAC'
+  432: '[TIMES]  Hall Heroult Regular'
+  433: '[TIMES]  Hall Heroult Point Feeders'
+  434: '[TIMES]  Hall Heroult Optimal Electrolysis'
+  435: '[TIMES]  Hall Heroult Reduced Electrolyte Temperature'
+  436: '[TIMES]  Aluminium Inert Anodes'
+  437: '[TIMES] Aluminium Recycled Production Scrap Preheat'
+  438: '[TIMES]  Aluminium Recycled Production Enhanced Furnaces'
+  439: '[TIMES]  Aluminium Finishing Processes'
+  440: '[TIMES]  Glass Flat Production'
+  441: '[TIMES]  Glass Flat Production Heat overy / Improved Burners'
+  442: '[TIMES]  Glass Flat Production Heat overy / Improved Burners CCS'
+  443: '[TIMES]  Glass Hollow Recycling'
+  444: '[TIMES]  Glass Hollow Recycling Improved Melting + CCS'
+  445: '[COFFEE] BF-BOF +CCS'
+  446: '[COFFEE] Smelting Reduction +CCS'
+  447: '[TIMES] Black liquor - Integrated gasification combined cycle'
+  448: '[TIMES] Black liquor - Combined heat and power, Recovery boiler'
+  449: '[TIMES] Black liquor - Combined heat and power, Generic boiler'
+  450: '[TIMES_SE]  Cement clinker kiln, Portland Composite Cement CCS'
+  451: '[TIMES_SE] Direct Reduced Iron, shaft kiln, syngas'
+  452: '[ecoinvent] Processing of anode slime from electrorefining of primary copper'
+  453: by-product upgrade
+  454: '[Open-IDTD] Diaphragm'
+  455: '[Open-IDTD] Dry clinker'
+  456: '[Open-IDTD] Efficient dry feed rotary kiln + on-site CCS'
+  457: '[Open-IDTD] Efficient dry feed rotary kiln + oxy-combustion CCS'
+  458: '[Open-IDTD] HDR/EAF'
+  459: '[Open-IDTD] Membrane'
+  460: '[Open-IDTD] Mercury'
+  461: '[WEEE] Manual sorting of plastics from WEEE, informal sector'
+  462: '[WEEE] Manual soritng of plastics from WEEE, formal sector'
+  463: '[Packaging] Treatment of mixed lightweight packaging waste, mechanical recycling'
+  464: '[Packaging] Treatment of mixed lightweight packaging waste, chemical recycling'
+  465: '[Packaging] Sorting of plastic packaging waste'
+  466: '[Packaging] Sorting of paper/cardboard packaging waste'
+  467: '[Packaging] Sorting of waste packaging paperboard'
+  468: '[Packaging] Sorting of waste packaging paper'
+  469: '[Packaging] Sorting of waste tinplate packaging '
+  470: '[Packaging] Sorting of waste aluminium packaging'
+  471: '[Packaging] Sorting of glass packaging waste'
+  472: '[Packaging] Sorting and shredding of waste wood'
+  473: '[Packaging] Treatment of PET, mechanical recycling'
+  474: '[Packaging] Treatment of HDPE, mechanical recycling'
+  475: '[Packaging] Treatment of LDPE, mechanical recycling'
+  476: '[Packaging] Treatment of PP, mechanical recycling'
+  477: '[Packaging] Treatment of PS, mechanical recycling'
+  478: '[Packaging] Treatment of mixed plastics waste, pyrolisis oil production'
+  479: '[Packaging] Treatment of mixed plastics waste, mechanical recycling'
+  480: '[Packaging] Ethylene production from purified pyrolisis Oil'
+  481: '[Packaging] Energy recovery of mixed plastic waste, 100% incineration'
+  482: '[Packaging] Energy recovery of mixed plastic waste, 100% refuse-derived fuel'
+  483: '[Packaging] Energy recovery of mixed plastic waste, 30% incineration, 70%
+    refuse-derived fuel'
+  484: '[ELV] Shredding of used glider, electric scooter'
+  485: '[ELV] Treatment of waste car tyres, recycling'
+  486: '[ELV] Treatment of waste large vehicle tyres, recycling'
+  487: '[Packaging] Treatment of waste wood/MDF, sorting'
+  488: '[WEEE] Treatment of WEEE from large appliances'
+  489: '[WEEE] Treatment of WEEE from small appliances'
+  490: '[WEEE] Treatment of electronic scrap from control units, manual dismantling'
+  491: '[WEEE] Treatment of WEEE used printed wiring boards, shredding and separation'
+  492: '[WEEE] Treatment of WEEE waste cables, shredding and separation'
+  493: '[WEEE] Treatment of WEEE from used fridges and freezers'
+  494: '[WEEE] treatment of aluminium scrap, sorting and preparation for recycling'
+  495: '[WEEE] treatment of metal scrap, sorting and preparation for recycling'
+  496: '[Packaging] Waste mixed plastics sorting'
+  497: treatment of used bicycle, sorting and preparation for recycling
+  498: '[WEEE] Treatment of used washing machine, dismantling'
+  499: '[WEEE] Treatment of used A/C unit, dismantling'
+  500: '[WEEE] Treatment of used refrigerator, dismantling'
+  501: '[WEEE] Treatment of used TV, dismantling'
+  502: '[WEEE] Treatment of used photovoltaic module'
+  503: '[WEEE] Treatment of waste Printed Circuit Board (PCB)'
+  504: '[ELV] Treatment of automotive shredder residue (ASR), metals recovery'
+  505: '[ELV] Treatment of automotive shredder residue (ASR), themal treatment and
+    energy recovery'
+  506: '[ELV] Treatment of automotive shredder residue (ASR), advanced material recovery
+    and incineration'
+  507: '[ELV] Treatment of automotive shredder residue (ASR), feedstock recycling'
+  508: '[WEEE] Treatment of WEEE, high grade, shredding and separation'
+  509: '[ELV] Treatment of used vehicle, dismantling and shredding'
+  510: '[ELV] Treatment of used vehicle, manual dismantling of ECU, shredding'
+  511: '[ELV] Treatment of diesel engine motor end-of-life vehicle (ELV)'
+  512: '[ELV] Treatment of automotive plastic waste (APW), waste to energy in MSWI
+    plants'
+  513: '[ELV] Treatment of automotive plastic waste (APW), waste to energy in RDF
+    plant'
+  514: '[ELV] Treatment of automotive plastic waste (APW), chemical recycling'
+  515: '[WEEE] Treatment of mixed plastics from WEEE, catalytic pyrolisis'
+  516: '[ELV] Treatment of mixed plastics from ELV, catalytic pyrolisis'
+  517: '[ELV] Treatment of ELV Hulk, machine-based dismantling'
+  518: '[ELV] Treatment of ELV hulk, shredding'
+  519: '[ELV] Treatmeant of ELV, dismantling'
+  520: '[ELV] Treatment of waste passenger tires, pyrolisis and deep processing'
+  521: '[ELV] Treatment of waste passenger tires, conventional pyrolisis'
+  522: '[ELV] Treatment of waste passenger tires, ambient grinding'
+  523: '[ELV] Treatment of waste passenger tires, dynamic devulcanization'
+  524: '[ELV] Treatment of waste passenger tires, pyrolisis'
+  525: '[ELV] Treatment of waste passenger tires, informal tire oil extraction'
+  526: '[EOL Batteries] pyrometallurgical treatment of used Li-ion battery'
+  527: '[EOL Batteries] treatment of non-Fe-Co-metals, from pyrometallurgical treatment
+    of used Li-ion battery'
+  528: '[EOL Batteries] hydrometallurgical treatment of used Li-ion battery'
+  529: '[EOL Batteries] treatment of non-Fe-Co-metals, from hydrometallurgical treatment
+    of used Li-ion battery'
+  530: '[EOL Batteries] treatment of spent lead-acid batteries'
+  531: '[EOL Batteries] Treatment of used Ni-Cd batteries, pyrometallurgy'
+  532: '[EOL Batteries] Treatment of used Ni-Cd batteries, hydrometallurgy'
+  533: '[EOL Batteries] Treatment of used Li-Ion battery (LFP), hydrometallurgy'
+  534: '[EOL Batteries] Treatment of used Li-Ion battery (NCM), hydrometallurgy'
+  535: '[EOL Batteries] Treatment of used Li-Ion battery (LFP), direct recycling A'
+  536: '[EOL Batteries] Treatment of used Li-Ion battery (LFP), direct recycling B'
+  537: '[EOL Batteries] Treatment of used Li-Ion battery (NCM), direct recycling B'
+  538: '[EOL Batteries] Treatment of used Li-Ion battery (LFP), direct recycling C'
+  539: '[EOL Batteries] Treatment of used Li-Ion battery (NCM), direct recycling C'
+  540: '[WEEE] Treatment of WEEE, incineration with energy recovery'
+  541: '[generic] treatment of waste,  non hazardous landfill'
+  542: '[generic] treatment of inert waste, sanitary landfill'
+  543: '[generic] treatment of MSW, incineration with energy recovery'
+  544: '[generic, china] treatment of rejected waste, incineration with energy recovery'
+  545: '[generic, france] treatment of rejected waste, incineration with energy recovery'
+  546: '[generic, finland] treatment of rejected waste, energy recovery via gasification'
+  547: '[generic, norway] treatment of waste, incineration with energy recovery'
+  548: '[generic, europe] treatment of waste, incineration with energy recovery'
+  549: '[generic, europe] treatment of waste, gasification with energy recovery'
+  550: '[generic, europe] treatment of bottom ash from waste incineration'
+  551: '[generic] treatment of hazardous waste, incineration'
+  552: '[generic] treatment of hazardous waste, landfill'
+  553: '[packaging, spain] Treatment of mixed waste, material recovery facility'
+  554: '[packaging, USA] Treatment of mixed waste, material recovery facility'
+  555: '[packaging] treatment of metal scrap from MSW, sorting'
+  556: iron ore pelletizing plant
+
+classification_items_attribute5_anc:
+  15: 'Regional scope: Global'
+  16: 'Regional scope: Global'
+  17: 'Regional scope: Global'
+  18: 'Regional scope: Global'
+  19: 'Regional scope: Global'
+  20: 'Regional scope: Global'
+  21: 'Regional scope: Global'
+  22: 'Regional scope: Global'
+  23: 'Regional scope: Global'
+  24: 'Regional scope: Global'
+  25: 'Regional scope: Global'
+  26: 'Regional scope: Global'
+  27: 'Regional scope: Global'
+  28: 'Regional scope: Global'
+  29: 'Regional scope: Global'
+  30: 'Regional scope: Global'
+  31: 'Regional scope: Global'
+  32: 'Regional scope: Global'
+  33: 'Regional scope: Global'
+  34: 'Regional scope: Global'
+  35: 'Regional scope: Global'
+  36: 'Regional scope: Global'
+  37: 'Regional scope: Global'
+  38: 'Regional scope: Global'
+  39: 'Regional scope: Global'
+  40: 'Regional scope: Global'
+  41: 'Regional scope: Global'
+  42: 'Regional scope: Global'
+  43: 'Regional scope: Global'
+  44: 'Regional scope: Global'
+  45: 'Regional scope: Global'
+  46: 'Regional scope: Global'
+  47: 'Regional scope: Global'
+  48: 'Regional scope: Global'
+  49: 'Regional scope: Global'
+  50: 'Regional scope: Global'
+  51: 'Regional scope: Global'
+  52: 'Regional scope: Global'
+  53: 'Regional scope: Global'
+  54: 'Regional scope: Global'
+  55: 'Regional scope: Global'
+  56: 'Regional scope: Global'
+  57: 'Regional scope: Global'
+  58: 'Regional scope: Global'
+  59: 'Regional scope: Global'
+  60: 'Regional scope: Global'
+  61: 'Regional scope: Global'
+  62: 'Regional scope: Global'
+  63: 'Regional scope: Global'
+  64: 'Regional scope: Global'
+  65: 'Regional scope: Global'
+  66: 'Regional scope: Global'
+  67: 'Regional scope: Global'
+  68: 'Regional scope: Global'
+  69: 'Regional scope: Global'
+  70: 'Regional scope: Global'
+  71: 'Regional scope: Global'
+  72: 'Regional scope: Global'
+  73: 'Regional scope: Global'
+  74: 'Regional scope: Global'
+  75: 'Regional scope: Global'
+  76: 'Regional scope: Global'
+  77: 'Regional scope: Global'
+  78: 'Regional scope: Global'
+  79: 'Regional scope: Global'
+  80: 'Regional scope: Global'
+  81: 'Regional scope: Global'
+  82: 'Regional scope: Global'
+  83: 'Regional scope: Global'
+  84: 'Regional scope: Global'
+  85: 'Regional scope: Global'
+  86: 'Regional scope: Global'
+  87: 'Regional scope: Global'
+  88: 'Regional scope: Global'
+  89: 'Regional scope: Global'
+  90: 'Regional scope: Global'
+  91: 'Regional scope: Global'
+  92: 'Regional scope: Global'
+  93: 'Regional scope: Global'
+  94: 'Regional scope: Global'
+  95: 'Regional scope: Global'
+  96: 'Regional scope: Global'
+  97: 'Regional scope: Global'
+  98: 'Regional scope: Netherlands'
+  99: 'Regional scope: Netherlands'
+  100: 'Regional scope: Netherlands'
+  101: 'Regional scope: Netherlands'
+  102: 'Regional scope: Netherlands'
+  103: 'Regional scope: Netherlands'
+  104: 'Regional scope: Netherlands'
+  105: 'Regional scope: Netherlands'
+  106: 'Regional scope: Netherlands'
+  107: 'Regional scope: Netherlands'
+  108: 'Regional scope: Netherlands'
+  109: 'Regional scope: Netherlands'
+  110: 'Regional scope: Netherlands'
+  111: 'Regional scope: Netherlands'
+  112: 'Regional scope: Netherlands'
+  113: 'Regional scope: Netherlands'
+  114: 'Regional scope: Netherlands'
+  115: 'Regional scope: Netherlands'
+  116: 'Regional scope: Netherlands'
+  117: 'Regional scope: Netherlands'
+  118: 'Regional scope: Netherlands'
+  119: 'Regional scope: Netherlands'
+  120: 'Regional scope: Netherlands'
+  121: 'Regional scope: Netherlands'
+  122: 'Regional scope: Netherlands'
+  123: 'Regional scope: Netherlands'
+  124: 'Regional scope: Netherlands'
+  125: 'Regional scope: Netherlands'
+  126: 'Regional scope: Netherlands'
+  127: 'Regional scope: Netherlands'
+  128: 'Regional scope: Netherlands'
+  129: 'Regional scope: Netherlands'
+  130: 'Regional scope: Netherlands'
+  131: 'Regional scope: Netherlands'
+  132: 'Regional scope: Netherlands'
+  133: 'Regional scope: Netherlands'
+  134: 'Regional scope: Netherlands'
+  135: 'Regional scope: Netherlands'
+  136: 'Regional scope: Netherlands'
+  137: 'Regional scope: Netherlands'
+  138: 'Regional scope: Netherlands'
+  139: 'Regional scope: Netherlands'
+  140: 'Regional scope: Global'
+  141: 'Regional scope: Global'
+  142: 'Regional scope: Global'
+  143: 'Regional scope: Global'
+  144: 'Regional scope: Global'
+  145: 'Regional scope: Global'
+  146: 'Regional scope: Global'
+  147: 'Regional scope: Global'
+  148: 'Regional scope: Global'
+  149: 'Regional scope: European Union'
+  150: 'Regional scope: European Union'
+  151: 'Regional scope: European Union'
+  152: 'Regional scope: European Union'
+  153: 'Regional scope: European Union'
+  154: 'Regional scope: European Union'
+  155: 'Regional scope: European Union'
+  156: 'Regional scope: European Union'
+  157: 'Regional scope: United States'
+  158: 'Regional scope: United States'
+  159: 'Regional scope: Global'
+  160: 'Regional scope: Global'
+  161: 'Regional scope: Global'
+  162: 'Regional scope: Global'
+  163: 'Regional scope: Global'
+  164: 'Regional scope: Global'
+  165: 'Regional scope: Global'
+  166: 'Regional scope: Global'
+  167: 'Regional scope: Global'
+  168: 'Regional scope: Global'
+  169: 'Regional scope: Global'
+  170: 'Regional scope: Global'
+  171: 'Regional scope: Global'
+  172: 'Regional scope: Global'
+  173: 'Regional scope: Global'
+  174: 'Regional scope: Global'
+  175: 'Regional scope: Global'
+  176: 'Regional scope: Global'
+  177: 'Regional scope: Global'
+  178: 'Regional scope: Global'
+  179: 'Regional scope: Global'
+  180: 'Regional scope: Global'
+  181: 'Regional scope: Global'
+  182: 'Regional scope: Global'
+  183: 'Regional scope: Global'
+  184: 'Regional scope: Global'
+  185: 'Regional scope: Global'
+  186: 'Regional scope: Global'
+  187: 'Regional scope: Global'
+  188: 'Regional scope: Global'
+  189: 'Regional scope: Global'
+  190: 'Regional scope: Global'
+  191: 'Regional scope: Global'
+  192: 'Regional scope: Global'
+  193: 'Regional scope: Global'
+  194: 'Regional scope: Global'
+  195: 'Regional scope: Global'
+  196: 'Regional scope: Global'
+  197: 'Regional scope: Global'
+  198: 'Regional scope: Global'
+  199: 'Regional scope: Global'
+  200: 'Regional scope: Global'
+  201: 'Regional scope: Global'
+  202: 'Regional scope: Global'
+  203: 'Regional scope: Global'
+  204: 'Regional scope: Global'
+  205: 'Regional scope: Global'
+  206: 'Regional scope: Global'
+  207: 'Regional scope: Global'
+  208: 'Regional scope: Global'
+  209: 'Regional scope: Global'
+  210: 'Regional scope: Global'
+  211: 'Regional scope: Global'
+  212: 'Regional scope: Global'
+  213: 'Regional scope: Global'
+  214: 'Regional scope: Global'
+  215: 'Regional scope: Global'
+  216: 'Regional scope: Global'
+  217: 'Regional scope: Global'
+  218: 'Regional scope: Global'
+  219: 'Regional scope: Global'
+  220: 'Regional scope: Global'
+  221: 'Regional scope: Global'
+  222: 'Regional scope: Global'
+  223: 'Regional scope: Global'
+  224: 'Regional scope: Global'
+  225: 'Regional scope: Global'
+  226: 'Regional scope: Global'
+  227: 'Regional scope: Global'
+  228: 'Regional scope: Global'
+  229: 'Regional scope: Global'
+  230: 'Regional scope: Global'
+  231: 'Regional scope: Global'
+  232: 'Regional scope: Global'
+  233: 'Regional scope: Global'
+  234: 'Regional scope: Global'
+  235: 'Regional scope: Global'
+  236: 'Regional scope: Global'
+  237: 'Regional scope: Global'
+  238: 'Regional scope: Global'
+  239: 'Regional scope: Global'
+  240: 'Regional scope: Global'
+  241: 'Regional scope: Global'
+  242: 'Regional scope: Global'
+  243: 'Regional scope: Global'
+  244: 'Regional scope: Global'
+  245: 'Regional scope: Global'
+  246: 'Regional scope: Global'
+  247: 'Regional scope: Global'
+  248: 'Regional scope: Global'
+  249: 'Regional scope: Germany'
+  250: 'Regional scope: Germany'
+  251: 'Regional scope: Germany'
+  252: 'Regional scope: Germany'
+  253: 'Regional scope: Germany'
+  254: 'Regional scope: Germany'
+  255: 'Regional scope: Germany'
+  256: 'Regional scope: Germany'
+  257: 'Regional scope: Germany'
+  258: 'Regional scope: Germany'
+  259: 'Regional scope: Germany'
+  260: 'Regional scope: European Union'
+  261: 'Regional scope: European Union'
+  262: 'Regional scope: European Union'
+  263: 'Regional scope: Global'
+  264: 'Regional scope: Global'
+  265: 'Regional scope: Global'
+  266: 'Regional scope: Global'
+  267: 'Regional scope: Global'
+  268: 'Regional scope: Global'
+  269: 'Regional scope: China'
+  270: 'Regional scope: Global'
+  271: 'Regional scope: Global'
+  272: 'Regional scope: China'
+  273: 'Regional scope: Global'
+  274: 'Regional scope: China'
+  275: 'Regional scope: Global'
+  276: 'Regional scope: Global'
+  277: 'Regional scope: Global'
+  278: 'Regional scope: Global'
+  279: 'Regional scope: Global'
+  280: 'Regional scope: Netherlands'
+  281: 'Regional scope: Netherlands'
+  282: 'Regional scope: Netherlands'
+  283: 'Regional scope: Netherlands'
+  284: 'Regional scope: Netherlands'
+  285: 'Regional scope: Netherlands'
+  286: 'Regional scope: Netherlands'
+  287: 'Regional scope: Netherlands'
+  288: 'Regional scope: Netherlands'
+  289: 'Regional scope: Netherlands'
+  290: 'Regional scope: Global'
+  291: 'Regional scope: Global'
+  292: 'Regional scope: Global'
+  293: 'Regional scope: Global'
+  294: 'Regional scope: Global'
+  295: 'Regional scope: Global'
+  296: 'Regional scope: Global'
+  297: 'Regional scope: European Union'
+  298: 'Regional scope: European Union'
+  299: 'Regional scope: Sweden'
+  300: 'Regional scope: Sweden'
+  301: 'Regional scope: Sweden'
+  302: 'Regional scope: European Union'
+  303: 'Regional scope: European Union'
+  304: 'Regional scope: European Union'
+  305: 'Regional scope: European Union'
+  306: 'Regional scope: European Union'
+  307: 'Regional scope: European Union'
+  308: 'Regional scope: European Union'
+  309: 'Regional scope: European Union'
+  310: 'Regional scope: European Union'
+  311: 'Regional scope: European Union'
+  312: 'Regional scope: European Union'
+  313: 'Regional scope: European Union'
+  314: 'Regional scope: European Union'
+  315: 'Regional scope: European Union'
+  316: 'Regional scope: European Union'
+  317: 'Regional scope: European Union'
+  318: 'Regional scope: European Union'
+  319: 'Regional scope: European Union'
+  320: 'Regional scope: European Union'
+  321: 'Regional scope: European Union'
+  322: 'Regional scope: European Union'
+  323: 'Regional scope: European Union'
+  324: 'Regional scope: European Union'
+  325: 'Regional scope: European Union'
+  326: 'Regional scope: European Union'
+  327: 'Regional scope: European Union'
+  328: 'Regional scope: European Union'
+  329: 'Regional scope: European Union'
+  330: 'Regional scope: European Union'
+  331: 'Regional scope: European Union'
+  332: 'Regional scope: European Union'
+  333: 'Regional scope: European Union'
+  334: 'Regional scope: European Union'
+  335: 'Regional scope: European Union'
+  336: 'Regional scope: European Union'
+  337: 'Regional scope: European Union'
+  338: 'Regional scope: European Union'
+  339: 'Regional scope: European Union'
+  340: 'Regional scope: European Union'
+  341: 'Regional scope: European Union'
+  342: 'Regional scope: European Union'
+  343: 'Regional scope: European Union'
+  344: 'Regional scope: European Union'
+  345: 'Regional scope: Global'
+  346: 'Regional scope: Global'
+  347: 'Regional scope: Global'
+  348: 'Regional scope: Global'
+  349: 'Regional scope: Global'
+  350: 'Regional scope: Global'
+  351: 'Regional scope: Global'
+  352: 'Regional scope: Global'
+  353: 'Regional scope: Global'
+  354: 'Regional scope: Global'
+  355: 'Regional scope: Global'
+  356: 'Regional scope: Global'
+  357: 'Regional scope: Global'
+  358: 'Regional scope: Global'
+  363: 'Regional scope: UK'
+  364: 'Regional scope: UK'
+  365: 'Regional scope: China'
+  366: 'Regional scope: Sweden'
+  367: 'Regional scope: Sweden'
+  368: 'Regional scope: Sweden'
+  369: 'Regional scope: Sweden'
+  370: 'Regional scope: Sweden'
+  371: 'Regional scope: Sweden'
+  372: 'Regional scope: Sweden'
+  373: 'Regional scope: Sweden'
+  374: 'Regional scope: Sweden'
+  375: 'Regional scope: Sweden'
+  376: 'Regional scope: Global'
+  377: 'Regional scope: Global'
+  378: 'Regional scope: China'
+  379: 'Regional scope: Sweden'
+  380: 'Regional scope: Sweden'
+  381: 'Regional scope: Sweden'
+  382: 'Regional scope: Sweden'
+  383: 'Regional scope: Sweden'
+  384: 'Regional scope: Sweden'
+  385: 'Regional scope: Sweden'
+  386: 'Regional scope: Sweden'
+  387: 'Regional scope: Sweden'
+  388: 'Regional scope: Sweden'
+  389: 'Regional scope: Sweden'
+  390: 'Regional scope: Sweden'
+  391: 'Regional scope: Sweden'
+  392: 'Regional scope: Sweden'
+  393: 'Regional scope: Sweden'
+  394: 'Regional scope: Sweden'
+  395: 'Regional scope: Sweden'
+  396: 'Regional scope: Sweden'
+  397: 'Regional scope: Sweden'
+  398: 'Regional scope: Sweden'
+  399: 'Regional scope: Sweden'
+  400: 'Regional scope: Sweden'
+  401: 'Regional scope: Sweden'
+  402: 'Regional scope: Sweden'
+  403: 'Regional scope: Sweden'
+  404: 'Regional scope: Sweden'
+  405: 'Regional scope: Sweden'
+  406: 'Regional scope: Sweden'
+  407: 'Regional scope: Sweden'
+  408: 'Regional scope: Sweden'
+  409: 'Regional scope: Sweden'
+  410: 'Regional scope: Sweden'
+  411: 'Regional scope: Sweden'
+  412: 'Regional scope: Sweden'
+  413: 'Regional scope: Sweden'
+  414: 'Regional scope: Sweden'
+  415: 'Regional scope: Sweden'
+  416: 'Regional scope: Sweden'
+  417: 'Regional scope: Sweden'
+  418: 'Regional scope: Sweden'
+  419: 'Regional scope: Sweden'
+  420: 'Regional scope: Sweden'
+  421: 'Regional scope: Sweden'
+  422: 'Regional scope: Sweden'
+  423: 'Regional scope: Sweden'
+  424: 'Regional scope: Sweden'
+  425: 'Regional scope: Sweden'
+  426: 'Regional scope: Sweden'
+  427: 'Regional scope: Sweden'
+  428: 'Regional scope: Sweden'
+  429: 'Regional scope: European Union'
+  430: 'Regional scope: European Union'
+  431: 'Regional scope: Global'
+  432: 'Regional scope: European Union'
+  433: 'Regional scope: European Union'
+  434: 'Regional scope: European Union'
+  435: 'Regional scope: European Union'
+  436: 'Regional scope: European Union'
+  437: 'Regional scope: European Union'
+  438: 'Regional scope: European Union'
+  439: 'Regional scope: European Union'
+  440: 'Regional scope: European Union'
+  441: 'Regional scope: European Union'
+  442: 'Regional scope: European Union'
+  443: 'Regional scope: European Union'
+  444: 'Regional scope: European Union'
+  445: 'Regional scope: Global'
+  446: 'Regional scope: Global'
+  447: 'Regional scope: European Union'
+  448: 'Regional scope: European Union'
+  449: 'Regional scope: European Union'
+  450: 'Regional scope: Sweden'
+  451: 'Regional scope: Global'
+  452: 'Regional scope: Global'
+  453: 'Regional scope: Global'
+  454: 'Regional scope: Global'
+  455: 'Regional scope: Global'
+  456: 'Regional scope: Global'
+  457: 'Regional scope: Global'
+  458: 'Regional scope: Global'
+  459: 'Regional scope: Global'
+  460: 'Regional scope: Global'
+  461: 'Regional scope: Global'
+  462: 'Regional scope: Global'
+  463: 'Regional scope: Global'
+  464: 'Regional scope: Global'
+  465: 'Regional scope: Global'
+  466: 'Regional scope: Global'
+  467: 'Regional scope: Global'
+  468: 'Regional scope: Global'
+  469: 'Regional scope: Global'
+  470: 'Regional scope: Global'
+  471: 'Regional scope: Global'
+  472: 'Regional scope: Global'
+  473: 'Regional scope: Global'
+  474: 'Regional scope: Global'
+  475: 'Regional scope: Global'
+  476: 'Regional scope: Global'
+  477: 'Regional scope: Global'
+  478: 'Regional scope: Global'
+  479: 'Regional scope: Global'
+  480: 'Regional scope: Global'
+  481: 'Regional scope: Global'
+  482: 'Regional scope: Global'
+  483: 'Regional scope: Global'
+  484: 'Regional scope: Global'
+  485: 'Regional scope: Global'
+  486: 'Regional scope: Global'
+  487: 'Regional scope: Global'
+  488: 'Regional scope: Global'
+  489: 'Regional scope: Global'
+  490: 'Regional scope: Global'
+  491: 'Regional scope: Global'
+  492: 'Regional scope: Global'
+  493: 'Regional scope: Global'
+  494: 'Regional scope: Global'
+  495: 'Regional scope: Global'
+  496: 'Regional scope: Global'
+  497: 'Regional scope: Global'
+  498: 'Regional scope: Global'
+  499: 'Regional scope: Global'
+  500: 'Regional scope: Global'
+  501: 'Regional scope: Global'
+  502: 'Regional scope: Global'
+  503: 'Regional scope: Global'
+  504: 'Regional scope: Global'
+  505: 'Regional scope: Global'
+  506: 'Regional scope: Global'
+  507: 'Regional scope: Global'
+  508: 'Regional scope: Global'
+  509: 'Regional scope: Global'
+  510: 'Regional scope: Global'
+  511: 'Regional scope: Global'
+  512: 'Regional scope: Global'
+  513: 'Regional scope: Global'
+  514: 'Regional scope: Global'
+  515: 'Regional scope: Global'
+  516: 'Regional scope: Global'
+  517: 'Regional scope: Global'
+  518: 'Regional scope: Global'
+  519: 'Regional scope: Global'
+  520: 'Regional scope: Global'
+  521: 'Regional scope: Global'
+  522: 'Regional scope: Global'
+  523: 'Regional scope: Global'
+  524: 'Regional scope: Global'
+  525: 'Regional scope: Global'
+  526: 'Regional scope: Global'
+  527: 'Regional scope: Global'
+  528: 'Regional scope: Global'
+  529: 'Regional scope: Global'
+  530: 'Regional scope: Global'
+  531: 'Regional scope: Global'
+  532: 'Regional scope: Global'
+  533: 'Regional scope: Global'
+  534: 'Regional scope: Global'
+  535: 'Regional scope: Global'
+  536: 'Regional scope: Global'
+  537: 'Regional scope: Global'
+  538: 'Regional scope: Global'
+  539: 'Regional scope: Global'
+  540: 'Regional scope: Global'
+  541: 'Regional scope: Global'
+  542: 'Regional scope: Global'
+  543: 'Regional scope: Global'
+  544: 'Regional scope: Global'
+  545: 'Regional scope: Global'
+  546: 'Regional scope: Global'
+  547: 'Regional scope: Global'
+  548: 'Regional scope: Global'
+  549: 'Regional scope: Global'
+  550: 'Regional scope: Global'
+  551: 'Regional scope: Global'
+  552: 'Regional scope: Global'
+  553: 'Regional scope: Global'
+  554: 'Regional scope: Global'
+  555: 'Regional scope: Global'
+  556: 'Regional scope: Global'
+
+classification_items_attribute6_anc:
+  15: Non-metallic minerals
+  16: Non-metallic minerals
+  17: Non-metallic minerals
+  18: Non-metallic minerals
+  19: Non-metallic minerals
+  20: Non-metallic minerals
+  21: Non-metallic minerals
+  22: Non-metallic minerals
+  23: Non-metallic minerals
+  24: Non-metallic minerals
+  25: Non-metallic minerals
+  26: Iron and steel
+  27: Iron and steel
+  28: Iron and steel
+  29: Iron and steel
+  30: Iron and steel
+  31: Iron and steel
+  32: Iron and steel
+  33: Iron and steel
+  34: Iron and steel
+  35: Iron and steel
+  36: Iron and steel
+  37: Iron and steel
+  38: Iron and steel
+  39: Iron and steel
+  40: Iron and steel
+  41: Iron and steel
+  42: Iron and steel
+  43: Iron and steel
+  44: Iron and steel
+  45: Iron and steel
+  46: Iron and steel
+  47: Iron and steel
+  48: Iron and steel
+  49: Iron and steel
+  50: Iron and steel
+  51: Iron and steel
+  52: Iron and steel
+  53: Non-ferrous metals
+  54: Non-ferrous metals
+  55: Non-ferrous metals
+  56: Non-ferrous metals
+  57: Non-ferrous metals
+  58: Non-ferrous metals
+  59: Non-ferrous metals
+  60: Non-ferrous metals
+  61: Non-ferrous metals
+  62: Non-ferrous metals
+  63: Non-ferrous metals
+  64: Non-metallic minerals
+  65: Non-metallic minerals
+  66: Non-metallic minerals
+  67: Non-metallic minerals
+  68: Chemicals
+  69: Chemicals
+  70: Chemicals
+  71: Chemicals
+  72: Chemicals
+  73: Chemicals
+  74: Chemicals
+  75: Chemicals
+  76: Chemicals
+  77: Chemicals
+  78: Chemicals
+  79: Chemicals
+  80: Chemicals
+  81: Chemicals
+  82: Chemicals
+  83: Chemicals
+  84: Chemicals
+  85: Chemicals
+  86: Chemicals
+  87: Chemicals
+  88: Chemicals
+  89: Chemicals
+  90: Chemicals
+  91: Bio-based products
+  92: Bio-based products
+  93: Bio-based products
+  94: Bio-based products
+  95: Bio-based products
+  96: Bio-based products
+  97: Bio-based products
+  98: Iron and steel
+  99: Iron and steel
+  100: Iron and steel
+  101: Iron and steel
+  102: Iron and steel
+  103: Iron and steel
+  104: Iron and steel
+  105: Iron and steel
+  106: Iron and steel
+  107: Iron and steel
+  108: Iron and steel
+  109: Iron and steel
+  110: Iron and steel
+  111: Iron and steel
+  112: Iron and steel
+  113: Iron and steel
+  114: Iron and steel
+  115: Iron and steel
+  116: Iron and steel
+  117: Iron and steel
+  118: Iron and steel
+  119: Iron and steel
+  120: Iron and steel
+  121: Iron and steel
+  122: Non-ferrous metals
+  123: Non-ferrous metals
+  124: Non-ferrous metals
+  125: Non-ferrous metals
+  126: Non-ferrous metals
+  127: Non-ferrous metals
+  128: Non-ferrous metals
+  129: Non-ferrous metals
+  130: Non-ferrous metals
+  131: Iron and steel
+  132: Non-metallic minerals
+  133: Iron and steel
+  134: Iron and steel
+  135: Iron and steel
+  136: Non-metallic minerals
+  137: Non-metallic minerals
+  138: Non-metallic minerals
+  139: Non-metallic minerals
+  140: Chemicals
+  141: Chemicals
+  142: Chemicals
+  143: Chemicals
+  144: Chemicals
+  145: Chemicals
+  146: Chemicals
+  147: Chemicals
+  148: Chemicals
+  149: Bio-based products
+  150: Bio-based products
+  151: Bio-based products
+  152: Bio-based products
+  153: Bio-based products
+  154: Bio-based products
+  155: Bio-based products
+  156: Bio-based products
+  157: Bio-based products
+  158: Bio-based products
+  159: Non-metallic minerals
+  160: Non-metallic minerals
+  161: Non-metallic minerals
+  162: Chemicals
+  163: Chemicals
+  164: Chemicals
+  165: Chemicals
+  166: Chemicals
+  167: Chemicals
+  168: Chemicals
+  169: Chemicals
+  170: Chemicals
+  171: Chemicals
+  172: Chemicals
+  173: Chemicals
+  174: Chemicals
+  175: Chemicals
+  176: Chemicals
+  177: Chemicals
+  178: Chemicals
+  179: Chemicals
+  180: Chemicals
+  181: Chemicals
+  182: Chemicals
+  183: Chemicals
+  184: Chemicals
+  185: Chemicals
+  186: Chemicals
+  187: Chemicals
+  188: Chemicals
+  189: Chemicals
+  190: Chemicals
+  191: Chemicals
+  192: Chemicals
+  193: Chemicals
+  194: Chemicals
+  195: Chemicals
+  196: Chemicals
+  197: Chemicals
+  198: Chemicals
+  199: Chemicals
+  200: Chemicals
+  201: Chemicals
+  202: Chemicals
+  203: Chemicals
+  204: Chemicals
+  205: Chemicals
+  206: Chemicals
+  207: Chemicals
+  208: Chemicals
+  209: Chemicals
+  210: Chemicals
+  211: Chemicals
+  212: Chemicals
+  213: Chemicals
+  214: Chemicals
+  215: Chemicals
+  216: Chemicals
+  217: Chemicals
+  218: Chemicals
+  219: Chemicals
+  220: Chemicals
+  221: Chemicals
+  222: Chemicals
+  223: Chemicals
+  224: Chemicals
+  225: Chemicals
+  226: Chemicals
+  227: Chemicals
+  228: Chemicals
+  229: Chemicals
+  230: Chemicals
+  231: Chemicals
+  232: Chemicals
+  233: Chemicals
+  234: Chemicals
+  235: Chemicals
+  236: Chemicals
+  237: Chemicals
+  238: Chemicals
+  239: Chemicals
+  240: Chemicals
+  241: Chemicals
+  242: Chemicals
+  243: Chemicals
+  244: Chemicals
+  245: Chemicals
+  246: Chemicals
+  247: Chemicals
+  248: Chemicals
+  249: Bio-based products
+  250: Bio-based products
+  251: Bio-based products
+  252: Bio-based products
+  253: Bio-based products
+  254: Bio-based products
+  255: Bio-based products
+  256: Bio-based products
+  257: Bio-based products
+  258: Bio-based products
+  259: Bio-based products
+  260: Bio-based products
+  261: Bio-based products
+  262: Bio-based products
+  263: Non-ferrous metals
+  264: Non-ferrous metals
+  265: Non-ferrous metals
+  266: Non-ferrous metals
+  267: Non-ferrous metals
+  268: Non-ferrous metals
+  269: Non-ferrous metals
+  270: Non-ferrous metals
+  271: Non-ferrous metals
+  272: Non-ferrous metals
+  273: Non-ferrous metals
+  274: Non-ferrous metals
+  275: Non-ferrous metals
+  276: Non-ferrous metals
+  277: Non-ferrous metals
+  278: Non-ferrous metals
+  279: Non-ferrous metals
+  280: Chemicals
+  281: Chemicals
+  282: Chemicals
+  283: Chemicals
+  284: Chemicals
+  285: Chemicals
+  286: Chemicals
+  287: Chemicals
+  288: Chemicals
+  289: Chemicals
+  290: Iron and steel
+  291: Iron and steel
+  292: Iron and steel
+  293: Iron and steel
+  294: Iron and steel
+  295: Iron and steel
+  296: Iron and steel
+  297: Chemicals
+  298: Chemicals
+  299: Bio-based products
+  300: Bio-based products
+  301: Bio-based products
+  302: Bio-based products
+  303: Bio-based products
+  304: Bio-based products
+  305: Non-ferrous metals
+  306: Non-ferrous metals
+  307: Non-ferrous metals
+  308: Non-ferrous metals
+  309: Non-ferrous metals
+  310: Non-ferrous metals
+  311: Non-ferrous metals
+  312: Non-ferrous metals
+  313: Non-ferrous metals
+  314: Non-metallic minerals
+  315: Non-metallic minerals
+  316: Non-metallic minerals
+  317: Non-metallic minerals
+  318: Non-metallic minerals
+  319: Non-metallic minerals
+  320: Non-metallic minerals
+  321: Non-metallic minerals
+  322: Non-metallic minerals
+  323: Non-metallic minerals
+  324: Iron and steel
+  325: Iron and steel
+  326: Iron and steel
+  327: Iron and steel
+  328: Iron and steel
+  329: Iron and steel
+  330: Iron and steel
+  331: Iron and steel
+  332: Iron and steel
+  333: Iron and steel
+  334: Iron and steel
+  335: Iron and steel
+  336: Iron and steel
+  337: Iron and steel
+  338: Iron and steel
+  339: Iron and steel
+  340: Iron and steel
+  341: Iron and steel
+  342: Iron and steel
+  343: Iron and steel
+  344: Iron and steel
+  345: Non-ferrous metals
+  346: Non-ferrous metals
+  347: Iron and steel
+  348: Iron and steel
+  349: Iron and steel
+  350: Iron and steel
+  351: Iron and steel
+  352: Iron and steel
+  353: Iron and steel
+  354: Iron and steel
+  355: Iron and steel
+  356: Iron and steel
+  357: Iron and steel
+  358: Iron and steel
+  359: Non-metallic minerals
+  360: Non-metallic minerals
+  361: Non-metallic minerals
+  362: Non-metallic minerals
+  363: Non-metallic minerals
+  364: Non-metallic minerals
+  365: Non-metallic minerals
+  366: Non-metallic minerals
+  367: Non-metallic minerals
+  368: Non-metallic minerals
+  369: Non-metallic minerals
+  370: Non-metallic minerals
+  371: Non-metallic minerals
+  372: Non-metallic minerals
+  373: Non-metallic minerals
+  374: Non-metallic minerals
+  375: Non-metallic minerals
+  376: Non-ferrous metals
+  377: Non-metallic minerals
+  378: Non-ferrous metals
+  379: Iron and steel
+  380: Iron and steel
+  381: Iron and steel
+  382: Iron and steel
+  383: Iron and steel
+  384: Iron and steel
+  385: Iron and steel
+  386: Iron and steel
+  387: Iron and steel
+  388: Iron and steel
+  389: Iron and steel
+  390: Iron and steel
+  391: Iron and steel
+  392: Iron and steel
+  393: Iron and steel
+  394: Iron and steel
+  395: Iron and steel
+  396: Iron and steel
+  397: Iron and steel
+  398: Iron and steel
+  399: Iron and steel
+  400: Iron and steel
+  401: Iron and steel
+  402: Iron and steel
+  403: Iron and steel
+  404: Iron and steel
+  405: Iron and steel
+  406: Non-ferrous metals
+  407: Bio-based products
+  408: Bio-based products
+  409: Bio-based products
+  410: Bio-based products
+  411: Bio-based products
+  412: Bio-based products
+  413: Bio-based products
+  414: Bio-based products
+  415: Bio-based products
+  416: Non-ferrous metals
+  417: Non-ferrous metals
+  418: Non-ferrous metals
+  419: Non-ferrous metals
+  420: Non-ferrous metals
+  421: Non-ferrous metals
+  422: Non-ferrous metals
+  423: Non-ferrous metals
+  424: Non-ferrous metals
+  425: Non-ferrous metals
+  426: Non-ferrous metals
+  427: Non-ferrous metals
+  428: Chemicals
+  429: Iron and steel
+  430: Chemicals
+
+classification_items_attribute7_anc:
+  15: Cement clinker, dry feed rotary kiln
+  16: Cement clinker, efficient dry feed rotary kiln
+  17: Cement clinker, efficient dry feed rotary kiln + on-site ccs
+  18: Cement clinker, efficient dry feed rotary kiln + oxy-combustion ccs
+  19: Cement, blended cement
+  20: Cement, alkali-activated cement
+  21: Cement, belite cement
+  22: Cement clinker, dry feed rotary kiln
+  23: Cement clinker, wet feed rotary kiln
+  24: Cement clinker, efficient dry feed rotary kiln + on-site ccs
+  25: Cement clinker, efficient dry feed rotary kiln + oxy-combustion ccs
+  26: Crude steel, blast furnace + basic oxygen furnace
+  27: Crude steel, direct reduced iron + electric arc furnace
+  28: Recycled steel, standard electric arc furnace - scrap
+  29: Crude steel, blast furnace + basic oxygen furnace
+  30: Crude steel, blast furnace + basic oxygen furnace + ccs
+  31: Crude steel, smelting reduction + basic oxygen furnace
+  32: Crude steel, smelting reduction + basic oxygen furnace + ccs
+  33: Crude steel, direct reduced iron + electric arc furnace + ccs
+  34: Crude steel, top gas recycling blast furnace + basic oxygen furnace
+  35: Crude steel, top gas recycling blast furnace  + basic oxygen furnace
+  36: Crude steel, top gas recycling blast furnace + basic oxygen furnace + ccs
+  37: Crude steel, hydrogen direct reduced iron + electric arc furnace
+  38: Crude steel, electrowinning + electric arc furnace
+  39: Crude steel, blast furnace + basic oxygen furnace
+  40: Crude steel, direct reduced iron + electric arc furnace
+  41: Recycled steel, standard electric arc furnace - scrap
+  42: Crude steel, smelting reduction + basic oxygen furnace
+  43: Crude steel, blast furnace + basic oxygen furnace + ccs
+  44: Crude steel, top gas recycling blast furnace + basic oxygen furnace + ccs
+  45: Crude steel, direct reduced iron + electric arc furnace + ccs
+  46: Crude steel, hydrogen direct reduced iron + electric arc furnace
+  47: Crude steel, hisarna
+  48: Crude steel, hisarna w/ CCS
+  49: Crude steel, ulcored
+  50: Crude steel, ulcolysis
+  51: Crude steel, ulcowin
+  52: 'Ferroalloys, top-down representation '
+  53: 'Copper, '
+  54: Zinc, hydrometallurgical process
+  55: Tin, smelting + refining
+  56: Titanium, kroll process
+  57: Niobium, ?
+  58: Alumina, bayer process
+  59: "Aluminium, hall-h\xE9roult"
+  60: Recycled aluminium, ?
+  61: Aluminium, inert anodes
+  62: Aluminium, carbothermic reduction
+  63: Aluminium, kaolinite reduction
+  64: Lime, long rotary kiln
+  65: Glass, fossil fuel-fired furnace
+  66: Glass, all electric furnace
+  67: Ceramics production
+  68: olefins, steam cracking
+  69: olefins, steam cracking
+  70: olefins, steam cracking
+  71: olefins, steam cracking
+  72: 'olefins, propane dehydrogenation '
+  73: olefins, catalytic cracking
+  74: olefins, methanol to olefins
+  75: olefins, ethanol dehydration
+  76: 'methanol, coal gasification '
+  77: 'ammonia, coal gasification '
+  78: methanol, coke oven gas steam reforming
+  79: methanol, partial oil oxidation
+  80: methanol, steam methane reforming
+  81: ammonia, steam methane reforming
+  82: methanol, electrolysis
+  83: ammonia, electrolysis
+  84: methanol, biomass gasification
+  85: ammonia, biomass gasification
+  86: ammonia, partial oil oxidation
+  87: ammonia, steam methane reforming + ccs
+  88: chlorine, mercury cell
+  89: chlorine, diaphragm cell
+  90: chlorine, membrane cell
+  91: mechanical pulp, mechanical pulping
+  92: semi-chemical pulp, semi mechanical pulping
+  93: recycled pulp, recycling
+  94: kraft pulp, kraft process
+  95: sulphite pulp, sulphite process
+  96: kraft pukp, kraft/BLG process
+  97: paper, paper mill
+  98: Sinter, blast furnace + basic oxygen furnace
+  99: Iron ore pellets, blast furnace + basic oxygen furnace
+  100: Iron ore pellets, blast furnace + basic oxygen furnace
+  101: Coke, blast furnace + basic oxygen furnace
+  102: Pig iron, blast furnace + basic oxygen furnace
+  103: Crude steel, blast furnace + basic oxygen furnace
+  104: Electricity, blast furnace + basic oxygen furnace
+  105: Electricity, blast furnace + basic oxygen furnace
+  106: Electricity, blast furnace + basic oxygen furnace
+  107: Electricity, blast furnace + basic oxygen furnace
+  108: Steel products, blast furnace + basic oxygen furnace
+  109: Pig iron, top gas recycling blast furnace  + basic oxygen furnace + ccs
+  110: Coke, top gas recycling blast furnace  + basic oxygen furnace + ccs
+  111: Steel products, top gas recycling blast furnace  + basic oxygen furnace + ccs
+  112: Steel products, direct reduced iron + electric arc furnace
+  113: Electricity, blast furnace + basic oxygen furnace
+  114: Pig iron, hisarna w/ CCS
+  115: Sponge iron, ulcored + ccs
+  116: Crude steel, direct reduced iron + electric arc furnace
+  117: Hydrogen, hydrogen direct reduced iron + electric arc furnace
+  118: Sponge iron, hydrogen direct reduced iron + electric arc furnace
+  119: Iron plate, ulcowin
+  120: Crude steel, ulcowin
+  121: Crude steel, ulcolysis
+  122: "Aluminium, hall-h\xE9roult"
+  123: Aluminium billets and slabs, casting
+  124: Aluminium, inert anodes
+  125: Aluminium, wetted cathodes
+  126: Aluminium billets and slabs, casting
+  127: Prebaked carbon anodes production
+  128: Prebaked carbon anodes production
+  129: Aluminium billets and slabs, recycling and casting of secondary aluminium
+  130: Aluminium billets and slabs, recycling and casting of secondary aluminium
+  131: blast furnace slag, dried, blast furnace + basic oxygen furnace
+  132: Cement, Roller Press + two Ball Mills
+  133: blast furnace slag, dried, blast furnace + basic oxygen furnace
+  134: blast furnace slag, dried, blast furnace + basic oxygen furnace
+  135: blast furnace slag, dried, blast furnace + basic oxygen furnace
+  136: Cement, Roller Press + two vertical roller Mills
+  137: Cement, Roller Press + two High-Pressure Rolls
+  138: High-efficiency classifiers for cement production
+  139: 'Cement, Ball Mill + Ball Mill '
+  140: HVC, methanol to olefins
+  141: HVC, steam cracking
+  142: HVC, steam cracking
+  143: HVC, steam cracking
+  144: HVC, steam cracking
+  145: HVC, steam cracking
+  146: HVC, methanol to olefins
+  147: methanol, black liquor to methanol
+  148: HVC, CCU
+  159: Calcined clay, rotary kiln
+  160: Calcined clay, flash calciner
+  161: Metakaolin limestone cement
+  162: Ethylene production via Ethane steam cracking
+  163: Ethylene production via Naphtha steam cracking + CCS
+  164: Ethylene production via Naphtha electric steam cracking
+  165: Ethylene production via Naphtha electric steam cracking + by-product upgrade
+  166: Ethylene production via Naphtha H2 steam cracking
+  167: Ethylene production via Naphtha H2 steam cracking + by-product upgrade
+  168: Ethylene production via Naphtha steam cracking
+  169: Ethylene production via Naphtha steam cracking + by-product upgrade
+  170: Ethylene production via Pyrolysis oil steam cracking
+  171: Ethylene production via Bio-oils steam cracking
+  172: Ethylene production via Catalytic naphtha cracking
+  173: Ethylene production via Catalytic naphtha electric steam cracking
+  174: 'Ethylene production via Catalytic naphtha cracking + CCS '
+  175: Ethylene production via Catalytic naphtha H2 cracking
+  176: Ethylene production via MTO - Black
+  177: Ethylene production via MTO - Green
+  178: Ethylene production via Ethane steam cracking + CCS
+  179: Ethylene production via Ethane electric steam cracking
+  180: Ethylene production via Ethane H2 steam cracking
+  181: Ethylene production via Naphtha steam cracking + CCS + by-product upgrade
+  182: Ethylene production via Pyrolysis oil steam cracking + CCS + by-product upgrade
+  183: Ethylene production via Bio-oils steam cracking + by-product upgrade
+  184: Ethylene production via Pyrolysis oil H2 steam cracking + by-product upgrade
+  185: Ethylene production via Bio-oils H2 steam cracking + by-product upgrade
+  186: Ethylene production via Pyrolysis oil H2 steam cracking + CCS + by-product
+    upgrade
+  187: Ethylene production via Pyrolysis oil electric steam cracking + by-product
+    upgrade
+  188: Ethylene production via Bio-oils electric steam cracking + by-product upgrade
+  189: Ethylene production via Pyrolysis oil electric steam cracking + CCS + by-product
+    upgrade
+  190: Ethylene production via Bioethanol Dehydration
+  191: Propylene production via Naphtha steam cracking + CCS
+  192: Propylene production via Naphtha electric steam cracking
+  193: Propylene production via Naphtha electric steam cracking + by-product upgrade
+  194: Propylene production via Naphtha H2 steam cracking
+  195: Propylene production via Naphtha H2 steam cracking + by-product upgrade
+  196: Propylene production via Naphtha steam cracking
+  197: Propylene production via Naphtha steam cracking + by-product upgrade
+  198: Propylene production via Pyrolysis oil steam cracking
+  199: Propylene production via Bio-oils steam cracking
+  200: Propylene production via Catalytic naphtha cracking
+  201: Propylene production via Catalytic naphtha electric steam cracking
+  202: 'Propylene production via Catalytic naphtha cracking + CCS '
+  203: Propylene production via Catalytic naphtha H2 cracking
+  204: Propylene production via MTO - Black
+  205: Propylene production via MTO - Green
+  206: Propylene production via Naphtha steam cracking + CCS + by-product upgrade
+  207: Propylene production via Pyrolysis oil steam cracking + CCS + by-product upgrade
+  208: Propylene production via Bio-oils steam cracking + by-product upgrade
+  209: Propylene production via Pyrolysis oil H2 steam cracking + by-product upgrade
+  210: Propylene production via Bio-oils H2 steam cracking + by-product upgrade
+  211: Propylene production via Pyrolysis oil H2 steam cracking + CCS + by-product
+    upgrade
+  212: Propylene production via Pyrolysis oil electric steam cracking + by-product
+    upgrade
+  213: Propylene production via Bio-oils electric steam cracking + by-product upgrade
+  214: Propylene production via Pyrolysis oil electric steam cracking + CCS + by-product
+    upgrade
+  215: Propylene production via PDH
+  216: Propylene production via PDH + CCS
+  217: Propylene production via MTP - Black
+  218: Propylene production via MTP - Green
+  219: Propylene production via Refineries - Propylene
+  220: Butadiene production via Naphtha steam cracking + CCS
+  221: Butadiene production via Naphtha electric steam cracking
+  222: Butadiene production via Naphtha electric steam cracking + by-product upgrade
+  223: Butadiene production via Naphtha H2 steam cracking
+  224: Butadiene production via Naphtha H2 steam cracking + by-product upgrade
+  225: Butadiene production via Naphtha steam cracking
+  226: Butadiene production via Naphtha steam cracking + by-product upgrade
+  227: Butadiene production via Pyrolysis oil steam cracking
+  228: Butadiene production via Bio-oils steam cracking
+  229: Butadiene production via Catalytic naphtha cracking
+  230: Butadiene production via Catalytic naphtha electric steam cracking
+  231: 'Butadiene production via Catalytic naphtha cracking + CCS '
+  232: Butadiene production via Catalytic naphtha H2 cracking
+  233: Butadiene production via Naphtha steam cracking + CCS + by-product upgrade
+  234: Butadiene production via Pyrolysis oil steam cracking + CCS + by-product upgrade
+  235: Butadiene production via Bio-oils steam cracking + by-product upgrade
+  236: Butadiene production via Pyrolysis oil H2 steam cracking + by-product upgrade
+  237: Butadiene production via Bio-oils H2 steam cracking + by-product upgrade
+  238: Butadiene production via Pyrolysis oil H2 steam cracking + CCS + by-product
+    upgrade
+  239: Butadiene production via Pyrolysis oil electric steam cracking + by-product
+    upgrade
+  240: Butadiene production via Bio-oils electric steam cracking + by-product upgrade
+  241: Butadiene production via Pyrolysis oil electric steam cracking + CCS + by-product
+    upgrade
+  242: Butadiene production via Ethanol to butadiene
+  243: butadiene polymerisation
+  244: naphta production
+  245: vinyl chloride production
+  246: polyvinylchloride production
+  247: polyethylene production
+  248: polypropylene production
+  249: production of solid structural timber
+  250: production of glued-laminated timber
+  251: production of cross laminated timber
+  252: production of laminated veneer lumber
+  253: production of wood particle board
+  254: production of oriented strand board (OSB)
+  255: production of fiberboard, medium density
+  256: production of fiberboard, high density
+  257: production of sawnwood, softwood, 55% humidity
+  258: production of sawnwood, softwood, chamber dried, 8%-20% humidity
+  259: production of sawnwood, hardwood, chamber dried, 8%-20% humidity
+  263: Beneficiation of suflide ore, crushing, grinding and flotation to produce copper
+    concentrate
+  264: Copper anode primary production via Pyrometallurgical route (Bath smelting
+    and converting) of copper concentrates. Product is copper anode ready to be electrorefined
+  265: Copper anode primary production via Pyrometallurgical route (Continuous smelting
+    and converting) of copper concentrates. Product is copper anode ready to be electrorefined
+  266: Copper anode primary production via Pyrometallurgical route (Flash smelting
+    and converting) of copper concentrates. Product is copper anode ready to be electrorefined
+  267: Copper anode production via pyrometallurgical route using hydrogen as reduction
+    agent
+  268: Copper cathode primary production from oxide ore via Hydrometallurgical route
+    (leaching, solvent extraction and electrowinning)
+  269: Production of copper concentrates from slag recycling
+  270: Electrorefining of copper anode after smelting and converting
+  271: Extraction of precious metals from anode slime
+  272: Extraction of precious metals from anode slime coming from copper waste electrorefining
+  273: Secondary copper production via biometallurgy, from low grade e-waste scrap
+  274: Production of secondary copper from ash recycling. Product is copper cathode
+  275: Secondary copper production via chemical treatment, from low grade e-waste
+    scrap
+  276: Secondary copper anode production from high grade copper scrap via pryrometallurgical
+    route
+  277: Secondary copper anode production from low grade copper scrap via pryrometallurgical
+    route
+  278: Secondary copper anode production from medium grade copper scrap via pryrometallurgical
+    route
+  279: Secondary copper production via hydrometallurgy, from low grade e-waste scrap
+  280: Production of asphalt
+  281: Production of asphalt, including secondary asphalt
+  282: Production of asphalt
+  283: Production of asphalt
+  284: Production of asphalt, using an electrified process
+  285: Production of asphalt, using an electrified process, including secondary asphalt
+  286: Production of asphalt, using hydrogen
+  287: Production of asphalt, using hydrogen, including secondary asphalt
+  288: Production of asphalt, using lignin as feedstock, including secondary asphalt
+  289: Production of asphalt, using lignin as feedstock, including secondary asphalt
+  290: Crude steel, blast furnace + basic oxygen furnace
+  291: Recycled steel, standard electric arc furnace - scrap
+  292: Sponge iron, direct reduced iron + electric arc furnace
+  293: Crude steel, hydrogen direct reduced iron + electric arc furnace
+  294: Crude steel, iron electrolysis + electric arc furnace
+  295: Crude steel, hisarna w/ CCS
+  296: Crude steel, blast furnace + basic oxygen furnace + CCU of blast furnace gases
+  305: "Aluminium, hall-h\xE9roult"
+  306: "Aluminium, hall-h\xE9roult"
+  307: "Aluminium, hall-h\xE9roult"
+  308: "Aluminium, hall-h\xE9roult"
+  309: Aluminium, inert anodes
+  310: Recycled aluminium, ?
+  311: Recycled aluminium, ?
+  312: Recycled aluminium, ?
+  313: 'Aluminium, finished, '
+  314: Glass Flat Production
+  315: Glass Flat Production Heat Recovery / Improved Burners
+  316: Glass Flat Production Heat Recovery / Improved Burners CCS
+  317: Glass Hollow Production
+  318: Glass Hollow Production Heat Recovery / Improved Burners
+  319: Glass Hollow Production Heat Recovery / Improved Burners CCS
+  320: Glass Hollow Recycling
+  321: Glass Hollow Recycling Improved Melting
+  322: Glass Hollow Recycling Improved Melting CCS
+  323: Quick Lime Production
+  324: Iron ore pellets, blast furnace + basic oxygen furnace
+  325: Sinter, blast furnace + basic oxygen furnace
+  326: Sinter, blast furnace + basic oxygen furnace
+  327: Pig iron, blast furnace + basic oxygen furnace
+  328: Pig iron, blast furnace + basic oxygen furnace
+  329: Pig iron, blast furnace + basic oxygen furnace + ccs
+  330: Pig iron, top gas recycling blast furnace  + basic oxygen furnace
+  331: Pig iron, top gas recycling blast furnace  + basic oxygen furnace + ccs
+  332: Pig iron, cyclone converter furnace
+  333: Pig iron, smelting reduction + basic oxygen furnace
+  334: Pig iron, smelting reduction + basic oxygen furnace
+  335: Crude steel, blast furnace + basic oxygen furnace
+  336: Recycled steel, blast furnace + basic oxygen furnace
+  337: Cast iron, cupola furnace
+  338: Sponge iron, direct reduced iron + electric arc furnace
+  339: Sponge iron, direct reduced iron + electric arc furnace + ccs
+  340: Crude steel, direct reduced iron + electric arc furnace
+  341: Crude steel, hydrogen direct reduced iron + electric arc furnace
+  342: Recycled steel, standard electric arc furnace - scrap
+  343: Ferrochromium, ?
+  344: Steel, finishing
+  345: "Aluminium, hall-h\xE9roult"
+  346: "Aluminium, hall-h\xE9roult + ccs"
+  347: Crude steel, blast furnace + basic oxygen furnace
+  348: Crude steel, blast furnace + basic oxygen furnace
+  349: Crude steel, blast furnace + basic oxygen furnace
+  350: Crude steel, smelting reduction + basic oxygen furnace
+  351: Crude steel, blast furnace + basic oxygen furnace + ccs
+  352: Crude steel, blast furnace + basic oxygen furnace + ccs
+  353: Crude steel, smelting reduction + basic oxygen furnace + ccs
+  354: Sponge iron, direct reduced iron + electric arc furnace
+  355: Sponge iron, direct reduced iron + electric arc furnace + ccs
+  356: Sponge iron, hydrogen direct reduced iron + electric arc furnace
+  357: Crude steel, direct reduced iron + electric arc furnace
+  358: Recycled steel, standard electric arc furnace - scrap
+  359: Cement clinker, dry feed rotary kiln
+  360: Cement clinker, efficient dry feed rotary kiln + ccs
+  361: Cement clinker, wet feed rotary kiln
+  362: Cement, blended cement
+  363: cement clinker material flows
+  364: cement clinker material flows
+  365: cement clinker material flows
+  376: Aluminium, inert anodes
+  377: Lime, parallel flow kiln
+  378: Extraction of precious metals from anode slime
+
+classification_items_attribute8_anc:
+  15: secondary data, model input/literature
+  16: secondary data, model input/literature
+  17: secondary data, model input/literature
+  18: secondary data, model input/literature
+  19: secondary data, model input/literature
+  20: secondary data, model input/literature
+  21: secondary data, model input/literature
+  22: secondary data, literature
+  23: secondary data, literature
+  24: secondary data, literature
+  25: secondary data, literature
+  26: secondary data, model input/literature
+  27: secondary data, model input/literature
+  28: secondary data, model input/literature
+  29: secondary data, model input/literature
+  30: secondary data, model input/literature
+  31: secondary data, model input/literature
+  32: secondary data, model input/literature
+  33: secondary data, model input/literature
+  34: secondary data, model input/literature
+  35: secondary data, model input/literature
+  36: secondary data, model input/literature
+  37: secondary data, model input/literature
+  38: secondary data, literature
+  39: secondary data, literature
+  40: secondary data, literature
+  41: secondary data, literature
+  42: secondary data, literature
+  43: secondary data, literature
+  44: secondary data, literature
+  45: secondary data, literature
+  46: secondary data, literature
+  47: secondary data, literature
+  48: secondary data, literature
+  49: secondary data, literature
+  50: secondary data, literature
+  51: secondary data, literature
+  52: secondary data, literature
+  53: secondary data, literature
+  54: secondary data, literature
+  55: secondary data, literature
+  56: secondary data, literature
+  57: secondary data, literature
+  58: secondary data, literature
+  59: secondary data, literature
+  60: secondary data, literature
+  61: secondary data, literature
+  62: secondary data, literature
+  63: secondary data, literature
+  64: secondary data, literature
+  65: secondary data, literature
+  66: secondary data, literature
+  67: secondary data, literature
+  68: secondary data, literature
+  69: secondary data, literature
+  70: secondary data, literature
+  71: secondary data, literature
+  72: secondary data, literature
+  73: secondary data, literature
+  74: secondary data, literature
+  75: secondary data, literature
+  76: secondary data, literature
+  77: secondary data, literature
+  78: secondary data, literature
+  79: secondary data, literature
+  80: secondary data, literature
+  81: secondary data, literature
+  82: secondary data, literature
+  83: secondary data, literature
+  84: secondary data, literature
+  85: secondary data, literature
+  86: secondary data, literature
+  87: secondary data, literature
+  88: secondary data, literature
+  89: secondary data, literature
+  90: secondary data, literature
+  91: secondary data, literature
+  92: secondary data, literature
+  93: secondary data, literature
+  94: secondary data, literature
+  95: secondary data, literature
+  96: secondary data, literature
+  97: secondary data, literature
+  98: primary + secondary data, direct measurements complemented with literature or
+    literature validated by industry stakeholders
+  99: primary + secondary data, direct measurements complemented with literature or
+    literature validated by industry stakeholders
+  100: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  101: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  102: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  103: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  104: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  105: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  106: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  107: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  108: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  109: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  110: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  111: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  112: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  113: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  114: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  115: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  116: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  117: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  118: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  119: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  120: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  121: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  122: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  123: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  124: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  125: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  126: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  127: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  128: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  129: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  130: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  131: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  133: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  134: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  135: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  140: secondary data, model input/literature
+  141: secondary data, model input/literature
+  142: secondary data, model input/literature
+  143: secondary data, model input/literature
+  144: secondary data, model input/literature
+  145: secondary data, model input/literature
+  146: secondary data, model input/literature
+  147: secondary data, model input/literature
+  148: secondary data, model input/literature
+  159: secondary data, literature
+  160: secondary data, literature
+  161: secondary data, literature
+  162: secondary data, literature
+  163: secondary data, literature
+  164: secondary data, literature
+  165: secondary data, literature
+  166: secondary data, literature
+  167: secondary data, literature
+  168: secondary data, literature
+  169: secondary data, literature
+  170: secondary data, literature
+  171: secondary data, literature
+  172: secondary data, literature
+  173: secondary data, literature
+  174: secondary data, literature
+  175: secondary data, literature
+  176: secondary data, literature
+  177: secondary data, literature
+  178: secondary data, literature
+  179: secondary data, literature
+  180: secondary data, literature
+  181: secondary data, literature
+  182: secondary data, literature
+  183: secondary data, literature
+  184: secondary data, literature
+  185: secondary data, literature
+  186: secondary data, literature
+  187: secondary data, literature
+  188: secondary data, literature
+  189: secondary data, literature
+  190: secondary data, literature
+  191: secondary data, literature
+  192: secondary data, literature
+  193: secondary data, literature
+  194: secondary data, literature
+  195: secondary data, literature
+  196: secondary data, literature
+  197: secondary data, literature
+  198: secondary data, literature
+  199: secondary data, literature
+  200: secondary data, literature
+  201: secondary data, literature
+  202: secondary data, literature
+  203: secondary data, literature
+  204: secondary data, literature
+  205: secondary data, literature
+  206: secondary data, literature
+  207: secondary data, literature
+  208: secondary data, literature
+  209: secondary data, literature
+  210: secondary data, literature
+  211: secondary data, literature
+  212: secondary data, literature
+  213: secondary data, literature
+  214: secondary data, literature
+  215: secondary data, literature
+  216: secondary data, literature
+  217: secondary data, literature
+  218: secondary data, literature
+  219: secondary data, literature
+  220: secondary data, literature
+  221: secondary data, literature
+  222: secondary data, literature
+  223: secondary data, literature
+  224: secondary data, literature
+  225: secondary data, literature
+  226: secondary data, literature
+  227: secondary data, literature
+  228: secondary data, literature
+  229: secondary data, literature
+  230: secondary data, literature
+  231: secondary data, literature
+  232: secondary data, literature
+  233: secondary data, literature
+  234: secondary data, literature
+  235: secondary data, literature
+  236: secondary data, literature
+  237: secondary data, literature
+  238: secondary data, literature
+  239: secondary data, literature
+  240: secondary data, literature
+  241: secondary data, literature
+  242: secondary data, literature
+  243: secondary data, literature
+  244: secondary data, literature
+  245: secondary data, literature
+  246: secondary data, literature
+  247: secondary data, literature
+  248: secondary data, literature
+  249: secondary data, literature
+  250: secondary data, literature
+  251: secondary data, literature
+  252: secondary data, literature
+  253: secondary data, literature
+  254: secondary data, literature
+  255: secondary data, literature
+  256: secondary data, literature
+  257: secondary data, literature
+  258: secondary data, literature
+  259: secondary data, literature
+  263: secondary data, literature
+  264: secondary data, literature
+  265: secondary data, literature
+  266: secondary data, literature
+  267: secondary data, literature
+  268: secondary data, literature
+  269: secondary data, literature
+  270: secondary data, literature
+  271: secondary data, literature
+  272: secondary data, literature
+  273: secondary data, literature
+  274: secondary data, literature
+  275: secondary data, literature
+  276: secondary data, literature
+  277: secondary data, literature
+  278: secondary data, literature
+  279: secondary data, literature
+  280: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  281: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  282: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  283: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  284: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  285: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  286: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  287: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  288: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  289: primary + secondary data, direct measurements complemented with literature
+    or literature validated by industry stakeholders
+  290: secondary data, report
+  291: secondary data, report
+  292: secondary data, report
+  293: secondary data, report
+  294: secondary data, report
+  295: secondary data, report
+  296: secondary data, report
+  297: secondary data, model input/literature
+  298: secondary data, model input/literature
+  299: secondary data, model input/literature
+  300: secondary data, model input/literature
+  301: secondary data, model input/literature
+  302: secondary data, model input/literature
+  303: secondary data, model input/literature
+  304: secondary data, model input/literature
+  305: secondary data, model input/literature
+  306: secondary data, model input/literature
+  307: secondary data, model input/literature
+  308: secondary data, model input/literature
+  309: secondary data, model input/literature
+  310: secondary data, model input/literature
+  311: secondary data, model input/literature
+  312: secondary data, model input/literature
+  313: secondary data, model input/literature
+  314: secondary data, model input/literature
+  315: secondary data, model input/literature
+  316: secondary data, model input/literature
+  317: secondary data, model input/literature
+  318: secondary data, model input/literature
+  319: secondary data, model input/literature
+  320: secondary data, model input/literature
+  321: secondary data, model input/literature
+  322: secondary data, model input/literature
+  323: secondary data, model input/literature
+  324: secondary data, model input/literature
+  325: secondary data, model input/literature
+  326: secondary data, model input/literature
+  327: secondary data, model input/literature
+  328: secondary data, model input/literature
+  329: secondary data, model input/literature
+  330: secondary data, model input/literature
+  331: secondary data, model input/literature
+  332: secondary data, model input/literature
+  333: secondary data, model input/literature
+  334: secondary data, model input/literature
+  335: secondary data, model input/literature
+  336: secondary data, model input/literature
+  337: secondary data, model input/literature
+  338: secondary data, model input/literature
+  339: secondary data, model input/literature
+  340: secondary data, model input/literature
+  341: secondary data, model input/literature
+  342: secondary data, model input/literature
+  343: secondary data, model input/literature
+  344: secondary data, model input/literature
+  345: secondary data, model input/literature
+  346: secondary data, model input/literature
+  347: secondary data, model input/literature
+  348: secondary data, model input/literature
+  349: secondary data, model input/literature
+  350: secondary data, model input/literature
+  351: secondary data, model input/literature
+  352: secondary data, model input/literature
+  353: secondary data, model input/literature
+  354: secondary data, model input/literature
+  355: secondary data, model input/literature
+  356: secondary data, model input/literature
+  357: secondary data, model input/literature
+  358: secondary data, model input/literature
+  363: secondary data, literature
+  364: secondary data, literature
+  365: secondary data, literature
+  366: secondary data, model input/literature
+  367: secondary data, model input/literature
+  368: secondary data, model input/literature
+  369: secondary data, model input/literature
+  370: secondary data, model input/literature
+  371: secondary data, model input/literature
+  372: secondary data, model input/literature
+  373: secondary data, model input/literature
+  374: secondary data, model input/literature
+  375: secondary data, model input/literature
+  376: secondary data, model input/literature
+  377: secondary data, model input/literature
+  378: secondary data, literature
+  379: secondary data, model input/literature
+  380: secondary data, model input/literature
+  381: secondary data, model input/literature
+  382: secondary data, model input/literature
+  383: secondary data, model input/literature
+  384: secondary data, model input/literature
+  385: secondary data, model input/literature
+  386: secondary data, model input/literature
+  387: secondary data, model input/literature
+  388: secondary data, model input/literature
+  389: secondary data, model input/literature
+  390: secondary data, model input/literature
+  391: secondary data, model input/literature
+  392: secondary data, model input/literature
+  393: secondary data, model input/literature
+  394: secondary data, model input/literature
+  395: secondary data, model input/literature
+  396: secondary data, model input/literature
+  397: secondary data, model input/literature
+  398: secondary data, model input/literature
+  399: secondary data, model input/literature
+  400: secondary data, model input/literature
+  401: secondary data, model input/literature
+  402: secondary data, model input/literature
+  403: secondary data, model input/literature
+  404: secondary data, model input/literature
+  405: secondary data, model input/literature
+  406: secondary data, model input/literature
+  407: secondary data, model input/literature
+  408: secondary data, model input/literature
+  409: secondary data, model input/literature
+  410: secondary data, model input/literature
+  411: secondary data, model input/literature
+  412: secondary data, model input/literature
+  413: secondary data, model input/literature
+  414: secondary data, model input/literature
+  415: secondary data, model input/literature
+  416: secondary data, model input/literature
+  417: secondary data, model input/literature
+  418: secondary data, model input/literature
+  419: secondary data, model input/literature
+  420: secondary data, model input/literature
+  421: secondary data, model input/literature
+  422: secondary data, model input/literature
+  423: secondary data, model input/literature
+  424: secondary data, model input/literature
+  425: secondary data, model input/literature
+  426: secondary data, model input/literature
+  427: secondary data, model input/literature
+  428: secondary data, model input/literature
+
+classification_items_reference:
+  157: LBNL
+  158: LBNL

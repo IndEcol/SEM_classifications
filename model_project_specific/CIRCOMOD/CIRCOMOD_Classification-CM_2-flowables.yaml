@@ -40,11 +40,1071 @@ metadata:
   Comment: None
 
 classification_items_description:
-  1: Tbd.
-
-classification_items_reference:
-  1: ' '
-  2: ' '
+  36: Blast furnace reductant
+  37: Blast furnace/basic oxygen furnace gas
+  46: Benzene, Toluene, and (orto-, meta-, and para-) Xylenes
+  145: High-value chemicals, i.e., ethylene, propylene, butadiene and BTX (benzene,
+    toluene, and xylenes)
+  240: "Reclaimed\_Asphalt Pavement"
 
 classification_items_attribute1_oto:
-  1: To be populated from 4_UPI dataset
+  1: aggregates
+  2: aliminium, primary, liquid
+  3: alumina
+  4: aluminium alloys
+  5: aluminium billets and slabs
+  6: aluminium fluoride
+  7: aluminium scrap, clean
+  8: aluminium scrap, clean, industrial
+  9: aluminium, clean, pre-alloyed
+  10: aluminium, crude
+  11: aluminium, finished
+  12: aluminium, finished, cast products
+  13: aluminium, finished, flat products
+  14: aluminium, finished, long products
+  15: aluminium, primary
+  16: aluminium, raw
+  17: aluminium, recycled
+  18: aluminium, scrap
+  19: aluminium, scrap, contaminated
+  20: ammonia
+  21: ammonium chloride
+  22: anode residues
+  23: anode slime
+  24: asphalt mix, SMA (Stone Mastic asphalt)
+  25: asphalt mix, with RAP (100% electrified)
+  26: asphalt mix, with RAP (100% hydrogen)
+  27: asphalt mix, with RAP (70% feedstock substitution - lignin)
+  28: asphalt mix, with RAP (reclaimed asphalt pavement)
+  29: asphalt mix, without RAP
+  30: asphalt mix, without RAP (100% electrified)
+  31: asphalt mix, without RAP (100% hydrogen)
+  32: asphalt mix, without RAP (70% feedstock substitution - lignin)
+  33: asphalt mix, ZOAB (Zeer Open Asfaltbeton)
+  34: basic oxygen furnace gas
+  35: bauxite
+  36: 'BF reductant '
+  37: 'BF/BOF gas '
+  38: biomass
+  39: bio-oils
+  40: bitumen
+  41: bituminous coal, combusted in industrial boiler
+  42: black liquor
+  43: blast furnace gas
+  44: blast furnace slag
+  45: blast furnace slag, dried
+  46: BTX
+  47: butadiene
+  48: C4
+  49: cadmium II
+  50: calcium sulphate
+  51: carbon dioxide
+  52: carbon dioxide, compressed
+  53: carbon steel
+  54: cast iron
+  55: cement
+  56: cement additives
+  57: cement clinker
+  58: centralized hydrogen (tank storage)
+  59: ceramics
+  60: CH4
+  61: charcoal
+  62: chlorine
+  63: chrome ore
+  64: clay
+  65: coal
+  66: coal tar pitch
+  67: coaltar pitch
+  68: coke
+  69: coke oven gas
+  70: coking coal
+  71: cooling
+  72: copper
+  73: copper ash
+  74: copper cathode
+  75: copper concentrate, from slag
+  76: copper concentrate, sulfide ore
+  77: 'copper concentrate, sulfide ore '
+  78: copper ion
+  79: copper scrap for smelting
+  80: copper scrap, high grade
+  81: copper scrap, low grade
+  82: copper scrap, medium grade
+  83: Copper slag
+  84: copper, anode
+  85: copper, cathode
+  86: copper-rich materials
+  87: Corex gas
+  88: Corex Gas from COREX with CCS
+  89: cross laminated timber
+  90: crude steel
+  91: diesel
+  92: diesel, burned in building machine
+  93: diesel, combusted in industrial boiler
+  94: dimethyl ether
+  95: dioxins, measured as 2,3,7,8-tetrachlorodibenzo-p-dioxin
+  96: dolomite
+  97: electricity
+  98: electricity, at grid, US, 2000
+  99: electricity, bitumen heating - electricity
+  100: electricity, electrification
+  101: electricity, EW process
+  102: electricity, heated asphalt mix storage
+  103: electricity, high voltage
+  104: electricity, leaching process
+  105: electricity, SX process
+  106: electrolyte, copper-rich
+  107: emulsion polymer isocyanate
+  108: ethane
+  109: ethanol
+  110: ethylene
+  111: ethylene dichloride
+  112: extraction of metals from anode slime 1kg
+  113: ferroalloys, primary
+  114: ferrochromium
+  115: ferromanganese
+  116: ferrosilicon
+  117: ferrous sulphate
+  118: F-gases
+  119: fiberboard, high density
+  120: fiberboard, medium density
+  121: filler
+  122: filler material
+  123: flue gas
+  124: fluorine
+  125: fluorocarbons, combustion
+  126: FT diesel
+  127: fuel oil
+  128: gas from blast furnace TGR
+  129: gasoil
+  130: gasoline, combusted in equipment
+  131: glass
+  132: glass, flat
+  133: glass, hollow
+  134: glass, recycled
+  135: glued-laminated timber
+  136: gold
+  137: green gas
+  138: gypsum
+  139: hard coal
+  140: heat
+  141: heat, district or industrial, other than natural gas
+  142: heat, waste
+  143: heavy fuel oil
+  144: high alloy and stainless steel
+  145: HVC
+  146: hydrazine
+  147: hydrochloric acid
+  148: hydrogen
+  149: hydrogen peroxide, 50% v/v
+  150: hydrogen, drum heating and drying
+  151: industrial heat, high-temperature
+  152: industrial oxygen
+  153: industrial roundwood
+  154: iron ore
+  155: iron ore pellets
+  156: iron plate
+  157: kaldor furnace slag
+  158: kaolin
+  159: kaolinite, dry
+  160: kraft pulp
+  161: laminated veneer lumber
+  162: leach residue
+  163: lead II
+  164: light fuel oil
+  165: lignin
+  166: lime
+  167: limestone
+  168: limestone, at mine
+  169: liquified petroleum gas
+  170: low grade scrap from shredded PCBs
+  171: LPG
+  172: 'machine drive '
+  173: mechanical pulp
+  174: melamine formaldehyde resin
+  175: mercury II
+  176: metakaolin
+  177: methane
+  178: methanol
+  179: methanol, black
+  180: methanol, green
+  181: micronutrients
+  182: naphtha
+  183: natural gas
+  184: natural gas, combusted in industrial boiler
+  185: natural gas, recipe changes
+  186: natural gas, rotary drum heating and drying
+  187: natural gas, rotary drum heating and drying for RAP
+  188: natural gas, starts and stops
+  189: nickel carbonate
+  190: 'niobium '
+  191: nitric acid
+  192: nitrogen oxides
+  193: nitrogen, liquid
+  194: non-coking coal
+  195: off-gases
+  196: oil
+  197: olefins
+  198: oleum
+  199: olivine
+  200: oriented strand board (OSB)
+  201: other chemicals
+  202: oxalic acid
+  203: oxide ore
+  204: oxygen
+  205: oxygen liquid
+  206: oxygen, liquid
+  207: palladium
+  208: paper
+  209: paper, graphical
+  210: paper, high quality
+  211: paper, low quality
+  212: paper, recycled
+  213: paper, soft
+  214: particulate matter, < 2.5 um
+  215: particulate matter, > 10 um
+  216: particulate matter, > 2.5 um and < 10um
+  217: particulates, unspecified
+  218: petroleum
+  219: petroleum coke
+  220: PFC
+  221: phenol-resorcin-formaldehyde resin
+  222: pig iron
+  223: polybutadiene
+  224: polyethylene
+  225: polymeric methylene diphenyl diisocyanate (PMDI)
+  226: polypropylene
+  227: polyurethane resin
+  228: polyurethaneresin
+  229: polyvinylchloride
+  230: prebaked carbon anodes
+  231: primary aluminium ingots
+  232: process heat
+  233: propane
+  234: propylene
+  235: pulp
+  236: pulp, recycled
+  237: pyrolysis oil
+  238: quartz sand
+  239: quicklime
+  240: RAP
+  241: recovered off-gas
+  242: recycled pulp
+  243: recycling of 1kg of copper ash
+  244: roundwood with bark
+  245: roundwood without bark
+  246: sawdust and woodchips
+  247: sawnwood, dried in chamber
+  248: sawnwood, hardwood, chamber dried, 8%-20% humidity
+  249: sawnwood, not dried
+  250: sawnwood, softwood, 55% humidity
+  251: sawnwood, softwood, chamber dried, 8%-20% humidity
+  252: scrap
+  253: scrap waste
+  254: selenium
+  255: semi-chemical pulp
+  256: shale
+  257: silca flux
+  258: siliceous raw material
+  259: siliconmanganese
+  260: silver
+  261: sinter
+  262: slag
+  263: slag tailings
+  264: smelting slag
+  265: sodium carbonate
+  266: sodium chlorate
+  267: sodium chloride
+  268: sodium hydroxide
+  269: sodium sulfite
+  270: solid biomass waste
+  271: solid biomasswaste
+  272: solid structural timber
+  273: sponge cadmium
+  274: sponge iron
+  275: sponge iron, powder
+  276: stainless steel, crude
+  277: steam
+  278: steam, medium pressure, 10-19 bar
+  279: steel
+  280: steel billets and slabs
+  281: steel powder
+  282: steel powder, crude
+  283: steel products
+  284: steel scrap
+  285: steel, finished
+  286: steel, primary
+  287: steel, recycled
+  288: steel, secondary
+  289: sulfur dioxide
+  290: sulfuric acid
+  291: sulphide ore
+  292: sulphite pulp
+  293: sulphuric acid
+  294: syngas
+  295: tail gas
+  296: tailings
+  297: tall oil
+  298: tar
+  299: telluride copper
+  300: tin
+  301: titanium
+  302: treatment residue
+  303: turpentine
+  304: urea formaldehyde resin
+  305: vinyl chloride
+  306: waste
+  307: waste polymer
+  308: waste wood
+  309: water
+  310: wet blast furnace slag
+  311: wood particle board
+  312: xanthate
+  313: zinc
+  314: zinc dust
+  315: zinc II
+  316: zinc oxide
+  317: zinc sulfate
+  318: Internal Combustion Engine, gasoline (ICEG)
+  319: Internal Combustion Engine, diesel (ICED)
+  320: Hybrid Electric Vehicles (HEV)
+  321: Plugin Hybrid Electric Vehicles (PHEV)
+  322: Battery Electric Vehicles (BEV)
+  323: Fuel Cell Vehicles (FCV)
+  324: busses, diesel
+  325: busses, electric
+  326: motorcycles, gasoline
+  327: motorcycles, electric
+  328: light cargo trucks, diesel
+  329: light cargo trucks, electric
+  330: freight trucks, diesel
+  331: freight trucks, electric
+  332: passenger trains, diesel
+  333: passenger trains, electric
+  334: freight trains, diesel
+  335: freight trains, electric
+  336: passenger ships
+  337: freight ships
+  338: passenger aircrafts
+  339: freight aircrafts
+  340: SFH_non-standard
+  341: SFH_standard
+  342: SFH_efficient
+  343: SFH_ZEB
+  344: MFH_non-standard
+  345: MFH_standard
+  346: MFH_efficient
+  347: MFH_ZEB
+  348: RT_non-standard
+  349: RT_standard
+  350: RT_efficient
+  351: RT_ZEB
+  352: informal_non-standard
+  353: nonres_offices_non-standard
+  354: nonres_offices_standard
+  355: nonres_offices_efficient
+  356: nonres_offices_ZEB
+  357: nonres_commercial_non-standard
+  358: nonres_commercial_standard
+  359: nonres_commercial_efficient
+  360: nonres_commercial_ZEB
+  361: nonres_education_non-standard
+  362: nonres_education_standard
+  363: nonres_education_efficient
+  364: nonres_education_ZEB
+  365: nonres_health_non-standard
+  366: nonres_health_standard
+  367: nonres_health_efficient
+  368: nonres_health_ZEB
+  369: nonres_hotels_restaurants_non-standard
+  370: nonres_hotels_restaurants_standard
+  371: nonres_hotels_restaurants_efficient
+  372: nonres_hotels_restaurants_ZEB
+  373: nonres_other_non-standard
+  374: nonres_other_standard
+  375: nonres_other_efficient
+  376: nonres_other_ZEB
+  377: nonres_agg_hotels
+  378: nonres_agg_governmental
+  379: nonres_agg_office
+  380: nonres_agg_retail
+  381: roads, local
+  382: roads, collectors and distributors
+  383: roads, arterial
+  384: roads, freeway
+  385: rail, single track, unelectrified
+  386: rail, double track, unelectrified
+  387: rail, single track, electrified
+  388: rail, double track, electrified
+  389: rail, high speed line
+  390: electricity grid, high and medium voltage
+  391: electricity grid, low voltage and distribution
+  392: electricitiy grid, transformation
+  393: pipelines and pumping stations
+  394: solar photovoltaic power plant
+  395: concentrating solar power plant (CSP)
+  396: wind power plant onshore
+  397: wind power plant offshore
+  398: hydro power plant
+  399: nuclear power plant
+  400: coal power plant
+  401: coal power plant without abatement measures
+  402: bio powerplant
+  403: oil power plant
+  404: geothermal power plant
+  405: IGCC power plant
+  406: light oil combined cycle
+  407: gas combined cycle power plant
+  408: advanced coal power plant with CCS
+  409: coal power plant with CCS
+  410: biomass power plant with CCS
+  411: gas combined cycle power plant with CCS
+  412: Fan
+  413: Air-cooler
+  414: Air-conditioning
+  415: Refridgerator
+  416: Microwave
+  417: Washing Machine
+  418: Tumble dryer
+  419: Dish washer
+  420: Television
+  421: VCR/DVD player
+  422: PC & Laptop computers
+  423: Other small appliances
+  424: solid biomass waste
+  425: methanol - black
+  426: methanol - green
+  427: bioethanol
+  428: CO2-rich off-gas
+  429: CO2, ready for transport and storage
+  430: manual sorting of one tonne of plastics from WEEE, informal sector
+  431: waste plastic, consumer electronics, sorted
+  432: scrap steel, to recycling
+  433: waste plastic
+  434: waste polyurethane foam
+  435: electricity, low voltage
+  436: formic acid
+  437: liquefied petroleum gas
+  438: sodium chloride powder
+  439: sodium hydroxide NaOH
+  440: waste plastic, consumer electronics, unsorted
+  441: carbon dioxide, fossil
+  442: carbon monoxide, fossil
+  443: 'particulate Matter, > 10 um '
+  444: 'BOD5, Biological Oxygen Demand '
+  445: COD, Chemical Oxygen Demand
+  446: chloride
+  447: DOC, Dissolved Organic Carbon
+  448: dissolved solids
+  449: nitrogen
+  450: oils, non-fossil
+  451: phosphorus
+  452: sodium I
+  453: TOC, Total Organic Carbon
+  454: 'water '
+  455: manual sorting of one tonne of plastics from WEEE, formal sector
+  456: treatment of one tonne of mixed lightweight packaging waste
+  457: mixed lightweight packaging waste
+  458: cumulative energy demand
+  459: re-granulate plastics
+  460: sorting of 1kg of plastic packaging waste
+  461: lubricants
+  462: plastic waste, generic, sorted
+  463: waste packaging plastics, unsorted
+  464: waste, rejected
+  465: paper/cardboard from packaging waste, sorted
+  466: paper/cardboard packaging waste, unsorted
+  467: sorting of 1kg of waste packaging paperboard
+  468: waste paperboard, sorted
+  469: electricity, medium voltage
+  470: lubricating oil
+  471: steel, alloyed
+  472: waste paperboard, unsorted
+  473: waste graphical paper
+  474: waste paperboard
+  475: waste plastic, mixture
+  476: waste textile, soiled
+  477: waste wood, untreated
+  478: waste paper, sorted
+  479: waste paper, unsorted
+  480: scrap steel
+  481: tinplate scrap, sorted
+  482: tinplate, in mixed metal scrap
+  483: aluminium scrap, sorted
+  484: used aluminium packaging
+  485: glass from packaging waste, sorted
+  486: glass packaging waste, unsorted
+  487: wood chips, post consumer wood
+  488: waste wood, post consumer
+  489: steel, low-alloyed, hot rolled
+  490: recycled PET
+  491: NaOH
+  492: wastewater
+  493: waste PET, sorted
+  494: waste residues
+  495: recycled HDPE
+  496: waste HDPE, sorted
+  497: recycled LDPE
+  498: waste LDPE, sorted
+  499: recycled PP
+  500: waste PP, sorted
+  501: recycled PS
+  502: waste PS, sorted
+  503: purified pyrolisis Oil
+  504: mixed plastic waste
+  505: char
+  506: heavy vaccum residue
+  507: treatment of mixed plastic wasted, via mechanical recycling
+  508: plastic granulate
+  509: residual waste, to incineration
+  510: other fuels
+  511: energy recovery of one tonne of mixed plastic waste, 100% incineration
+  512: energy recovery of one tonne of mixed plastic waste, 100% refuse-derived fuel
+  513: energy recovery of one tonne of mixed plastic waste, 30% incineration, 70%
+    refuse-derived fuel
+  514: shredding of used glider, electric scooter
+  515: used glider, electric scooter
+  516: aluminium scrap, post-consumer
+  517: iron scrap, unsorted
+  518: residue from shredder fraction
+  519: treatment of one tonne of waste tyres
+  520: waste tyres
+  521: steel, to steel secondary production
+  522: rubber granulate <3mm
+  523: rubber crumb <20mm
+  524: steel, to disposal
+  525: rubber, to disposal
+  526: fibre, to disposal
+  527: sorting of one tonne of waste wood/MDF (furniture)
+  528: sorted waste MDF, for recycling
+  529: waste wood/MDF
+  530: heat, natural gas
+  531: contaminants, to landfill
+  532: wastewater, to treatment
+  533: treatment of one tonne of WEEE from large appliances
+  534: waste EEE from a large appliance
+  535: ferrous metals scrap, to recycling
+  536: non-ferrous metals scrap, to recycling
+  537: other plastic non-packaging, to recycling
+  538: sorted Printed wiring board (PWB), to shredding
+  539: others non-recyclable
+  540: waste non-recyclable
+  541: treatment of one tonne of WEEE from small appliances
+  542: waste EEE from a small appliance
+  543: sorted Batteries, to treatment
+  544: manual dismantling of one tonne of electronics scrap from control units
+  545: electronics scrap from control units
+  546: used cable from EEE
+  547: waste PWB
+  548: waste plastic, industrial electronics
+  549: treatment of one tonne of used PWB
+  550: electronics scrap, to recycling
+  551: treatment of one tonne of waste cable
+  552: waste, mostly plastics, non recyclable
+  553: treatment of one tonne of WEEE from used fridges and freezers
+  554: used fridges and freezers
+  555: ferrous metals to recycling
+  556: non-ferrous metals to recycling
+  557: plastics, to recycling
+  558: glass, to recycling
+  559: sorting and preparation of one tonne of aluminium scrap
+  560: unsorted aluminium scrap
+  561: aluminium scrap, sorted, for recycling
+  562: heat, heavy fuel oil
+  563: ferro-silicon
+  564: hydraulic oil (lubricant)
+  565: detergent
+  566: additives
+  567: oil, to incineration
+  568: hazardous waste
+  569: inert waste
+  570: filter dust, to disposal
+  571: sorting and preparation of one tonne of metal scrap
+  572: metal scrap, unsorted
+  573: steel scrap, sorted, to EAF for recycling
+  574: scrap metal, to diposal
+  575: sorting of one tonne of mixed plastics
+  576: waste mixed plastics
+  577: waste PET, sorted, to recycling
+  578: waste HDPE, sorted, to recycling
+  579: waste PVC, sorted, to recycling
+  580: waste PP, sorted, to recycling
+  581: waste, non-recyclable
+  582: sorting and preparation of one tonne of mixed cans
+  583: used bicycle
+  584: steel reject, to re-processing
+  585: dismantling of one tonne of used washing machine
+  586: used washing machine
+  587: ferrous metals scrap, to smelting for recycling
+  588: copper scrap, middle grade
+  589: aluminium scrap, to smelting for recycling
+  590: plastics, for recycling
+  591: Pb, for recycling
+  592: Zn, for recycling
+  593: dismantling of one tonne of used A/C
+  594: used A/C unit
+  595: dismantling of one tonne of used refrigerator
+  596: used Refrigerator
+  597: dismantling of one tonne of used TV
+  598: used TV
+  599: glass, for recycling
+  600: treatment of one tonne of a used refrigerator
+  601: Cr, for recycling
+  602: Mn, for recycling
+  603: Ni, for recycling
+  604: treatment of one tonne of PV modules
+  605: used PV module
+  606: HNO3
+  607: CA(OH)2
+  608: aluminium scrap, to recycling
+  609: steel scrap, to recycling
+  610: silver scrap, to recycling
+  611: silicon, metallurgical grade
+  612: thermal energy
+  613: contaminated glass
+  614: fly ash
+  615: liquid waste
+  616: sludge
+  617: NOx
+  618: treatment of one tonne of PCB
+  619: waste PCB
+  620: tin scrap
+  621: iron scrap
+  622: lead scrap
+  623: nickel scrap
+  624: aluminium scrap
+  625: zinc scrap
+  626: silver scrap
+  627: gold scrap
+  628: resin
+  629: glass fiber
+  630: treatment of one tonne of ASR
+  631: ASR
+  632: scrap metals, to recycling
+  633: waste to landfill
+  634: metals scrap, to recycling
+  635: thermal energy, recovered
+  636: electricity, recovered
+  637: cooling water
+  638: NaCl
+  639: sulphur
+  640: waste, to landfill
+  641: hydrogen gas
+  642: treatment of one tonne of WEEE, high grade
+  643: WEEE, high grade
+  644: iron and magnetic steel scrap
+  645: copper and precious metals scrap
+  646: waste special treatment substances
+  647: fluff and residual waste
+  648: dismantling and shredding of one tonne of used vehicle without engine and battery
+  649: used vehicle without engine and battery
+  650: fuel
+  651: magnetite
+  652: salted solution
+  653: iron scrap, to recycling
+  654: copper scrap, to recycling
+  655: sand
+  656: plastic waste
+  657: carbon black
+  658: wiring board
+  659: dismantling and shredding of one tonne of used vehicle without engine and battery,
+    removing ecu
+  660: treatment of one tonne of an ICE vehicle
+  661: used vehicle
+  662: acetylen
+  663: lead acid battery, to recycling
+  664: air conditioner refrigerant, to recycling
+  665: three way catalyst, to recycling
+  666: used engine, for remanufacturing
+  667: zinc scrap, to recycling
+  668: plastic waste, to recycling
+  669: waste glass, to recycling
+  670: scrap tire, to recycling
+  671: wiring board scrap, to recycling
+  672: waste oil, to recycling
+  673: waste diesel
+  674: particulates
+  675: chemical oxygen demand
+  676: non-methane hydrocarbon
+  677: treatment of one tonne of automotive plastic waste (APW)
+  678: mixed automotive shredder residue waste
+  679: processing costs
+  680: mixed automotive shredder residue
+  681: ethene
+  682: propene
+  683: pyrolysis gasoline
+  684: treatment of one tonne of mixed waste plastics from WEEE
+  685: mixed waste plastics from WEEE
+  686: catalyst
+  687: chemical for air pollution control
+  688: solid waste to landfill
+  689: unrefined light sweet crude oil
+  690: treatment of one tonne of mixed waste plastics from ELV
+  691: mixed waste plastics from ELV
+  692: dismantling of one tonne of ELV hulk
+  693: ELV Hulk
+  694: errous metals scrap, to recycling
+  695: H2O Vapour
+  696: CO
+  697: CH2O
+  698: "particulate matter<2.5\u03BCm\xB2"
+  699: "particulate matter<10\u03BCm\xB2"
+  700: 'olycyclic aromatic hydrocarbons '
+  701: SO2
+  702: total volatile organic compounds
+  703: shredding one tonne of ELV hulk
+  704: mixed waste
+  705: process water
+  706: NO2
+  707: particulate matter
+  708: dismantling of ELV
+  709: used ELV
+  710: fluids, to recycling
+  711: gasoline, to reuse
+  712: antifreeze fluid, to reuse
+  713: catalytic convertor
+  714: aluminium rims, to recycling
+  715: steel rims, to recycling
+  716: copper radiators, to recycling
+  717: aluminium radiators, to recycling
+  718: batteries, to recycling
+  719: tires, to recycling
+  720: starters, to remanufacturing
+  721: alternators, to remanufacturing
+  722: air conditoner /compressor, to remanufacturing
+  723: other parts, direct reuse
+  724: tires, direct reuse
+  725: treatment of one tonne of waste passenger tires
+  726: waste passenger tires
+  727: steel wire
+  728: gasoline
+  729: heavy oil
+  730: carbon black, refined
+  731: carbon black, crude
+  732: ferrous metals
+  733: 60 mesh crumb rubber
+  734: devulcanized rubber
+  735: NMVOC
+  736: H2S
+  737: Dust
+  738: As
+  739: Cd
+  740: Cr
+  741: Hg
+  742: Ni
+  743: Pb
+  744: Zn
+  745: low-quality oil
+  746: pyrometallurgical treatment of 1 kg of used Li-ion battery
+  747: used Li-ion battery
+  748: iron scrap, unsorted, recyclable
+  749: manganese dioxide
+  750: cobalt
+  751: non-Fe-Co-metals
+  752: sulfate
+  753: treatment of 1 kg non-Fe-Co-metals from pyrometallurgical treatment of used
+    Li-ion batteries
+  754: non-Fe-Co-metals, from pyrometallurgical treatment of used Li-ion battery
+  755: hydrometallurgical treatment of 1 kg of used Li-ion battery
+  756: chemical, inorganic
+  757: lime, hydrated, packed
+  758: lithium carbonate
+  759: inert waste, for final disposal
+  760: waste gypsum
+  761: NMVOC, non-methane volatile organic compounds, unspecified origin
+  762: BOD5, Biological Oxygen Demand
+  763: cobalt II
+  764: fluoride
+  765: hydrocarbons, unspecified
+  766: nickel II
+  767: suspended solids, unspecified
+  768: treatment of 1 kg non-Fe-Co-metals from hyrometallurgical treatment of used
+    Li-ion batteries
+  769: non-Fe-Co-metals, from Li-ion battery, hydrometallurgical processing
+  770: ammonia, anhydrous, liquid
+  771: manganese
+  772: treatment of 3499.97 kg spent lead-acid batteries
+  773: spent lead-acid batteries
+  774: antimony
+  775: arsenic
+  776: scrap iron
+  777: slaked lime
+  778: potassium carbonate
+  779: sodium nitrate
+  780: sulfur
+  781: refined lead
+  782: carbon monoxide
+  783: lead
+  784: particulates, unspecified
+  785: plastic mix to recycling
+  786: plastic mix to landfill
+  787: sludge from neutralization
+  788: smelting residues
+  789: treatment of 1 kg spent Ni-Cd batteries, pyrometallurgy
+  790: spent Ni-Cad batteries
+  791: furnace gas
+  792: cadmium (emission to air)
+  793: nickel (emission to air)
+  794: cadmium (emission to water)
+  795: nickel (emission to water)
+  796: cadmium (secondary)
+  797: ferronickel (secondary)
+  798: treatment of 1500 kg spent Ni-Cd batteries, hydrometallurgy
+  799: external cases (~ 95 % steel, ~ 5 % PVC and PA)
+  800: hydrogen peroxide, 30 %
+  801: energy
+  802: nickel, secondary (98-99 % purity)
+  803: cadmium, secondary (98-100 % purity)
+  804: Fe(OH)3 with ~ 3 % coprecipitated Nickel
+  805: insoluble powder (> 53 % Nickel, ca. 40 % Cadmium)
+  806: solid residues of the electrode scrap (> 70 % iron, 20-30 % Nickel)
+  807: treatment of 1 kWh LFP Li-Ion battery
+  808: retired LFP battery
+  809: hydrochloric acid, 30%
+  810: hydrogen peroxide, 7.5%
+  811: sodium hydroxide, 32%
+  812: calcium chloride
+  813: lithium chloride
+  814: hydrogen fluoride
+  815: VOC
+  816: hydrochloric acid mist
+  817: plastic casing scrap
+  818: separator scrap
+  819: waste battery management system
+  820: waste graphite
+  821: other solid waste
+  822: treatment of 1 kWh NCM Li-Ion battery
+  823: retired NCM battery
+  824: NMP (N-Methyl-2-pyrrolydone)
+  825: decarbonised water
+  826: hydrogen peroxide
+  827: sodium carbonide
+  828: deionised water
+  829: chromium steel 18/8
+  830: aluminium
+  831: cathode active material
+  832: waste copper
+  833: waste aluminium
+  834: waste printed wiring board
+  835: waste chromium steel 18/8
+  836: waste coolant
+  837: waste fibre glass
+  838: waste steel
+  839: waste PP
+  840: waste PE
+  841: waste PET
+  842: waste sludge
+  843: waste PVDF
+  844: waste water
+  845: DMC solvent
+  846: glucose
+  847: cathode materials
+  848: graphite scrap
+  849: aluminium foil scrap
+  850: copper foil scrap
+  851: plastic scrap
+  852: electrolyte scrap
+  853: aluminium case scrap
+  854: lithium hydroxide
+  855: citric acid
+  856: transport (freight rail)
+  857: transport (freight lorry)
+  858: copper scrap
+  859: LFP (lithium iron phosphate)
+  860: lithium hexafluorophosphate (LiPF6)
+  861: ethylene carbonate (EC)
+  862: dimethyl carbonate (DMC)
+  863: lithium hydroxide (LiOH)
+  864: chrominium steel 18/8
+  865: treatment of one tonne of WEEE, incineration with energy recovery
+  866: WEEE
+  867: activated carbon
+  868: treatment of one tonne of waste, non hazardous landfill
+  869: waste sent to landfill
+  870: HDPE
+  871: gravel
+  872: sythetic rubber
+  873: lubricant
+  874: CO2 equivalent
+  875: treatment of one tonne of inert waste, sanitary landfill
+  876: Inert waste, to landfill
+  877: concrete, 30MPa
+  878: extrusion, plastic pipes
+  879: gravel, round
+  880: pitch
+  881: polyethylene, high density, granulate
+  882: polypropylene, granulate
+  883: polyvinylchloride, bulk polymerised
+  884: reinforcing steel
+  885: steel, chromium steel 18/8, hot rolled
+  886: synthetic rubber
+  887: tap water
+  888: aluminium III
+  889: ammonium
+  890: antimony ion
+  891: arsenic ion
+  892: BOD5 Biological Oxygen Demand
+  893: calcium II
+  894: carbon dioxide fossil
+  895: carbon monoxide fossil
+  896: chromium III
+  897: chromium VI
+  898: COD Chemical Oxygen Demand
+  899: DOC Dissolved Organic Carbon
+  900: heat waste
+  901: hydrogen sulfide
+  902: iron ion
+  903: manganese II
+  904: methane fossil
+  905: nitrate
+  906: nitrite
+  907: nitrogen organic bound
+  908: NMVOC non-methane volatile organic compounds
+  909: particulate Matter < 2.5 um
+  910: phosphate
+  911: silicon
+  912: thallium I
+  913: Tin ion
+  914: TOC Total Organic Carbon
+  915: vanadium V
+  916: treatment of one tonne of MSW, incineration with energy recovery
+  917: municipal solid waste
+  918: 'aluminium scrap '
+  919: 'bottom ash '
+  920: 'copper scrap '
+  921: 'electricity  '
+  922: 'heat  '
+  923: 'iron scrap '
+  924: 'residues MSWI '
+  925: 'ammonia anhydrous '
+  926: 'chemical inorganic '
+  927: 'chromium trioxide '
+  928: 'hydrochloric acid '
+  929: 'iron(III) chloride '
+  930: 'quicklime milled '
+  931: 'sodium hydroxide '
+  932: 'titanium dioxide '
+  933: 'triazine-compound  '
+  934: 'water decarbonised '
+  935: 'Oxygen  '
+  936: 'aluminium III '
+  937: 'ammonia  '
+  938: 'antimony ion '
+  939: 'arsenic ion '
+  940: 'barium II '
+  941: 'benzene  '
+  942: 'benzo(a)pyrene  '
+  943: 'BOD5, Biological Oxygen Demand  '
+  944: 'bromine  '
+  945: 'cadmium II '
+  946: 'calcium II '
+  947: carbon dioxide non-fossil
+  948: carbon monoxide non-fossil
+  949: 'chloride  '
+  950: 'chromium III '
+  951: 'cobalt II '
+  952: 'COD, Chemical Oxygen Demand  '
+  953: 'copper ion '
+  954: 'cyanide  '
+  955: 'dinitrogen monoxide '
+  956: 'dioxins, measured as 2,3,7,8-tetrachlorodibenzo-p-dioxin  '
+  957: 'DOC, Dissolved Organic Carbon   '
+  958: 'fluoride  '
+  959: 'heat waste '
+  960: 'hexachlorobenzene  '
+  961: 'hydrogen fluoride '
+  962: 'iodide  '
+  963: 'iodine  '
+  964: 'iron ion '
+  965: 'lead II '
+  966: 'magnesium  '
+  967: 'manganese II '
+  968: 'mercury II '
+  969: 'methane fossil '
+  970: 'methane non-fossil '
+  971: 'molybdenum VI '
+  972: 'nickel II '
+  973: 'nitrate  '
+  974: 'nitrogen oxides '
+  975: 'NMVOC, non-methane volatile organic compounds   '
+  976: 'particulate Matter, < 2.5 um   '
+  977: 'particulate Matter, > 2.5 um and < 10um   '
+  978: 'pentachlorobenzene  '
+  979: 'pentachlorophenol  '
+  980: 'phosphate  '
+  981: 'phosphorus  '
+  982: 'potassium I '
+  983: 'selenium IV '
+  984: 'silicon  '
+  985: 'silver I '
+  986: 'sodium I '
+  987: 'sulfate  '
+  988: 'sulfur dioxide '
+  989: 'Tin ion '
+  990: TOC, Total Organic Carbon Total Organic
+  991: 'toluene  '
+  992: 'vanadium V '
+  993: 'water  '
+  994: 'zinc II '
+  995: treatment of one tonne of waste, incineration with energy recovery
+  996: waste, rejected after sorting and recycling
+  997: bottom ash
+  998: fly ash and other residues
+  999: cadmium
+  1000: chromium
+  1001: nickel
+  1002: HCl
+  1003: HF
+  1004: particulate matters
+  1005: PCDD/FS
+  1006: urea
+  1007: treatment of one tonne of waste, gasification
+  1008: sodium bicarbonate
+  1009: treatment of one tonne of waste, energy recovery
+  1010: precipitating agents
+  1011: filter cake
+  1012: hydrogen chloride
+  1013: hydrogen flouride
+  1014: total organic carbon
+  1015: total dioxins
+  1016: Cd + Tl
+  1017: As+Cr+Co+Cu+Mn+Ni+Pb+Sb+V
+  1018: hydrated lime
+  1019: auxiliary fuels
+  1020: air pollution control residues
+  1021: mercury
+  1022: hydrofluric acid
+  1023: dioxins and furans
+  1024: treatment of one tonne of bottom ash from waste incineration
+  1025: 'bottom ash from waste incineration '
+  1026: concrete, for inert recovery
+  1027: iron sulfate, for inert recovery
+  1028: low-alloyed steel
+  1029: inert material
+  1030: treatment of one tonne of hazardous waste
+  1031: active carbon
+  1032: non-woven, fabric
+  1033: cobblestone
+  1034: metal-chelate
+  1035: sodium sulfide
+  1036: sodium thiosulfate
+  1037: freshwater
+  1038: coal ash
+  1039: incinerated ash
+  1040: incinerated slag
+  1041: dioxins
+  1042: barium
+  1043: treatment one tonne of mixed waste, material recovery facility
+  1044: waste paperboard, to recycling
+  1045: scrap ferrous metal, to recycling
+  1046: waste plastic, to recycling
+  1047: Organic material, to compost
+  1048: treatment of one tonne of mixed waste, material recovery facility
+  1049: waste plastic film, to recycling
+  1050: waste PET, to recycling
+  1051: waste HDPE, to recycling
+  1052: scrap aluminium, to recycling
+  1053: sorting of one tonne of metal scrap
+  1054: metal scrap
+  1055: tinplate scrap, to recycling
+  1056: CO2, as off-gas
